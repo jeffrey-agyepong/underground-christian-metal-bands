@@ -32,13 +32,24 @@ body {
 .container {
   width: 80%;
 }
-figcaption {
-  font-size: 30px;
-  color: white;
-}
+
 nav {
   background: #383838;
   font-family: 'Metal Mania', 'Fjalla';
+}
+nav .sidenav-trigger {
+  margin-top: 20px;
+}
+.header_toggle > span:not(:last-child) {
+  margin-bottom: 5px;
+}
+.header_toggle > span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  transform-origin: 3px 1px;
 }
 .grid-container {
   display: grid;
@@ -46,7 +57,10 @@ nav {
   margin: auto;
   grid-gap: 10px;
 }
-
+figcaption {
+  font-size: 30px;
+  color: white;
+}
 .inner {
   border-radius: 10px;
   padding: 5px;
