@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Monitoric Regular';
+  src: url(monitorica.regular.otf);
+}
+@font-face {
+  font-family: Fjalla;
+  src: url(FjallaOne-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: visible;
+  font-family: 'F';
+  background: #383838;
+  text-align: center;
+  font-family: fjalla;
+}
+figcaption {
+  font-size: 30px;
+}
+nav {
+  background: #383838;
+  font-family: 'Metal Mania', 'Fjalla';
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  grid-gap: 10px;
+}
+
+.inner {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #000000de;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex img {
+  width: 350px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex img .size {
+  width: 100%;
+  height: auto;
+}
+
+.flex-page {
+  width: 400px !important;
+  height: 400px !important;
+}
+.band-info {
+  width: 500px;
+}
+.table1 {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.content {
+  background: black;
+  border-radius: 60px;
+  width: 100%;
+}
+table {
+  font-size: 1.25rem;
+}
+@media (min-width: 35.5rem) {
+  .grid-container {
+    grid-template-columns: 350px 350px 350px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .table1 {
+    width: 70%;
+    margin-left: 70%;
+    margin-right: 30%;
+  }
+}
