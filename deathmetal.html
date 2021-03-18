@@ -54,25 +54,26 @@
     </nav>
   </div>
   <div id="vue-app">
-    <section class="section wrapper spotlight">
-
+    <section class="section">
       <div class="container">
-        <h1 class="white-text">DEATH METAL</h1>
         <div class="grid-container">
-          <div class="inner" v-for="(cardinfo, index) in cardinfos" :key="index">
-            <a href="Bands/afterimage.html" target="_blank" rel="noopener noreferrer">
-              <div class="flex">
-                <img :src="cardinfo.photo" alt="" class="size hoverable responsive-img" id="modal1">
-              </div>
-              <figcaption class="white-text center">
-                {{cardinfo.name}}
-              </figcaption>
-            </a>
-          </div>
+          <div class="rounded project" v-if="currentFilter === project.category || currentFilter === 'ALL'"
+            v-bind:key="project.title" v-for="project in projectList">
+            <div class="inner">
+              <a :href="project.link">
+                <div class="flex">
+                  <img class="size responsive-img hoverable" v-bind:src="project.img">
+                </div>
+                <figcaption class="project-title">{{project.title}}</figcaption>
+              </a>
 
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+
 
   </div>
 

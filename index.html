@@ -57,27 +57,15 @@
     <section class="section">
       <div class="container">
         <div class="grid-container">
-
-
-
           <div class="rounded project" v-if="currentFilter === project.category || currentFilter === 'ALL'"
             v-bind:key="project.title" v-for="project in projectList">
-
-
-
             <div class="inner">
-
-
-              <a :href="project.link" class="hoverable">
-
-
-
+              <a :href="project.link">
                 <div class="flex">
-                  <img class="size responsive-img" v-bind:src="project.img">
+                  <img class="size responsive-img hoverable" v-bind:src="project.img">
                 </div>
                 <figcaption class="project-title">{{project.title}}</figcaption>
               </a>
-
 
             </div>
           </div>
