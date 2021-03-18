@@ -1,4 +1,4 @@
-var bandData = [
+/*var bandData = [
 
   {
     name: "Afterimage",
@@ -69,9 +69,85 @@ new Vue({
        cardinfos:bandData,
        currentIndx: 0
    },
+   links:[
+
+    {link:"./bands/aftermage.html"},
+    {link:"./bands/aftermage.html"}
+   ],
 
    methods: {}
 
   
 
+});*/
+
+
+
+class Project {
+  constructor(title, link, author, img, category) {
+      this.title = title,
+      this.link = link,
+      this.author = author, 
+      this.img = img,
+      this.category = category
+  }
+}
+
+new Vue({
+el: '#vue-app',
+data: {
+      currentFilter: 'ALL',
+      projectList: [
+          new Project (
+              'Afterimage', 
+              './Bands/afterimage.html', 
+              'Dessert Tools za', 
+              'dist/img/deathmetal/afterimage.webp',
+              'DESIGN'
+        ),
+          new Project (
+              'Astillian', 
+              'https://digitalassetmanagement.com/', 
+              'Widen',
+              'dist/img/deathmetal/astillian.webp',
+              'DESIGN'
+          ),
+          new Project (
+              'Arthure', 
+              'https://meet-a-geek.today/', 
+              'Contenforces', 
+              'dist/img/deathmetal/arthure.webp',
+              'DEVELOPMENT'
+          ),
+          new Project (
+              'Cruentis', 
+              'https://www.smarttraining.com/', 
+              'Smart Training LCC',
+              'dist/img/deathmetal/cruentis.webp',
+              'DEVELOPMENT'
+          ),
+          new Project (
+              'Diathekeke', 
+              'https://micencostagebank.nl/index_september.php', 
+              'Contenforces', 
+              'dist/img/deathmetal/diatheke.webp',
+              'COLABORATION'
+          ),
+          
+          new Project (
+              'Elephant Watchtower', 
+              'http://prettyexcellent.com/applecider/', 
+              'A. A. Ron',
+              'dist/img/deathmetal/elephant-watchtower.webp',
+              'DEVELOPMENT'
+          )
+      ], 
+  },
+
+methods: {
+  setFilter: function setFilter(filter) {
+    this.currentFilter = filter;
+      } 
+  }
+  
 });

@@ -29,6 +29,9 @@ body {
   text-align: center;
   font-family: fjalla;
 }
+.container {
+  width: 80%;
+}
 figcaption {
   font-size: 30px;
 }
@@ -44,7 +47,6 @@ nav {
 }
 
 .inner {
-  margin: 10px;
   border-radius: 10px;
   padding: 5px;
   background-color: #000000de;
@@ -93,7 +95,7 @@ table {
 }
 @media (min-width: 35.5rem) {
   .grid-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-left: 1px;
     margin-right: 1px;
   }
@@ -101,5 +103,8 @@ table {
     width: 70%;
     margin-left: 70%;
     margin-right: 30%;
+  }
+  inner {
+    margin: 10px;
   }
 }
