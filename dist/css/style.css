@@ -85,6 +85,9 @@ nav {
   margin-left: 15%;
   margin-right: 15%;
 }
+td {
+  text-align: center;
+}
 .content {
   background: black;
   border-radius: 60px;
