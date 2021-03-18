@@ -60,7 +60,7 @@
       <div class="container">
         <div class="grid-container">
           <div class="inner" v-for="(cardinfo, index) in cardinfos" :key="index">
-            <a href="afterimage.html" target="_blank" rel="noopener noreferrer">
+            <a :href="link" target="_blank" rel="noopener noreferrer">
               <div class="flex">
                 <img :src="cardinfo.photo" alt="" class="size hoverable responsive-img" id="modal1">
               </div>
