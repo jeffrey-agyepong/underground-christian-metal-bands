@@ -65,7 +65,11 @@
 
 
             <div class="band-info">
-              <img src="../dist/img/deathmetal/afterimage.webp" alt="" class="size responsive-img flex-page">
+              <div class="flex">
+                <img src="../dist/img/deathmetal/afterimage.webp" alt="" class="size responsive-img flex-page">
+
+              </div>
+
               <table>
                 <tbody>
                   <tr>
@@ -88,10 +92,26 @@
                     <td class="white-text">Origin</td>
                     <td class="white-text">{{ origin }}</td>
                   </tr>
-                  <!-- <tr>
-                  <td class="white-text">Band Members:</td>
-                  <td class="white-text" v-for="member in members" :key="members">{{member}}</td>
-                </tr>-->
+                  <tr>
+                    <td class="white-text">
+                      <h4>Members:</h4>
+                      <ul>
+                        <li v-for="member in members" :key="members">
+                          {{member.name}}
+
+                        </li>
+                      </ul>
+                    </td>
+                    <td class="white-text">
+                      <h4 style="visibility:hidden;">instrument</h4>
+                      <ul>
+                        <li v-for="member in members" :key="members">
+                          {{member.instrument}}
+
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -113,8 +133,12 @@
           label: 'Independent',
           origin: 'USA',
           img: 'dist/img/deathmetal/afterimage.webp',
-          members: [{ name: 'Mike' }, { name: ' Dan' }
-          ]
+          members: [{ name: 'Mike Gleason', instrument: 'Vocals' }, { name: ' Dan  Gleason', instrument: 'Guitar' }, { name: 'David Destefano', instrument: 'Guitar' }
+          ],
+
+          discography: [{ album: 'Codex: Trumph in the Eschaton' }, { album: 'Unveil the Unseen' }],
+          type: [{ type: 'EP' }, { type: 'LP' }],
+          year: [2007, 2013]
 
         },
         methods: {
