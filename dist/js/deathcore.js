@@ -1,25 +1,36 @@
-var bandData = [{
-  name: "His Kingdom Suffers",
-  photo: "dist/img/deathcore/hks.webp",
-},
-{
-  name: "Searching Serenity",
-  photo: "dist/img/deathcore/searchingserenity.webp"
-},
 
-
-]
+class Project {
+  constructor(title, link, img, category) {
+      this.title = title,
+      this.link = link, 
+      this.img = img,
+      this.category = category
+  }
+}
 
 new Vue({
-  el:'#vue-app',
-  data:{
-       cardinfos:bandData,
-       currentIndx: 0
+el: '#vue-app',
+data: {
+      currentFilter: 'ALL',
+      projectList: [
+          new Project (
+            'His Kingdom Suffers', 
+              './Bands/afterimage.html', 
+              'dist/img/deathcore/hks.webp',    
+        ),
+        new Project (
+          'Searching Serenity', 
+            './Bands/afterimage.html', 
+            'dist/img/deathcore/searchingserenity.webp',    
+      ),
+          
+      ], 
+  },
 
-   },
-
-   methods: {}
-
+methods: {
+  setFilter: function setFilter(filter) {
+    this.currentFilter = filter;
+      } 
+  }
   
-
 });
