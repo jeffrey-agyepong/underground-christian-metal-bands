@@ -3,10 +3,13 @@
   src: url(monitorica.regular.otf);
 }
 @font-face {
-  font-family: Fjalla;
+  font-family: 'Fjalla';
   src: url(FjallaOne-Regular.ttf);
 }
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@font-face {
+  font-family: 'Metal Mania';
+  src: url(MetalMania-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +30,10 @@ body {
   font-family: 'F';
   background: #383838;
   text-align: center;
-  font-family: fjalla;
+  font-family: 'Metal Mania';
+}
+h1 {
+  font-size: 45px;
 }
 .container {
   width: 80%;
@@ -87,11 +93,11 @@ figcaption {
   width: 100%;
   height: auto;
 }
-
 .flex-page {
-  width: 400px !important;
-  height: 400px !important;
+  width: 200px !important;
+  height: 200px !important;
 }
+
 .band-info {
   width: 500px;
 }
@@ -124,5 +130,9 @@ table {
   }
   inner {
     margin: 10px;
+  }
+  .flex-page {
+    width: 400px !important;
+    height: 400px !important;
   }
 }
