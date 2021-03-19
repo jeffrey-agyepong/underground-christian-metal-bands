@@ -36,11 +36,11 @@
         <ul id="nav-mobile" class="sidenav black center">
           <a href="https://beyondthegravemusic.com">BEYOND THE GRAVE</a>
           <a href="../index.html">All</a>
-          <li><a href="../deathmetal.html" class="white-text">Death Metal</a></li>
-          <li><a href="../deathcore.html" class="white-text">Deathcore</a></li>
-          <li><a href="../deathcore.html" class="white-text">Metalcore</a></li>
-          <li><a href="../metal.html" class="white-text">Metal</a></li>
-          <li><a href="../blackmetal.html" class="white-text">Black Metal</a></li>
+          <li><a href="../deathmetal.html">Death Metal</a></li>
+          <li><a href="../deathcore.html">Deathcore</a></li>
+          <li><a href="../deathcore.html">Metalcore</a></li>
+          <li><a href="../metal.html">Metal</a></li>
+          <li><a href="../blackmetal.html">Black Metal</a></li>
 
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger header_toggle">
@@ -64,7 +64,7 @@
 
             <div class="band-info">
               <div class="flex">
-                <img src="../dist/img/deathmetal/afterimage.webp" alt="" class="size responsive-img flex-page">
+                <img :src="img" alt="" class="size responsive-img flex-page">
 
               </div>
 
@@ -92,18 +92,18 @@
                   </tr>
                   <tr>
                     <td class="white-text">
-                      <h5>Members:</h5>
+                      <h4>Members:</h4>
                       <ul>
-                        <li v-for="member in members">
+                        <li v-for="member in members" :key="members">
                           {{member.name}}
 
                         </li>
                       </ul>
                     </td>
                     <td class="white-text">
-                      <h5 style="visibility:hidden;">instrument</h5>
+                      <h4 style="visibility:hidden;">instrument</h4>
                       <ul>
-                        <li v-for="member in members">
+                        <li v-for="member in members" :key="members">
                           {{member.instrument}}
 
                         </li>
@@ -126,14 +126,14 @@
     new Vue({
       el: '#vue-app',
       data: {
-        band: 'Afterimage',
-        formed: 2008,
-        status: 'Hiatus',
-        genre: 'Death Metal',
+        band: 'Bismoth',
+        formed: 2012,
+        status: 'Active',
+        genre: 'Atmospheric Black Metal',
         label: 'Independent',
-        origin: 'USA',
-        img: 'dist/img/deathmetal/afterimage.webp',
-        members: [{ name: 'Mike Gleason', instrument: 'Vocals' }, { name: ' Dan  Gleason', instrument: 'Guitar' }, { name: 'David Destefano', instrument: 'Guitar' }
+        origin: 'South Africa(now based in USA)',
+        img: '../dist/img/blackmetal/bismoth.webp',
+        members: [{ name: 'Mike Gleason', instrument: 'Everything' },
         ],
 
         discography: [{ album: 'Codex: Trumph in the Eschaton' }, { album: 'Unveil the Unseen' }],

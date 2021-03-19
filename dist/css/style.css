@@ -61,14 +61,14 @@ nav .sidenav-trigger {
   display: grid;
   grid-template-columns: auto;
   margin: auto;
-  grid-gap: 10px;
+  grid-gap: 0.625rem;
 }
 figcaption {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: white;
 }
 .inner {
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: #000000de;
   padding: 0.625rem;
   margin-top: 1.25rem;
@@ -83,8 +83,8 @@ figcaption {
 }
 
 .flex img {
-  width: 350px;
-  height: 350px;
+  width: 21.875rem; /*350px*/
+  height: 21.875rem;
   justify-content: center;
   align-items: center;
   padding: 0.6rem;
@@ -96,18 +96,14 @@ figcaption {
   height: auto;
 }
 .flex-page {
-  width: 200px !important;
-  height: 200px !important;
+  width: 12.5rem !important; /*200px*/
+  height: 12.5rem !important;
 }
 
 .band-info {
-  width: 500px;
+  width: 31.25rem; /*500px*/
 }
-.table1 {
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-}
+
 td {
   text-align: center;
 }
@@ -125,13 +121,9 @@ table {
     margin-left: 1px;
     margin-right: 1px;
   }
-  .table1 {
-    width: 70%;
-    margin-left: 70%;
-    margin-right: 30%;
-  }
+
   inner {
-    margin: 10px;
+    margin: 0.625rem;
   }
   .flex-page {
     width: 400px !important;
