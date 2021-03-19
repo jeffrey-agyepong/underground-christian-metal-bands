@@ -69,8 +69,9 @@ figcaption {
 }
 .inner {
   border-radius: 10px;
-  padding: 5px;
   background-color: #000000de;
+  padding: 0.625rem;
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -78,6 +79,7 @@ figcaption {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .flex img {
