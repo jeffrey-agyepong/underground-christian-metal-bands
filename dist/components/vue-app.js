@@ -98,16 +98,16 @@ this.innerHTML =  `
                <tr>
                  <td>
                  <a href="https://open.spotify.com/album/5BQd3Q7vrBfw1DqTvSEppc?si=XaUNW0JtRFCQIPP-dcLHwg" target="_blank"><i
-                     class="fab fa-spotify fa-3x white-text"></i></a>
+                     class="fab fa-spotify fa-2x white-text"></i></a>
                    <a href="https://music.apple.com/ca/album/heart-journal-ep/1406077764" target="_blank"><i
-                     class="fab fa-itunes fa-3x white-text"></i></a>
+                     class="fab fa-itunes fa-2x white-text"></i></a>
                  </td>
 
                  <td>
                    <a href="https://youtube.com/playlist?list=PLECay82Kh7XcR-kZ6kvT0uY2ViCq93M3k" target="_blank"><i
-                     class="fab fa-youtube fa-3x white-text"></i></a>
+                     class="fab fa-youtube fa-2x white-text"></i></a>
                     <a href="https://cntxt.bandcamp.com/album/heart-journal-ep" target="_blank"><i
-                 class="fab fa-bandcamp fa-3x white-text"></i></a>
+                 class="fab fa-bandcamp fa-2x white-text"></i></a>
                  </td>
                </tr>
              </tbody>
