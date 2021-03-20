@@ -97,7 +97,7 @@ this.innerHTML = `
 
                <tr>
                  <td>
-                 
+                 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2209508921/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://afterimagemetal.bandcamp.com/album/unveil-the-unseen-album-teaser">Unveil The Unseen - Album Teaser by Afterimage</a></iframe>
       
                  </td>
                </tr>
