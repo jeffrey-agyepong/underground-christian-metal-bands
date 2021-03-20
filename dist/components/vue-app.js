@@ -94,6 +94,15 @@ this.innerHTML = `
                    </ul>
                  </td>
                </tr>
+
+               <tr>
+                 <td>
+                 <div class="video-container vw">
+                 <iframe :src='url'/>
+                 </div>
+        
+                 </td>
+               </tr>
              </tbody>
            </table>
          </div>
@@ -103,9 +112,9 @@ this.innerHTML = `
      </div>
    </div>
  </div>
-</div>`;
+</div>`
 
-}
+};
 }
 
 customElements.define('vue-app-component', VueApp);

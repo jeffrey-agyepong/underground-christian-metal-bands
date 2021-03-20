@@ -112,10 +112,14 @@ td {
 .content {
   background: black;
   border-radius: 60px;
-  min-width: 350px;
+  min-width: 400px;
 }
 table {
   font-size: 1rem;
+}
+.vw {
+  margin: 0 auto;
+  width: 50%;
 }
 .filter {
   padding: 6px 6px;
