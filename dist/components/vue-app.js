@@ -5,7 +5,7 @@ class VueApp extends HTMLElement {
 
 
 connectedCallback(){
-this.innerHTML = `
+this.innerHTML =  `
  <div id="vue-app">
 
  <div class="row">
@@ -97,8 +97,17 @@ this.innerHTML = `
 
                <tr>
                  <td>
-                 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2209508921/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://afterimagemetal.bandcamp.com/album/unveil-the-unseen-album-teaser">Unveil The Unseen - Album Teaser by Afterimage</a></iframe>
-      
+                 <a href="https://open.spotify.com/album/5BQd3Q7vrBfw1DqTvSEppc?si=XaUNW0JtRFCQIPP-dcLHwg" target="_blank"><i
+                     class="fab fa-spotify fa-3x white-text"></i></a>
+                   <a href="https://music.apple.com/ca/album/heart-journal-ep/1406077764" target="_blank"><i
+                     class="fab fa-itunes fa-3x white-text"></i></a>
+                 </td>
+
+                 <td>
+                   <a href="https://youtube.com/playlist?list=PLECay82Kh7XcR-kZ6kvT0uY2ViCq93M3k" target="_blank"><i
+                     class="fab fa-youtube fa-3x white-text"></i></a>
+                    <a href="https://cntxt.bandcamp.com/album/heart-journal-ep" target="_blank"><i
+                 class="fab fa-bandcamp fa-3x white-text"></i></a>
                  </td>
                </tr>
              </tbody>
@@ -110,7 +119,7 @@ this.innerHTML = `
      </div>
    </div>
  </div>
-</div>`
+</div>`;
 
 };
 }

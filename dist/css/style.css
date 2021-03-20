@@ -139,6 +139,9 @@ table {
 }
 /*Desktop*/
 @media (min-width: 35.5rem) {
+  .container {
+    margin: 0 auto;
+  }
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 1px;
