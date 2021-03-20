@@ -97,10 +97,8 @@ this.innerHTML = `
 
                <tr>
                  <td>
-                 <div class="video-container vw">
-                 <iframe :src='url'/>
-                 </div>
-        
+                 
+      
                  </td>
                </tr>
              </tbody>
