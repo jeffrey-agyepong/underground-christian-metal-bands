@@ -13,7 +13,7 @@ this.innerHTML = `
         <a href="https://beyondthegravemusic.com">BEYOND THE GRAVE</a>
 
         <ul class="right hide-on-med-and-down">
-          <li> <a href="../index.html">Introducing</a></li>
+          <li> <a href="index.html">Introducing</a></li>
           <li><a href="deathmetal.html">Interviews</a></li>
           <li><a href="metal.html">Reviews</a></li>
           <li><a href="blackmetal.html">News</a></li>
