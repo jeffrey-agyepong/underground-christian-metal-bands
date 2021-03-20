@@ -133,6 +133,7 @@ table {
 .filter:hover {
   background: lightgray;
 }
+/*Desktop*/
 @media (min-width: 35.5rem) {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -142,6 +143,9 @@ table {
 
   inner {
     margin: 0.625rem;
+  }
+  table {
+    font-size: 1.8rem;
   }
   .flex-page {
     width: 400px !important;
