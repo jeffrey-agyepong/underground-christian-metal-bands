@@ -13,16 +13,37 @@
   <script src="dist/js/vue.js"></script>
   <script src="dist/components/header.js"></script>
 
+
   <title>Bands | Beyond The Grave</title>
 </head>
 
 <body>
   <header-component></header-component>
+
   <div id="vue-app">
+    <h1>Genre</h1>
+
+    <div class="filters">
+      <span class="filter" v-bind:class="{ active: currentFilter === 'ALL'}" v-on:click="setFilter('ALL')">All
+      </span>
+      <span class="filter" v-bind:class="{ active: currentFilter === 'DEATH METAL'}"
+        v-on:click="setFilter('DEATH METAL')">Death
+        Metal</span>
+      <span class="filter" v-bind:class="{ active: currentFilter === 'BLACK METAL'}"
+        v-on:click="setFilter('DEATH METAL')">Black
+        Metal</span>
+      <span class="filter" v-bind:class="{ active: currentFilter === 'DEATHCORE'}"
+        v-on:click="setFilter('DEATHCORE')">Deathcore</span>
+      <span class="filter" v-bind:class="{ active: currentFilter === 'METALCORE'}"
+        v-on:click="setFilter('METALCORE')">Metalcore</span>
+    </div>
+
+
     <section class="section">
       <div class="container">
-        <div class="grid-container">
-          <div class="rounded project" v-if="currentFilter === project.category || currentFilter === 'ALL'"
+
+        <transition-group name="projectsList" class="grid-container" tag="div">
+          <div class="rounded project " v-if="currentFilter === project.category || currentFilter === 'ALL'"
             v-bind:key="project.title" v-for="project in projectList">
             <div class="inner">
               <a :href="project.link">
@@ -31,19 +52,18 @@
                 </div>
                 <figcaption class="project-title">{{project.title}}</figcaption>
               </a>
-
             </div>
           </div>
-        </div>
+        </transition-group>
+
       </div>
     </section>
-
 
 
   </div>
 
   <script src="dist/js/app.js"></script>
-  <script src="dist/js/jquery.js"></script>
+  <script src="dist/js/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="dist/js/materialize.min.js"></script>
   <script src="dist/js/init.js"></script>

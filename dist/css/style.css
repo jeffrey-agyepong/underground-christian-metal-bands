@@ -42,7 +42,9 @@ h1 {
 nav {
   background: #383838;
   font-family: 'Metal Mania', 'Fjalla';
+  font-size: 30px;
 }
+
 nav .sidenav-trigger {
   margin-top: 20px;
 }
@@ -101,7 +103,7 @@ figcaption {
 }
 
 .band-info {
-  width: 31.25rem; /*500px*/
+  width: 35.25rem; /*500px*/
 }
 
 td {
@@ -113,7 +115,23 @@ td {
   width: 100%;
 }
 table {
-  font-size: 1.25rem;
+  font-size: 1.8rem;
+}
+.filter {
+  padding: 6px 6px;
+  border-radius: 6px;
+  transition: all 0.35s;
+  font-size: 30px;
+  /* padding: 10px;*/
+  cursor: pointer;
+}
+.filter.active {
+  box-shadow: 0px 1px 20px 20px #2926cc26;
+  color: white;
+}
+
+.filter:hover {
+  background: lightgray;
 }
 @media (min-width: 35.5rem) {
   .grid-container {

@@ -1,130 +1,134 @@
 
-class Project {
-  constructor(title, link, img, category) {
-      this.title = title,
-      this.link = link, 
-      this.img = img,
-      this.category = category
-  }
-}
 
 new Vue({
 el: '#vue-app',
 data: {
       currentFilter: 'ALL',
+      category: '',
       projectList: [
-        new Project (
-            'Aenon', 
-            './Bands/aenon.html', 
-            'dist/img/metalcore/aenon.webp',
-            'DESIGN'
-      ),
-          new Project (
-              'Afterimage', 
-              './Bands/afterimage.html', 
-              'dist/img/deathmetal/afterimage.webp',
-              'DESIGN'
-        ),
-          new Project (
-              'Astillian', 
-              'https://digitalassetmanagement.com/', 
-              'dist/img/deathmetal/astillian.webp',
-              'DESIGN'
-          ),
-          new Project (
-              'Arthure', 
-              './Bands/afterimage.html',  
-              'dist/img/deathmetal/arthure.webp',
-              'DEVELOPMENT'
-          ),
-          new Project (
-            'Ben Dixon', 
-            './Bands/afterimage.html', 
-            'dist/img/metalcore/ben-dixon.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Bloodlines', 
-            './Bands/afterimage.html', 
-            'dist/img/metalcore/bloodlines.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Blue Fire Horizon', 
-            './Bands/afterimage.html', 
-            'dist/img/metalcore/blue-fire-horizon.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Collapse//Revive', 
-            './Bands/afterimage.html', 
-            'dist/img/metalcore/collapse-revive.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Context', 
-            './Bands/afterimage.html', 
-            'dist/img/metalcore/cntxt.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Crowned in Sorrow', 
-            './Bands/afterimage.html', 
-            'dist/img/deathmetal/derek-corzine.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Cruentis', 
-            './Bands/afterimage.html', 
-            'dist/img/deathmetal/cruentis.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Diathekeke', 
-            './Bands/afterimage.html',  
-            'dist/img/deathmetal/diatheke.webp',
-            'COLABORATION'
-        ),
-        new Project (
-            'Elephant Watchtower', 
-            './Bands/afterimage.html',
-            'dist/img/deathmetal/elephant-watchtower.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Empty Grave', 
-            './Bands/afterimage.html', 
-            'dist/img/deathmetal/emptygrave.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Eonia', 
-            './Bands/afterimage.html', 
-            'dist/img/metalcore/eonia.webp',
-            'DEVELOPMENT'
-        ),
-        new Project (
-            'Every Knee Shall Bow', 
-            './Bands/afterimage.html', 
-            'dist/img/deathmetal/eksb.webp',
-            'DEVELOPMENT'
-        ),
-          new Project (
-              'Incarnate Deity', 
-              './Bands/afterimage.html', 
-              'dist/img/deathmetal/incarnatedeity.webp',
-              'DEVELOPMENT'
-          ),
-          
+       {
+            title: 'Aenon', 
+            link: './aenon.html', 
+            img: 'dist/img/metalcore/aenon.webp',
+            category: 'METALCORE'
+       },
+          {
+            title:'Afterimage', 
+            link:'./afterimage.html', 
+            img: 'dist/img/deathmetal/afterimage.webp',
+             category: 'DEATH METAL'
+        },
+          {
+            title:'Âstillian', 
+            link:'./astillian.html', 
+              img:'dist/img/deathmetal/astillian.webp',
+              category:'DEATH METAL'
+          },
+          {
+            title:'Nathan Arthur', 
+            link:'./arthure.html',  
+              img:'dist/img/deathmetal/arthure.webp',
+              category:'DEATH METAL'
+          },
+          {
+            title:'Ben Dixon', 
+            link:'./ben-dixon.html', 
+            img:'dist/img/metalcore/ben-dixon.webp',
+            category:'METALCORE'
+        },
+        {
+            title: 'Bloodlines', 
+            link:'./bloodlines.html', 
+            img:'dist/img/metalcore/bloodlines.webp',
+            category:'METALCORE'
+        },
+        {
+            title: 'Blue Fire Horizon', 
+            link:'./bluefirehorizon.html', 
+            img:'dist/img/metalcore/blue-fire-horizon.webp',
+            category:'METALCORE'
+        },
+        {
+            title: 'Collapse//Revive', 
+            link:'./collapserevive.html', 
+            img:'dist/img/metalcore/collapse-revive.webp',
+            category:'METALCORE'
+        },
+        {
+            title: 'Context', 
+            link:'./cntxt.html', 
+            img:'dist/img/metalcore/cntxt.webp',
+            category:'METALCORE'
+        },
+        {
+            title: 'Crowned in Sorrow', 
+            link:'./afterimage.html', 
+            img:'dist/img/deathmetal/derek-corzine.webp',
+            category:'DOOM METAL'
+        },
+        {
+            title:  'Cruentis', 
+            link:'./afterimage.html', 
+            img:'dist/img/deathmetal/cruentis.webp',
+            category:'DEATHMETAL'
+        },
+        {
+            title:  'Diathekeke', 
+            link:'./afterimage.html',  
+            img:'dist/img/deathmetal/diatheke.webp',
+            category:'DEATH METAL'
+        },
+        {
+            title:  'Elephant Watchtower', 
+            link:'./afterimage.html',
+            img:'dist/img/deathmetal/elephant-watchtower.webp',
+            category:'DEATH METAL'
+        },
+        {
+            title:  'Empty Grave', 
+            link:'./afterimage.html', 
+            img:'dist/img/deathmetal/emptygrave.webp',
+            category:'DEATH METAL'
+        },
+        {
+            title: 'Eonia', 
+            link:'./afterimage.html', 
+            img:'dist/img/metalcore/eonia.webp',
+            category:'METALCORE'
+        },
+        {
+            title: 'Every Knee Shall Bow', 
+            link:'./afterimage.html', 
+            img:'dist/img/deathmetal/eksb.webp',
+            category:'DEATH METAL'
+        },
+          {
+            title: 'Incarnate Deity', 
+            link: './afterimage.html', 
+            img:'dist/img/deathmetal/incarnatedeity.webp',
+            category:'DEATH METAL'
+          },
+          {
+            title: 'Jesus Wannabeez', 
+            link:'./afterimage.html', 
+            img:'dist/img/metal/jw.webp',
+            category:'METALCORE'
+        },
+        {
+            title: 'Oh, The Depth', 
+            link:'./afterimage.html', 
+            img:'dist/img/deathcore/oh-the-depth.webp',
+            category:'DEATHCORE'
+        },
           
          
       ], 
   },
 
 methods: {
-  setFilter: function setFilter(filter) {
+  setFilter: function (filter) {
     this.currentFilter = filter;
       } 
-  }
+  },
   
 });

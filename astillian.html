@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/css/materialize.min.css">
+  <link rel="stylesheet" href="../dist/css/style.css">
+  <link rel="stylesheet" href="../dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="../dist/css/fontawesome.min.css" rel="stylesheet">
+  <script src="../dist/js/vue.js"></script>
+  <script src="../dist/components/bands-header.js"></script>
+  <script src="../dist/components/vue-app.js"></script>
+
+
+  <title> | Beyond The Grave</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Âstillian',
+        formed: '2016',
+        status: 'Active',
+        genre: 'Melodic Death Metal',
+        label: 'Independent',
+        origin: 'USA',
+        img: '../dist/img/deathmetal/astillian.webp',
+        members: [{ name: 'Mike Gleason', instrument: 'Vocals' }, { name: 'Dan Gleason', instrument: 'Bass, Vocals' }, { name: 'Nick Daniels', instrument: 'Guitar' }, { name: 'David Destefano', instrument: 'Guitar' },
+        { name: 'Cody Bizeau', instrument: 'Guitar' }, { name: 'James Doyle', instrument: 'Drums' }
+        ],
+
+        discography: [{ album: '' }, { album: '' }],
+        type: [{ type: '' }, { type: '' }],
+        year: []
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+  <script src="../dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../dist/js/materialize.min.js"></script>
+  <script src="../dist/js/init.js"></script>
+</body>
+
+
+
+</html>
