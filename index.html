@@ -9,7 +9,7 @@
   <!-- META KEYWORDS -->
   <meta name="keywords"
     content="Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
-
+  <meta property="og:image" content="dist/img/btg.webp">
 
 
 
@@ -43,11 +43,13 @@
     <div class="filters">
       <span class="filter" v-bind:class="{ active: currentFilter === 'ALL'}" v-on:click="setFilter('ALL')">All
       </span>
+      <span class="filter" v-bind:class="{ active: currentFilter === 'METAL'}" v-on:click="setFilter('METAL')">
+        Metal</span>
       <span class="filter" v-bind:class="{ active: currentFilter === 'DEATH METAL'}"
         v-on:click="setFilter('DEATH METAL')">Death
         Metal</span>
       <span class="filter" v-bind:class="{ active: currentFilter === 'BLACK METAL'}"
-        v-on:click="setFilter('DEATH METAL')">Black
+        v-on:click="setFilter('BLACK METAL')">Black
         Metal</span>
       <span class="filter" v-bind:class="{ active: currentFilter === 'DEATHCORE'}"
         v-on:click="setFilter('DEATHCORE')">Deathcore</span>

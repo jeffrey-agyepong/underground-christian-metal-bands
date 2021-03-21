@@ -36,7 +36,7 @@ h1 {
   font-size: 45px;
 }
 .container {
-  width: 80%;
+  width: 100%;
 }
 
 nav {
@@ -117,6 +117,9 @@ td {
 table {
   font-size: 1rem;
 }
+tr {
+  border-bottom: 10px solid #3729ab59;
+}
 .vw {
   margin: 0 auto;
   width: 50%;
@@ -137,9 +140,18 @@ table {
 .filter:hover {
   background: lightgray;
 }
+
+.bg {
+  background: #091361;
+  border-radius: 25px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 0 20px 0;
+}
 /*Desktop*/
 @media (min-width: 35.5rem) {
   .container {
+    width: 80%;
     margin: 0 auto;
   }
   .grid-container {
@@ -147,7 +159,14 @@ table {
     margin-left: 1px;
     margin-right: 1px;
   }
-
+  .social-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .band-info {
+    width: 43.25rem; /*500px*/
+  }
   inner {
     margin: 0.625rem;
   }

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="dist/css/materialize.min.css">
   <link rel="stylesheet" href="dist/css/style.css">
   <link rel="stylesheet" href="dist/css/all.min.css">
+  <meta property="og:image" content="dist/img/metalcore/aenon.webp">
 
   <!-- Font Awesome -->
   <link href="dist/css/fontawesome.min.css" rel="stylesheet">
@@ -23,30 +24,60 @@
     gtag('config', 'G-ZS6YGXB40V');
   </script>
 
-  <title> | Beyond The Grave</title>
+  <title>Ænon | Beyond The Grave</title>
 </head>
 
 <body>
   <header-component></header-component>
 
   <vue-app-component></vue-app-component>
+
+
+  <div class="bg">
+    <div class="container">
+      <h4>Links</h4>
+      <div class="social-container">
+        <a href="" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+        <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+        <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a></li>
+        <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+        <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg">
+    <iframe style="border: 0; width: 340px; height: 611px;"
+      src="https://bandcamp.com/EmbeddedPlayer/album=2028710676/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/"
+      seamless><a href="https://aenon.bandcamp.com/album/the-comforter">The Comforter by ÆNON</a></iframe>
+  </div>
+
+
+
   <script>
     new Vue({
       el: '#vue-app',
       data: {
-        band: '',
-        formed: '',
-        status: '',
-        genre: '',
-        label: '',
-        origin: '',
-        img: '',
-        members: [{ name: '', instrument: '' }, { name: ' ', instrument: '' }, { name: '', instrument: '' }
+        band: 'Ænon',
+        formed: '2019',
+        status: 'Active',
+        genre: 'Melodic Metalcore',
+        label: 'Independent',
+        origin: 'Australia',
+        img: 'dist/img/metalcore/aenon.webp',
+        members: [{ name: 'Andrew Wakem', instrument: 'Vocals' }, { name: 'Brendan Mari ', instrument: 'Guitar' }, { name: 'Luke Denniss', instrument: 'Guitar' },
+        {
+          name: 'Tristan Fairall', instrument: 'Bass'
+        },
+        {
+          name: 'Thom Werlemann', instrument: 'Drums, Vocals'
+        }
         ],
 
-        discography: [{ album: '' }, { album: '' }],
-        type: [{ type: '' }, { type: '' }],
-        year: []
+        discography: [{ album: 'Unforsaken', type: 'EP', year: '2016' }, { album: 'Prodigal', type: 'Single', year: '2018' }, { album: 'Despite All This', type: 'Single', year: '2020' }, { album: 'In All Honesty', type: 'Single', year: '2020' }, { album: 'Korzack', type: 'Single', year: '2020' },
+        { album: 'The Comforter', type: 'EP', year: '2020' }],
 
       },
       methods: {

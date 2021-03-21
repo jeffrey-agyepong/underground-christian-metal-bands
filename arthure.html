@@ -8,8 +8,8 @@
   with a Christ-centered message.">
   <!-- META KEYWORDS -->
   <meta name="keywords"
-    content="Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
-
+    content="Arthure, Nathan Arthur, Progressive Death Metal, Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/deathmetal/arthure.webp">
 
   <link rel="stylesheet" href="dist/css/materialize.min.css">
   <link rel="stylesheet" href="dist/css/style.css">
@@ -30,30 +30,53 @@
     gtag('config', 'G-ZS6YGXB40V');
   </script>
 
-  <title> | Beyond The Grave</title>
+  <title>Arthure | Beyond The Grave</title>
 </head>
 
 <body>
   <header-component></header-component>
 
   <vue-app-component></vue-app-component>
+
+  <div class="bg">
+    <div class="container">
+      <h4>Links</h4>
+      <div class="social-container">
+        <a href="https://web.facebook.com/NathanArthurOfficial" target="_blank"><i
+            class="fab fa-facebook fa-3x white-text"></i></a>
+
+        <a href="https://arthureofficial.bandcamp.com" target="_blank"><i
+            class="fab fa-bandcamp fa-3x white-text"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg">
+    <iframe style="border: 0; width: 340px; height: 710px;"
+      src="https://bandcamp.com/EmbeddedPlayer/album=304738797/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+      seamless><a href="https://arthureofficial.bandcamp.com/album/dichotomy">Dichotomy</a></iframe>
+  </div>
+
   <script>
     new Vue({
       el: '#vue-app',
       data: {
-        band: '',
-        formed: '',
-        status: '',
-        genre: '',
-        label: '',
-        origin: '',
-        img: '',
-        members: [{ name: '', instrument: '' }, { name: ' ', instrument: '' }, { name: '', instrument: '' }
+        band: 'Arthure(Now Nathan Arthur)',
+        formed: '2015',
+        status: 'Active',
+        genre: 'Progressive Death Metal',
+        label: 'Independent',
+        origin: 'USA',
+        img: 'dist/img/deathmetal/arthure.webp',
+        members: [{ name: 'Nathan Arthure', instrument: 'Vocals, All Instruments' },
         ],
 
-        discography: [{ album: '' }, { album: '' }],
-        type: [{ type: '' }, { type: '' }],
-        year: []
+        discography: [{ album: 'Capsul', type: 'EP', year: '2015' }, { album: 'Frail', type: 'Album', year: '2016' },
+        { album: 'Piety', type: 'Single', year: '2016' },
+        { album: 'Dichotomy', type: 'Album', year: '2018' },
+        { album: 'Grasp', type: 'Single', year: '2018' },
+        { album: 'A New Journey', type: 'Album', year: '2018' }
+        ],
 
       },
       methods: {

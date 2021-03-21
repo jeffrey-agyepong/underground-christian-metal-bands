@@ -9,7 +9,7 @@
   <!-- META KEYWORDS -->
   <meta name="keywords"
     content="Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
-
+  <meta property="og:image" content="dist/img/blackmetal/bismoth.webp">
 
   <link rel="stylesheet" href="dist/css/materialize.min.css">
   <link rel="stylesheet" href="dist/css/style.css">
@@ -30,30 +30,52 @@
     gtag('config', 'G-ZS6YGXB40V');
   </script>
 
-  <title> | Beyond The Grave</title>
+  <title>Bismoth | Beyond The Grave</title>
 </head>
 
 <body>
   <header-component></header-component>
 
   <vue-app-component></vue-app-component>
+
+  <div class="bg">
+    <div class="container">
+      <h4>Links</h4>
+      <div class="social-container">
+        <a href="facebook.com/bismothmetal/" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+        <a href="https://bismoth.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg">
+    <iframe style="border: 0; width: 340px; height: 677px;"
+      src="https://bandcamp.com/EmbeddedPlayer/album=3076257554/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+      seamless><a href="https://bismoth.bandcamp.com/album/psalmic-peace">Psalmic Peace by Bismoth</a></iframe>
+  </div>
+
   <script>
     new Vue({
       el: '#vue-app',
       data: {
-        band: '',
-        formed: '',
-        status: '',
-        genre: '',
-        label: '',
-        origin: '',
-        img: '',
-        members: [{ name: '', instrument: '' }, { name: ' ', instrument: '' }, { name: '', instrument: '' }
+        band: 'Bismoth',
+        formed: '2012',
+        status: 'Active',
+        genre: 'Atmostpheric Black Metal',
+        label: 'Independent',
+        origin: 'South Africa(now based in the USA)',
+        img: 'dist/img/blackmetal/bismoth.webp',
+        members: [{ name: 'Jethro de Beer', instrument: 'Vocals, All instruments' },
         ],
 
-        discography: [{ album: '' }, { album: '' }],
-        type: [{ type: '' }, { type: '' }],
-        year: []
+        discography: [{ album: 'The Road', type: 'EP', year: '2018' }, { album: 'Water to Dust', type: 'Single', year: '2018' },
+        {
+          album: 'Psalmic Peace', type: 'Album', year: '2018'
+        },
+        {
+          album: 'Body of Christ', type: 'Split', year: '2019'
+        }
+        ],
 
       },
       methods: {

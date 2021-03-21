@@ -9,6 +9,7 @@
   <!-- META KEYWORDS -->
   <meta name="keywords"
     content="Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/deathmetal/afterimage.webp">
 
   <link rel="stylesheet" href="../dist/css/materialize.min.css">
   <link rel="stylesheet" href="../dist/css/style.css">
@@ -36,6 +37,28 @@
   <header-component></header-component>
 
   <vue-app-component></vue-app-component>
+
+  <div class="bg">
+    <div class="container">
+      <h4>Links</h4>
+      <div class="social-container">
+        <a href="" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+        <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+        <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a></li>
+        <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+        <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg">
+    <iframe style="border: 0; width: 340px; height: 776px;"
+      src="https://bandcamp.com/EmbeddedPlayer/album=320554125/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/"
+      seamless></iframe>
+  </div>
+
   <script>
     new Vue({
       el: '#vue-app',
@@ -50,9 +73,7 @@
         members: [{ name: '', instrument: '' }, { name: ' ', instrument: '' }, { name: '', instrument: '' }
         ],
 
-        discography: [{ album: '' }, { album: '' }],
-        type: [{ type: '' }, { type: '' }],
-        year: []
+        discography: [{ album: 'Codex: Trumph in the Eschaton', type: 'EP', year: '2007' }, { album: 'Unveil the Unseen', type: 'Abum', year: '2013' }],
 
       },
       methods: {
