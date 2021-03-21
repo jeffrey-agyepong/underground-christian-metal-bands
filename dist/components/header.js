@@ -14,11 +14,11 @@ this.innerHTML = `
 
         <ul class="right hide-on-med-and-down">
           <li> <a href="index.html">Introducing</a></li>
-          <li><a href="deathmetal.html">Interviews</a></li>
-          <li><a href="metal.html">Reviews</a></li>
-          <li><a href="blackmetal.html">News</a></li>
-          <li><a href="deathcore.html">Submit</a></li>
-          <li><a href="metalcore.html">About</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/tag/Interviews/">Interviews</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/tag/Album-Reviews/">Reviews</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/tag/News/">News</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/submit/">Submit</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/about/">About</a></li>
          
          
 
@@ -26,13 +26,13 @@ this.innerHTML = `
 
         <ul id="nav-mobile" class="sidenav black center">
           <a href="https://beyondthegravemusic.com">BEYOND THE GRAVE</a>
-          <a href="index.html">All</a>
-          <li><a href="deathmetal.html" class="white-text">Introducing</a></li>
-          <li><a href="blackmetal.html" class="white-text">Interviews</a></li>
-          <li><a href="metal.html" class="white-text">Reviews</a></li>
-          <li><a href="deathcore.html" class="white-text">News</a></li>    
-          <li><a href="metalcore.html" class="white-text">Submit</a></li>
-          <li><a href="metalcore.html" class="white-text">About</a></li>
+        
+          <li><a href="index.html" class="white-text">Introducing</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/tag/Interviews/" class="white-text">Interviews</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/tag/Album-Reviews/" class="white-text">Reviews</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/tag/News/" class="white-text">News</a></li>    
+          <li><a href="https://www.beyondthegravemusic.com/submit/" class="white-text">Submit</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/about/" class="white-text">About</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger header_toggle">
           <span></span>
