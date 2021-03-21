@@ -117,9 +117,7 @@ td {
 table {
   font-size: 1rem;
 }
-tr {
-  border-bottom: 10px solid #3729ab59;
-}
+
 .vw {
   margin: 0 auto;
   width: 50%;
