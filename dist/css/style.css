@@ -42,7 +42,7 @@ h1 {
 nav {
   background: #383838;
   font-family: 'Metal Mania', 'Fjalla';
-  font-size: 25px;
+  font-size: 20px;
 }
 
 nav .sidenav-trigger {
@@ -146,11 +146,23 @@ table {
   margin: 20px auto;
   padding: 10px 0 20px 0;
 }
+/*Tablet*/
+@media (min-width: 36rem) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+}
+
 /*Desktop*/
-@media (min-width: 35.5rem) {
+@media (min-width: 64rem) {
   .container {
     width: 80%;
     margin: 0 auto;
+  }
+  nav {
+    font-size: 25px;
   }
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
