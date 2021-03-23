@@ -161,7 +161,7 @@ data: {
             link:'./shamash.html', 
             img:'dist/img/metal/shamash.webp',
             category:' METAL'
-          },
+          },/*
           {
             title: 'Spite The Beast', 
             link:'./afterimage.html', 
@@ -198,7 +198,7 @@ data: {
             img:'dist/img/deathmetal/hashem.webp',
             category:'DEATH METAL'
 
-          }
+          }*/
 
          
       ], 
