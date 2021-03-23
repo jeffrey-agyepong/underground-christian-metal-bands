@@ -27,7 +27,6 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: visible;
-  font-family: 'F';
   background: #383838;
   text-align: center;
   font-family: 'Metal Mania';
@@ -123,11 +122,10 @@ table {
   width: 50%;
 }
 .filter {
-  padding: 6px 6px;
+  padding: 6px 6px !important;
   border-radius: 6px;
   transition: all 0.35s;
   font-size: 30px;
-  /* padding: 10px;*/
   cursor: pointer;
 }
 .filter.active {
@@ -146,6 +144,7 @@ table {
   margin: 20px auto;
   padding: 10px 0 20px 0;
 }
+
 /*Tablet*/
 @media (min-width: 36rem) {
   .grid-container {

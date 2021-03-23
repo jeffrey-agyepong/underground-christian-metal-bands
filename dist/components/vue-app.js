@@ -21,7 +21,7 @@ this.innerHTML =  `
              <img :src="img" alt="" class="size responsive-img flex-page">
 
            </div>
-
+           
            <table>
              <tbody>
                <tr>
