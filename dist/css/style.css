@@ -127,6 +127,7 @@ table {
   transition: all 0.35s;
   font-size: 30px;
   cursor: pointer;
+  border-style: solid;
 }
 .filter.active {
   box-shadow: 0px 1px 20px 20px #2926cc26;
