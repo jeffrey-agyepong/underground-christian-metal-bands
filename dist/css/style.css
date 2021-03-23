@@ -144,7 +144,9 @@ table {
   margin: 20px auto;
   padding: 10px 0 20px 0;
 }
-
+.span {
+  padding: 10px;
+}
 /*Tablet*/
 @media (min-width: 36rem) {
   .grid-container {
