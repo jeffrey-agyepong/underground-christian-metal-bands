@@ -19,7 +19,7 @@ this.innerHTML =  `
          <div class="band-info">
            <div class="flex">
              <img :src="img" alt="" class="size responsive-img flex-page">
-
+             <img :src="img2" alt="" class="size responsive-img flex-page">
            </div>
            
            <table>
@@ -50,7 +50,6 @@ this.innerHTML =  `
                    <ul>
                      <li v-for="member in members">
                        {{member.name}}
-
                      </li>
                    </ul>
                  </td>
@@ -76,20 +75,10 @@ this.innerHTML =  `
                    </ul>
                  </td>
                  <td class="white-text">
-                   <h5>Type</h5>
+                   <h5 style="visibility:hidden;">Type</h5>
                    <ul>
                      <li v-for="discography in discography">
-                       {{discography.type}}
-
-                     </li>
-                   </ul>
-                 </td>
-                 <td class="white-text">
-                   <h5>Year</h5>
-                   <ul>
-                     <li v-for="discography in discography">
-                       {{discography.year}}
-
+                       {{discography.type_year}}
                      </li>
                    </ul>
                  </td>

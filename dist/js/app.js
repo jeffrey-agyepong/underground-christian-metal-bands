@@ -62,7 +62,7 @@ data: {
         },
         {
             title: 'Collapse//Revive', 
-            link:'./collapserevive.html', 
+            link:'./collapse-revive.html', 
             img:'dist/img/metalcore/collapse-revive.webp',
             category:'METALCORE'
         },
@@ -122,25 +122,25 @@ data: {
         },
         {
           title: 'His Kingdom Suffers', 
-          link:'./his-kingdom-suffers.html', 
+          link:'./hiskingdomsuffers.html', 
           img:'dist/img/deathcore/hks.webp',
           category:'DEATHCORE'
         },
           {
             title: 'Incarnate Deity', 
-            link: './incarnate-deity.html', 
-            img:'dist/img/deathmetal/incarnatedeity.webp',
+            link: './incarnatedeity.html', 
+            img:'dist/img/deathmetal/incarnate-deity.webp',
             category:'DEATH METAL'
           },
           {
             title: 'Jesus Wannabeez', 
-            link:'./jesus-wannabeez.html', 
+            link:'./jesuswannabeez.html', 
             img:'dist/img/metal/jw.webp',
             category:'METAL'
         },
         {
             title: 'Oh, The Depth', 
-            link:'./afterimage.html', 
+            link:'./ohthedepth.html', 
             img:'dist/img/deathcore/oh-the-depth.webp',
             category:'DEATHCORE'
         },
@@ -152,7 +152,7 @@ data: {
           },
           {
             title: 'Searching Serenity', 
-            link:'./search-serenity.html', 
+            link:'./searchserenity.html', 
             img:'dist/img/deathcore/searchingserenity.webp',
             category:'DEATHCORE'
           },
