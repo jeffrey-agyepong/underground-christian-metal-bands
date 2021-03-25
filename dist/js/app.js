@@ -39,7 +39,7 @@ data: {
         {
           title:'Be Not Betrayed', 
           link:'./benotbetrayed.html', 
-          img:'dist/img/blackmetal/bismoth.webp',
+          img:'dist/img/blackmetal/be-not-betrayed2.jpg',
           category:'BLACK METAL'
         },
         {
