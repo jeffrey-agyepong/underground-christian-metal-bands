@@ -63,8 +63,8 @@
     <section class="section">
       <div class="container">
 
-        <transition-group name="projectsList" class="grid-container" tag="div">
-          <div class="rounded project " v-if="currentFilter === project.category || currentFilter === 'ALL'"
+        <transition-group name="projectList" class="grid-container projectList" tag="div">
+          <div class="rounded project" v-if="currentFilter === project.category || currentFilter === 'ALL'"
             v-bind:key="project.title" v-for="project in projectList">
             <div class="inner">
               <a :href="project.link">

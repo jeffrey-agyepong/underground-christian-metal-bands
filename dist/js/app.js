@@ -38,7 +38,7 @@ data: {
         },
         {
           title:'Be Not Betrayed', 
-          link:'./be-not-betrayed.html', 
+          link:'./benotbetrayed.html', 
           img:'dist/img/blackmetal/bismoth.webp',
           category:'BLACK METAL'
         },
@@ -129,7 +129,7 @@ data: {
           {
             title: 'Incarnate Deity', 
             link: './incarnatedeity.html', 
-            img:'dist/img/deathmetal/incarnate-deity.webp',
+            img:'dist/img/deathmetal/incarnatedeity.webp',
             category:'DEATH METAL'
           },
           {
@@ -152,7 +152,7 @@ data: {
           },
           {
             title: 'Searching Serenity', 
-            link:'./searchserenity.html', 
+            link:'./searchingserenity.html', 
             img:'dist/img/deathcore/searchingserenity.webp',
             category:'DEATHCORE'
           },

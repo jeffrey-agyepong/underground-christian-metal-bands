@@ -34,6 +34,13 @@ body {
 h1 {
   font-size: 45px;
 }
+h4 {
+  color: white;
+}
+p {
+  font-size: 25px;
+  font-family: Fjalla;
+}
 .container {
   width: 100%;
 }
@@ -148,10 +155,32 @@ table {
   background: lightgray;
 }
 
+.projectList {
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+.projectList-enter {
+  transform: scale(0.5) translateY(-80px);
+  opacity: 0;
+}
+.projectList-leave-to {
+  position: absolute;
+  opacity: 0;
+}
+.projectList-leave-active {
+  position: absolute;
+  z-index: -1;
+}
+.project {
+  transition: all 0.5s ease-in-out;
+  margin: 5px;
+  box-shadow: 0px 2px 8px rgba(173, 216, 230, 0.568);
+  border-radius: 10px;
+}
 .bg {
-  background: #091361;
+  background: #030833;
   border-radius: 25px;
-  width: 50%;
+  width: 80%;
   margin: 20px auto;
   padding: 10px 0 20px 0;
 }
@@ -175,11 +204,6 @@ table {
   }
   nav {
     font-size: 25px;
-  }
-  .grid-container {
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 1px;
-    margin-right: 1px;
   }
   .member-container {
     margin-left: 1px;
