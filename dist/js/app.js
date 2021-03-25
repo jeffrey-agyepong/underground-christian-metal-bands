@@ -135,7 +135,7 @@ data: {
           {
             title: 'Jesus Wannabeez', 
             link:'./jesuswannabeez.html', 
-            img:'dist/img/metal/jw.webp',
+            img:'dist/img/metal/jw1.webp',
             category:'METAL'
         },
         {
