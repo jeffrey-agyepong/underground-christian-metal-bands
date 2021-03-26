@@ -13,7 +13,7 @@ this.innerHTML =`
       <h5 class="white-text center">Consider Supporting Us</h5>
       <p class="grey-text text-lighten-4 center"> <a href="https://www.buymeacoffee.com/beyondthegrave" target="_blank"><img
       src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"
-      style="height: 60px !important;width: 217px !important;"></a></p>
+      style="height: 60px !important;width: 217px !important;"></a></p>    
     </div>
     <div class="col l4 offset-l2 s12">
     <h5 class="white-text center-align">Connect With Us</h5>

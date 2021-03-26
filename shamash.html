@@ -8,8 +8,8 @@
   with a Christ-centered message.">
   <!-- META KEYWORDS -->
   <meta name="keywords"
-    content="Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
-  <meta property="og:image" content="dist/img/deathmetal/afterimage.webp">
+    content="Shamash, Christian Metal, Metal,  Death Metal, BlackMelodic Death Metal, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/deathmetal/shamash1.webp">
 
   <link rel="stylesheet" href="dist/css/materialize.min.css">
   <link rel="stylesheet" href="dist/css/style.css">
@@ -32,13 +32,27 @@
     gtag('config', 'G-ZS6YGXB40V');
   </script>
 
-  <title> | Beyond The Grave</title>
+  <title>Shamash | Beyond The Grave</title>
 </head>
 
 <body>
   <header-component></header-component>
 
   <vue-app-component></vue-app-component>
+  <div class="bg">
+    <div class="container">
+      <h3 class="white-text center">BIO:</h3>
+      <p class="white-text">
+        Shamash is a band hailing from Kuala Lumpur Malaysia. First conceived and started by André Chiang of
+        Malaysian Death Metal outfit, Necromanicide. This project started as a tribute to his passion for old-school
+        classic death metal, black metal, and extreme metal genres with a fusion of symphonic and atmospheric elements.
+        <br>
+        What started out a side project gained momentum and the group grew from a solo project to a full band with the
+        edition of Alexaander Joseph Martin (Guitarist of Army of Three) and Finnish drummer Rum "Ola" Pukkönnen.
+      </p>
+
+    </div>
+  </div>
   <div class="bg">
     <div class="container">
       <h4>Links</h4>
@@ -54,10 +68,9 @@
     </div>
   </div>
 
-
-  <iframe style="border: 0; width: 340px; height: 776px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=320554125/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/"
-    seamless></iframe>
+  <iframe style="border: 0; width: 340px; height: 611px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=3274432154/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+    seamless><a href="https://shamashrr.bandcamp.com/album/suffering-servant">Suffering Servant by Shamash</a></iframe>
 
 
 
@@ -65,17 +78,21 @@
     new Vue({
       el: '#vue-app',
       data: {
-        band: 'Ben S. Dixon',
-        formed: '',
-        status: '',
-        genre: '',
+        band: 'Shamash',
+        formed: '2020',
+        status: 'Active',
+        genre: 'Melodic Death Metal',
         label: '',
-        origin: '',
-        img: '',
-        members: [{ name: '', instrument: '' }, { name: ' ', instrument: '' }, { name: '', instrument: '' }
+        origin: 'Malaysia',
+        img: 'dist/img/deathmetal/shamash.webp',
+        img2: 'dist/img/deathmetal/shamash1.webp',
+        members: [
+          { name: 'André Chiang ', instrument: 'Vocals, Drums' },
+          { name: 'Alexaander J. Martin', instrument: ' Guitar' }, { name: 'Darren Teh', instrument: 'Bass' },
+
         ],
 
-        discography: [{ album: 'Codex: Trumph in the Eschaton', type: 'EP', year: '2007' }, { album: 'Unveil the Unseen', type: 'Abum', year: '2013' }],
+        discography: [{ album: 'Suffering Servant', type_year: 'Single - 2020', }, { album: 'Suffering Servant', type_year: 'EP - 2020', }],
 
       },
       methods: {
@@ -84,6 +101,7 @@
     });
 
   </script>
+
 
   <footer-component></footer-component>
   <script src="dist/js/jquery-3.6.0.js"></script>

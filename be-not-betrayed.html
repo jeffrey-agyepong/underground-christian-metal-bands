@@ -8,8 +8,8 @@
   with a Christ-centered message.">
   <!-- META KEYWORDS -->
   <meta name="keywords"
-    content="Searching Serenity, Christian Metal, Metal, Metalcore, Death Metal, Melodic Deathcore, Deathcore, CHristian Deathcore, Band, Christian, Music">
-  <meta property="og:image" content="dist/img/deathcore/searchingserenity.webp">
+    content="Be Not Betrayed, Christian Metal, Metal, Unblack Metal, Chrisian Black Metal, Black Metal, Atmospheric Black Metal, Christian, Music">
+  <meta property="og:image" content="dist/img/blackmetal/be-not-betrayed.jpg">
 
   <link rel="stylesheet" href="dist/css/materialize.min.css">
   <link rel="stylesheet" href="dist/css/style.css">
@@ -21,6 +21,7 @@
   <script src="dist/js/vue.min.js"></script>
   <script src="dist/components/bands-header.js"></script>
   <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZS6YGXB40V"></script>
   <script>
@@ -31,25 +32,26 @@
     gtag('config', 'G-ZS6YGXB40V');
   </script>
 
-  <title>Searching Serenity | Beyond The Grave</title>
+  <title>Be Not Betrayed | Beyond The Grave</title>
 </head>
 
 <body>
   <header-component></header-component>
 
   <vue-app-component></vue-app-component>
-  <div class="bg">
+  <!--<div class="bg">
     <div class="container">
       <h3 class="white-text center">BIO:</h3>
       <p class="white-text">
-        Searching Serenity's goal above all else is to share the message of Love and Grace that is free and offered to
-        all willing to believe. We love Jesus. We love heavy music. We love people.
+
       </p>
 
     </div>
-  </div>
+  </div>-->
 
   <div class="grid-container">
+
+
     <div class="bg">
       <div class="container">
         <h4>Links</h4>
@@ -64,13 +66,12 @@
         </div>
       </div>
     </div>
-
     <div class="bg">
       <div class="container">
         <h4>Coverage</h4>
         <div class="social-container">
-          <p> <a href="https://beyondthegravemusic.com/2020/04/24/interview-searching-serenity/" target="_blank"
-              rel="noopener noreferrer">Interview - 2020</a>
+          <p> <a href="https://beyondthegravemusic.com/2017/11/27/interview-be-not-betrayed/" target="_blank"
+              rel="noopener noreferrer">Interview - 2017</a>
           </p>
 
         </div>
@@ -78,30 +79,35 @@
     </div>
   </div>
 
-  <iframe style="border: 0; width: 340px; height: 776px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=320554125/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/"
-    seamless></iframe>
+  <iframe style="border: 0; width: 340px; height: 460px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=1434815642/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+    seamless><a href="https://skyburnsblackd.bandcamp.com/album/in-spirit-and-in-truth">In Spirit And In Truth by Be Not
+      Betrayed</a></iframe>
+  <iframe style="border: 0; width: 340px; height: 432px;"
+    src="https://bandcamp.com/EmbeddedPlayer/track=1578778273/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+    seamless><a href="https://benotbetrayed.bandcamp.com/track/pillars-of-deceit">Pillars of Deceit by Be Not
+      Betrayed</a></iframe>
+  <iframe style="border: 0; width: 340px; height: 432px;"
+    src="https://bandcamp.com/EmbeddedPlayer/track=1784272924/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+    seamless><a href="https://benotbetrayed.bandcamp.com/track/void">Void by Be Not Betrayed</a></iframe>
 
 
   <script>
     new Vue({
       el: '#vue-app',
       data: {
-        band: 'Searching Serenity',
-        formed: '2014',
+        band: 'Be Not Betrayed',
+        formed: '2011',
         status: 'Active',
-        genre: 'Melodic Deathcore',
+        genre: 'Black Metal',
         label: 'Independent',
-        origin: 'USA',
-        img: 'dist/img/deathcore/searchingserenity.webp',
-        img2: '',
-        members: [{ name: 'Robert Manzone', instrument: 'Vocals, All Instruments' }
+        origin: 'South Africa(now based in the USA)',
+        img: 'dist/img/blackmetal/be-not-betrayed2.jpg',
+        img2: 'dist/img/blackmetal/be-not-betrayed.jpg',
+        members: [{ name: 'Jethro De Beer', instrument: 'Vocals, All Instruments' }
         ],
 
-        discography: [{ album: 'Self-Entitled', type_year: 'EP - 2015', }, { album: 'Mortifer: Bearer of Death ', type_year: 'EP - 2016', },
-        { album: 'Genesis (The Beginning)', type_year: 'Album - 2018', }, { album: 'Revelation (The End)', type_year: 'Album - 2019', },
-        { album: 'Isolation ', type_year: 'EP - 2020', }, { album: 'Soundtrack to Your Christmas ', type_year: 'EP - 2020', }
-        ],
+        discography: [{ album: 'In Spirit And In Truth', type_year: 'EP - 2014', }, { album: 'Void', type_year: 'Single - 2019', }, { album: 'Pillars of Deceit', type_year: 'Single - 2020', }],
 
       },
       methods: {
@@ -110,6 +116,8 @@
     });
 
   </script>
+
+  <footer-component></footer-component>
   <script src="dist/js/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="dist/js/materialize.min.js"></script>

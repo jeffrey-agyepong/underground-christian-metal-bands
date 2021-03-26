@@ -9,19 +9,19 @@ data: {
        {
             title: 'Ænon', 
             link: './aenon.html', 
-            img: 'dist/img/metalcore/aenon.webp',
+            img: 'dist/img/metalcore/aenon-logo.webp',
             category: 'METALCORE'
        },
           {
             title:'Afterimage', 
             link:'./afterimage.html', 
-            img: 'dist/img/deathmetal/afterimage.webp',
+            img: 'dist/img/deathmetal/afterimage-logo.webp',
              category: 'DEATH METAL'
         },
           {
             title:'Âstillian', 
             link:'./astillian.html', 
-              img:'dist/img/deathmetal/astillian.webp',
+              img:'dist/img/deathmetal/astillian-logo.webp',
               category:'DEATH METAL'
           },
           {
@@ -38,14 +38,14 @@ data: {
         },
         {
           title:'Be Not Betrayed', 
-          link:'./benotbetrayed.html', 
-          img:'dist/img/blackmetal/be-not-betrayed2.jpg',
+          link:'./be-not-betrayed.html', 
+          img:'dist/img/blackmetal/be-not-betrayed.jpg',
           category:'BLACK METAL'
         },
         {
         title:'Bismoth', 
         link:'./bismoth.html', 
-        img:'dist/img/blackmetal/bismoth.webp',
+        img:'dist/img/blackmetal/bismothlogo.jpg',
         category:'BLACK METAL'
          }, 
         {
@@ -56,8 +56,8 @@ data: {
         },
         {
             title: 'Blue Fire Horizon', 
-            link:'./bluefirehorizon.html', 
-            img:'dist/img/metalcore/blue-fire-horizon.webp',
+            link:'./blue-fire-horizon.html', 
+            img:'dist/img/metalcore/blue-fire-horizon2.webp',
             category:'METALCORE'
         },
         {
@@ -69,19 +69,19 @@ data: {
         {
             title: 'Context', 
             link:'./cntxt.html', 
-            img:'dist/img/metalcore/cntxt.webp',
+            img:'dist/img/metalcore/cntxtlogo.webp',
             category:'METALCORE'
         },
         {
             title: 'Crowned in Sorrow', 
             link:'./crowned-in-sorrow.html', 
-            img:'dist/img/deathmetal/derek-corzine.webp',
-            category:'DOOM METAL'
+            img:'dist/img/deathmetal/crowned-in-sorrow.jpg',
+            category:'DEATH METAL'
         },
         {
             title:  'Cruentis', 
             link:'./cruentis.html', 
-            img:'dist/img/deathmetal/cruentis.webp',
+            img:'dist/img/deathmetal/cruentis.jpg',
             category:'DEATHMETAL'
         },
         {
@@ -112,17 +112,17 @@ data: {
             title: 'Every Knee Shall Bow', 
             link:'./eksb.html', 
             img:'dist/img/deathmetal/eksb.webp',
-            category:'DEATH METAL'
+            category:'DEATHCORE'
         },
         {
           title: 'Hashem', 
           link:'./hashem.html', 
-          img:'dist/img/deathmetal/hashem.webp',
+          img:'dist/img/deathmetal/hashemlogo.jpg',
           category:'DEATH METAL'
         },
         {
           title: 'His Kingdom Suffers', 
-          link:'./hiskingdomsuffers.html', 
+          link:'./his-kingdom-suffers.html', 
           img:'dist/img/deathcore/hks.webp',
           category:'DEATHCORE'
         },
@@ -135,7 +135,7 @@ data: {
           {
             title: 'Jesus Wannabeez', 
             link:'./jesuswannabeez.html', 
-            img:'dist/img/metal/jw1.webp',
+            img:'dist/img/metal/jw.webp',
             category:'METAL'
         },
         {
@@ -146,60 +146,65 @@ data: {
         },
           {
             title: 'Roots of Tragedy', 
-            link:'./rootsoftragedy.html', 
+            link:'./roots-of-tragedy.html', 
             img:'dist/img/deathmetal/roots-of-tragedy.webp',
             category:'DEATH METAL'
           },
           {
             title: 'Searching Serenity', 
-            link:'./searchingserenity.html', 
-            img:'dist/img/deathcore/searchingserenity.webp',
+            link:'./searching-serenity.html', 
+            img:'dist/img/deathcore/searchingserenity.jpg',
             category:'DEATHCORE'
           },
           {
             title: 'Shamash', 
             link:'./shamash.html', 
-            img:'dist/img/metal/shamash.webp',
-            category:' METAL'
-          },/*
-          {
+            img:'dist/img/deathmetal/shamash1.webp',
+            category:'DEATH METAL'
+          },
+          /*{
             title: 'Spite The Beast', 
             link:'./afterimage.html', 
             img:'dist/img/deathmetal/hashem.webp',
             category:'DEATH METAL'
-          },
+          },*/
           {
             title: 'Symphony of Heaven', 
-            link:'./afterimage.html', 
-            img:'dist/img/deathmetal/hashem.webp',
+            link:'./symphony-of-heaven.html', 
+            img:'dist/img/deathmetal/symphonyofheavenlogo.webp',
             category:'DEATH METAL'
           },
           {
             title: 'Tax Collector', 
-            link:'./afterimage.html', 
-            img:'dist/img/deathmetal/hashem.webp',
-            category:'DEATH METAL'
+            link:'./tax-collector.html', 
+            img:'dist/img/metalcore/taxcollector.webp',
+            category:'METALCORE'
           },
           {
             title: 'The Weeping Gate', 
-            link:'./afterimage.html', 
-            img:'dist/img/deathmetal/hashem.webp',
+            link:'./the-weeping-gate.html', 
+            img:'dist/img/deathmetal/theweepinggatelogo.jpg',
             category:'DEATH METAL'
           },
           {
             title: 'Your Hands Write History', 
-            link:'./afterimage.html', 
-            img:'dist/img/deathmetal/hashem.webp',
-            category:'DEATH METAL'
+            link:'./yhwh.html', 
+            img:'dist/img/metalcore/yhwh.webp',
+            category:'METALCORE'
           },
           {
             title: 'Separatist', 
-            link:'./afterimage.html', 
-            img:'dist/img/deathmetal/hashem.webp',
+            link:'./separatist.html', 
+            img:'dist/img/deathmetal/separatist.jpg',
             category:'DEATH METAL'
 
-          }*/
-
+          },
+          {
+            title: 'Throne of Awful Splendor',
+            link:'./throne-of-awful-splendor.html',
+            img:'dist/img/deathmetal/toas.jpg',
+            category:'DEATH METAL'
+          }
          
       ], 
   },

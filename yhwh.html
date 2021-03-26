@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Beyond the Grave is an online magazine that focuses primarily on promoting underground metal/hardcore bands
+  with a Christ-centered message.">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="Your Hands Write History, Christian Metal, Christian Metalcore, Metal, Metalcore, Progressive Metal, Progresive Metalcore, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/metalcore/yhwh.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZS6YGXB40V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZS6YGXB40V');
+  </script>
+
+  <title>Your Hands Write History | Beyond The Grave</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+
+  <div class="bg" style="width:60%;">
+    <div class="container">
+      <h4>Links</h4>
+      <div class="social-container">
+        <a href="https://web.facebook.com/YHWHjams" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+        <a href="https://open.spotify.com/artist/4dpAQA3Y9i1ROuQ1Ijfe4v?si=P1viLsPKSNGineHK1rVZow" target="_blank"><i
+            class="fab fa-spotify fa-3x white-text"></i></a>
+
+        <a href="https://www.youtube.com/user/YHWHjams" target="_blank"><i
+            class="fab fa-youtube fa-3x white-text"></i></a></li>
+        <a href="https://yourhandswritehistory.bandcamp.com/" target="_blank"><i
+            class="fab fa-bandcamp fa-3x white-text"></i></a>
+      </div>
+    </div>
+  </div>
+
+
+  <iframe style="border: 0; width: 340px; height: 578px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=28942637/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+    seamless><a href="https://yourhandswritehistory.bandcamp.com/album/terra">TERRA by Your Hands Write
+      History</a></iframe>
+  <iframe style="border: 0; width: 340px; height: 578px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=4149648346/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+    seamless><a href="https://yourhandswritehistory.bandcamp.com/album/luna">LUNA by Your Hands Write
+      History</a></iframe>
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Your Hands Write History',
+        formed: '2013',
+        status: 'Active',
+        genre: 'Progressive Metalcore',
+        label: 'Independent',
+        origin: 'USA',
+        img: 'dist/img/metalcore/yhwh.webp',
+        img2: 'dist/img/metalcore/yhwh1.webp',
+        members: [{ name: 'Taylor Bates', instrument: ' Vocals' }, { name: 'Morgan Hoehne', instrument: 'Guitar' },
+        { name: 'Jobe Fredericksen', instrument: 'Bass' },
+        { name: 'Dallas Vallee', instrument: 'Drums' },
+
+        ],
+
+        discography: [{ album: 'Rest/Eternal ', type_year: 'EP - 2015', },
+        { album: 'The Pentateuch(Redux)', type_year: 'EP - 2017' },
+        { album: 'LUNA', type_year: 'EP - 2017' },
+        { album: 'TERRA', type_year: 'EP - 2019' }
+        ],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>
