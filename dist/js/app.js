@@ -6,36 +6,43 @@ data: {
       currentFilter: 'ALL',
       category: '',
       projectList: [
-       {
+         {
             title: 'Ænon', 
             link: './aenon.html', 
             img: 'dist/img/metalcore/aenon-logo.webp',
             category: 'METALCORE'
-       },
+        },
           {
             title:'Afterimage', 
             link:'./afterimage.html', 
             img: 'dist/img/deathmetal/afterimage-logo.webp',
-             category: 'DEATH METAL'
-        },
+            category: 'DEATH METAL'
+         },
+         {
+            title:'Ascendant',
+            link: './ascendant.html',
+            img:'dist/img/deathmetal/ascendant1.jpg',
+            category:'DEATH METAL'
+
+           },
           {
             title:'Âstillian', 
             link:'./astillian.html', 
-              img:'dist/img/deathmetal/astillian-logo.webp',
-              category:'DEATH METAL'
+            img:'dist/img/deathmetal/astillian-logo.webp',
+            category:'DEATH METAL'
           },
           {
             title:'Arthure', 
             link:'./arthure.html',  
-              img:'dist/img/deathmetal/arthure.webp',
-              category:'DEATH METAL'
+            img:'dist/img/deathmetal/arthure.webp',
+            category:'DEATH METAL'
           },
-          {
+          /*{
             title:'Ben Dixon', 
             link:'./ben-dixon.html', 
             img:'dist/img/metalcore/ben-dixon.webp',
             category:'METALCORE'
-        },
+        },*/
         {
           title:'Be Not Betrayed', 
           link:'./be-not-betrayed.html', 
@@ -43,10 +50,10 @@ data: {
           category:'BLACK METAL'
         },
         {
-        title:'Bismoth', 
-        link:'./bismoth.html', 
-        img:'dist/img/blackmetal/bismothlogo.jpg',
-        category:'BLACK METAL'
+          title:'Bismoth', 
+          link:'./bismoth.html', 
+          img:'dist/img/blackmetal/bismothlogo.jpg',
+          category:'BLACK METAL'
          }, 
         {
             title: 'Bloodlines', 
@@ -157,6 +164,13 @@ data: {
             category:'DEATHCORE'
           },
           {
+            title: 'Separatist', 
+            link:'./separatist.html', 
+            img:'dist/img/deathmetal/separatist1.jpg',
+            category:'DEATH METAL'
+
+          },
+          {
             title: 'Shamash', 
             link:'./shamash.html', 
             img:'dist/img/deathmetal/shamash1.webp',
@@ -186,25 +200,20 @@ data: {
             img:'dist/img/deathmetal/theweepinggatelogo.jpg',
             category:'DEATH METAL'
           },
+         { title: 'Throne of Awful Splendor',
+            link:'./throne-of-awful-splendor.html',
+            img:'dist/img/deathmetal/toas.jpg',
+            category:'DEATH METAL'
+          },
           {
             title: 'Your Hands Write History', 
             link:'./yhwh.html', 
             img:'dist/img/metalcore/yhwh.webp',
             category:'METALCORE'
           },
-          {
-            title: 'Separatist', 
-            link:'./separatist.html', 
-            img:'dist/img/deathmetal/separatist.jpg',
-            category:'DEATH METAL'
-
-          },
-          {
-            title: 'Throne of Awful Splendor',
-            link:'./throne-of-awful-splendor.html',
-            img:'dist/img/deathmetal/toas.jpg',
-            category:'DEATH METAL'
-          }
+          
+          
+            
          
       ], 
   },
