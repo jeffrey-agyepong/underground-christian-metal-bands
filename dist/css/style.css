@@ -42,10 +42,13 @@ p {
   font-family: Fjalla;
 }
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
+.home {
+  width: 90%;
+}
 nav {
   background: #383838;
   font-family: 'Metal Mania', 'Fjalla';
