@@ -208,6 +208,15 @@ table {
 .span {
   padding: 10px;
 }
+
+.footer_links {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  width: 100%;
+  bottom: 0;
+}
+
 /*Tablet*/
 @media (min-width: 36rem) {
   .grid-container {
@@ -247,5 +256,8 @@ table {
   .flex-page {
     width: 400px !important;
     height: 400px !important;
+  }
+  .footer_links {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

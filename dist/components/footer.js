@@ -32,8 +32,13 @@ this.innerHTML =`
 </div>
 <div class="footer-copyright left-align">
   <div class="container">
-  © 2021 Beyond The Grave
-  <a class="grey-text text-lighten-4 right" href="#!">Concise Web Designs</a>
+  <div class="footer_links">
+  <span class="grey-text text-lighten-4 center-align" > © 2021 Beyond The Grave</span>
+   
+   <a class="grey-text text-lighten-4 center-align" href="https://beyondthegravemusic.com/privacy-policy.html">Privacy Policy</a>
+   <a class="grey-text text-lighten-4 center" href="https://cwd.beyondthegravemusic.com/">Concise Web Designs</a>
+   
+   </div>
   </div>
 </div>
 </footer>`
