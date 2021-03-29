@@ -25,8 +25,6 @@ this.innerHTML = `
         </ul>
 
         <ul id="nav-mobile" class="sidenav black center">
-          <a href="https://beyondthegravemusic.com">BEYOND THE GRAVE</a>
-        
           <li><a href="index.html" class="white-text">Introducing</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Interviews/" class="white-text">Interviews</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Album-Reviews/" class="white-text">Reviews</a></li>

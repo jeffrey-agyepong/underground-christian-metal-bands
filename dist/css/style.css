@@ -42,13 +42,13 @@ p {
   font-family: Fjalla;
 }
 .container {
-  width: 100%;
+  width: 90%;
 }
 
 nav {
   background: #383838;
   font-family: 'Metal Mania', 'Fjalla';
-  font-size: 20px;
+  font-size: 1.55rem;
 }
 
 nav .sidenav-trigger {
@@ -223,7 +223,7 @@ table {
     margin: 0 auto;
   }
   nav {
-    font-size: 25px;
+    font-size: ‭1.5625‬rem;
   }
   .member-container {
     margin-left: 1px;
