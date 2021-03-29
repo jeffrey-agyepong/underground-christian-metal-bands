@@ -19,7 +19,7 @@ this.innerHTML = `
           <li><a href="https://www.beyondthegravemusic.com/tag/News/">News</a></li>
           <li><a href="https://www.beyondthegravemusic.com/submit/">Submit</a></li>
           <li><a href="https://www.beyondthegravemusic.com/about/">About</a></li>
-         
+          <li><a href="https://www.hire.beyondthegravemusic.com">Hire</a></li>
          
 
         </ul>
@@ -31,6 +31,7 @@ this.innerHTML = `
           <li><a href="https://www.beyondthegravemusic.com/tag/News/" class="white-text">News</a></li>    
           <li><a href="https://www.beyondthegravemusic.com/submit/" class="white-text">Submit</a></li>
           <li><a href="https://www.beyondthegravemusic.com/about/" class="white-text">About</a></li>
+          <li><a href="https://www.hire.beyondthegravemusic.com" class="white-text">Hire</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger header_toggle">
           <span></span>
