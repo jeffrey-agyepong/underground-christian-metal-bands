@@ -13,7 +13,7 @@ this.innerHTML = `
         <a href="https://beyondthegravemusic.com">BEYOND THE GRAVE</a>
 
         <ul class="right hide-on-med-and-down">
-          <li> <a href="index.html">Introducing</a></li>
+          <li> <a href="index.html">Bands</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Interviews/">Interviews</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Album-Reviews/">Reviews</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/News/">News</a></li>
@@ -25,7 +25,7 @@ this.innerHTML = `
         </ul>
 
         <ul id="nav-mobile" class="sidenav black center">
-          <li><a href="index.html" class="white-text">Introducing</a></li>
+          <li><a href="index.html" class="white-text">Bands</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Interviews/" class="white-text">Interviews</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Album-Reviews/" class="white-text">Reviews</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/News/" class="white-text">News</a></li>    
