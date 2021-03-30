@@ -160,7 +160,13 @@ data: {
           {
             title: 'Roots of Tragedy', 
             link:'./roots-of-tragedy.html', 
-            img:'dist/img/deathmetal/roots-of-tragedy.webp',
+            img:'dist/img/extreme-metal/roots-of-tragedy.webp',
+            category:'EXTREME METAL'
+          },
+          {
+            title:'Scarlet Oath',
+            link:'./scarlet-oath.html',
+            img:'dist/img/extreme-metal/scarlet-oat1.jpg',
             category:'EXTREME METAL'
           },
           {
