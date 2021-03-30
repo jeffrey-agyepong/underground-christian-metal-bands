@@ -44,6 +44,12 @@ data: {
             category:'METALCORE'
         },*/
         {
+          title:'The Beckoning',
+          link:'./the-beckoning.html',
+          img:'dist/img/extreme-metal/thebeckoning-logo.jpg',
+          category:'EXTREME METAL'
+        },
+        {
           title:'Be Not Betrayed', 
           link:'./be-not-betrayed.html', 
           img:'dist/img/blackmetal/be-not-betrayed.jpg',
