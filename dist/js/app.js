@@ -161,7 +161,7 @@ data: {
             title: 'Roots of Tragedy', 
             link:'./roots-of-tragedy.html', 
             img:'dist/img/deathmetal/roots-of-tragedy.webp',
-            category:'DEATH METAL'
+            category:'EXTREME METAL'
           },
           {
             title: 'Searching Serenity', 
