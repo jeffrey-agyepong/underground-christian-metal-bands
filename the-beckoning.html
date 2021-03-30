@@ -38,34 +38,28 @@
   <header-component></header-component>
 
   <vue-app-component></vue-app-component>
-  <div class="bg">
-    <div class="container">
-      <h3 class="white-text center">BIO:</h3>
-      <p class="white-text">
 
-      </p>
-
-    </div>
-  </div>
-  <div class="bg">
+  <div class="bg" style="width: 50%;">
     <div class="container">
       <h4>Links</h4>
       <div class="social-container">
-        <a href="" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
-
-        <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
-
-        <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a></li>
-        <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
-        <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        <a href="https://www.facebook.com/thebeckoningband" target="_blank"><i
+            class="fab fa-facebook fa-3x white-text"></i></a>
+        <a href="https://thebeckoning.bandcamp.com/music" target="_blank"><i
+            class="fab fa-bandcamp fa-3x white-text"></i></a>
       </div>
     </div>
   </div>
 
+  <iframe style="border: 0; width: 340px; height: 460px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=186801877/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+    seamless><a href="https://thebeckoning.bandcamp.com/album/the-desolation-of-war">The Desolation Of War by The
+      Beckoning</a></iframe>
 
-  <iframe style="border: 0; width: 340px; height: 776px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=320554125/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/"
-    seamless></iframe>
+  <iframe style="border: 0; width: 340px; height: 432px;"
+    src="https://bandcamp.com/EmbeddedPlayer/track=330528067/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+    seamless><a href="https://thebeckoning.bandcamp.com/track/symphony-of-the-apocalypse">Symphony Of The Apocalypse by
+      The Beckoning</a></iframe>
 
 
   <script>
@@ -82,12 +76,18 @@
         img2: 'dist/img/extreme-metal/thebeckoning-logo.jpg',
         members: [
           { name: 'Roy Turple', instrument: 'Vocals (lead), Drums' },
-          { name: ' ', instrument: 'Keyboards, Piano, Vocals' },
+          { name: 'Meghann Turple', instrument: 'Keyboards, Piano, Vocals' },
           { name: 'Eldon Loewen', instrument: '	Guitars, Bass' },
 
         ],
 
-        discography: [{ album: '', type_year: '', }, { album: '', type_year: '', }],
+        discography: [
+          { album: 'Bloodlet', type_year: 'Demo - 2010', },
+          { album: 'Demystifying the Oracle', type_year: 'Album - 2011', },
+          { album: 'War', type_year: 'EP - 2012', },
+          { album: 'Desolate', type_year: 'EP - 2014', },
+          { album: 'The Desolation of War', type_year: 'EP - 2017', },
+          { album: 'Symphony of the Apocalypse', type_year: 'Single - 2018', }],
 
       },
       methods: {
