@@ -11,9 +11,7 @@ this.innerHTML =`
   <div class="row">
     <div class="col l6 s12">
       <h5 class="white-text center">Consider Supporting Us</h5>
-      <p class="grey-text text-lighten-4 center"> <a href="https://www.buymeacoffee.com/beyondthegrave" target="_blank"><img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"
-      style="height: 60px !important;width: 217px !important;"></a></p>    
+      <p class="grey-text text-lighten-4 center"><a href='https://ko-fi.com/I2I544E9M' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></p>    
     </div>
     <div class="col l4 offset-l2 s12">
     <h5 class="white-text center-align">Connect With Us</h5>

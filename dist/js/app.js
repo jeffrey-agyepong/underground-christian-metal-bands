@@ -56,6 +56,12 @@ data: {
           category:'BLACK METAL'
         },
         {
+          title:'Ben Baruk',
+          link:'./ben-baruk.html',
+          img:'dist/img/metal/ben-baruk-logo.webp',
+          category:'METAL'
+        },
+        {
           title:'Bismoth', 
           link:'./bismoth.html', 
           img:'dist/img/blackmetal/bismothlogo.jpg',
@@ -66,6 +72,12 @@ data: {
             link:'./bloodlines.html', 
             img:'dist/img/metalcore/bloodlines.webp',
             category:'METALCORE'
+        },
+        {
+          title:'Bloodline Severed',
+          link:'./bloodline-severed.html',
+          img: 'dist/img/deathcore/bloodline-severed.jpg',
+          category:'DEATHCORE'
         },
         {
             title: 'Blue Fire Horizon', 
@@ -131,6 +143,12 @@ data: {
           title: 'Hashem', 
           link:'./hashem.html', 
           img:'dist/img/deathmetal/hashemlogo.jpg',
+          category:'DEATH METAL'
+        },
+        {
+          title:'Grave Decay',
+          link:'./grave-decay.html',
+          img:'dist/img/deathmetal/grave-decay.webp',
           category:'DEATH METAL'
         },
         {
@@ -207,14 +225,20 @@ data: {
             category:'METALCORE'
           },
           {
-            title: 'The Weeping Gate', 
-            link:'./the-weeping-gate.html', 
-            img:'dist/img/deathmetal/theweepinggatelogo.jpg',
+            title:'Theoptia',
+            link:'.theoptia.html',
+            img:'dist/img/deathmetal/theoptia1.webp',
             category:'DEATH METAL'
           },
          { title: 'Throne of Awful Splendor',
             link:'./throne-of-awful-splendor.html',
             img:'dist/img/deathmetal/toas.jpg',
+            category:'DEATH METAL'
+          },
+          {
+            title: 'The Weeping Gate', 
+            link:'./the-weeping-gate.html', 
+            img:'dist/img/deathmetal/theweepinggatelogo.jpg',
             category:'DEATH METAL'
           },
           {
