@@ -242,6 +242,18 @@ data: {
             category:'DEATH METAL'
           },
           {
+            title:'TIMŌRĀTUS',
+            link:'./timoratus.html',
+            img:'dist/img/metal/timoratus1.jpg',
+            category:'METAL',
+          },
+          {
+            title:'Windvent',
+            link:'./windvent.html',
+            img:'dist/img/hardcore/windvent.jpg',
+            category:'HARDCORE',
+          },
+          {
             title: 'Your Hands Write History', 
             link:'./yhwh.html', 
             img:'dist/img/metalcore/yhwh.webp',
