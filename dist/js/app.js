@@ -66,7 +66,13 @@ data: {
           link:'./bismoth.html', 
           img:'dist/img/blackmetal/bismothlogo.jpg',
           category:'BLACK METAL'
-         }, 
+         },
+         {
+           title:'Blood Thirsty',
+           link:'./blood-thirsty.html',
+           img:'dist/img/deathmetal/bloodthirsty.webp',
+           category:'DEATH METAL'
+         },
         {
             title: 'Bloodlines', 
             link:'./bloodlines.html', 
@@ -140,16 +146,22 @@ data: {
             category:'DEATHCORE'
         },
         {
+          title:'Grave Decay',
+          link:'./grave-decay.html',
+          img:'dist/img/deathmetal/grave-decay.webp',
+          category:'DEATH METAL'
+        },
+        {
           title: 'Hashem', 
           link:'./hashem.html', 
           img:'dist/img/deathmetal/hashemlogo.jpg',
           category:'DEATH METAL'
         },
         {
-          title:'Grave Decay',
-          link:'./grave-decay.html',
-          img:'dist/img/deathmetal/grave-decay.webp',
-          category:'DEATH METAL'
+          title:'Irgalom',
+          link:'./irgalom.html',
+          img:'dist/img/extreme-metal/irgalom.webp',
+          category:'EXTREME METAL'
         },
         {
           title: 'His Kingdom Suffers', 
