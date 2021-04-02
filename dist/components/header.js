@@ -15,7 +15,7 @@ this.innerHTML = `
         <ul class="right hide-on-med-and-down">
           <li> <a href="index.html">Bands</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Interviews/">Interviews</a></li>
-          <li><a href="https://www.beyondthegravemusic.com/tag/Album-Reviews/">Reviews</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/tag/Reviews/">Reviews</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/News/">News</a></li>
           <li><a href="https://www.beyondthegravemusic.com/submit/">Submit</a></li>
           <li><a href="https://www.beyondthegravemusic.com/about/">About</a></li>
@@ -27,7 +27,7 @@ this.innerHTML = `
         <ul id="nav-mobile" class="sidenav black center">
           <li><a href="index.html" class="white-text">Bands</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Interviews/" class="white-text">Interviews</a></li>
-          <li><a href="https://www.beyondthegravemusic.com/tag/Album-Reviews/" class="white-text">Reviews</a></li>
+          <li><a href="https://www.beyondthegravemusic.com/tag/Reviews/" class="white-text">Reviews</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/News/" class="white-text">News</a></li>    
           <li><a href="https://www.beyondthegravemusic.com/submit/" class="white-text">Submit</a></li>
           <li><a href="https://www.beyondthegravemusic.com/about/" class="white-text">About</a></li>
