@@ -56,7 +56,7 @@ this.innerHTML =  `
                  <td class="white-text">
                    <h5 style="visibility:hidden;">instrument</h5>
                    <ul>
-                     <li v-for="member in members">
+                     <li v-for="member in members" class="pad">
                        {{member.instrument}}
 
                      </li>
@@ -68,7 +68,7 @@ this.innerHTML =  `
                  <td class="white-text">
                    <h5>Discography:</h5>
                    <ul>
-                     <li v-for="discography in discography">
+                     <li v-for="discography in discography" class="pad">
                        {{discography.album}}
 
                      </li>
@@ -77,7 +77,7 @@ this.innerHTML =  `
                  <td class="white-text">
                    <h5 style="visibility:hidden;">Type</h5>
                    <ul>
-                     <li v-for="discography in discography">
+                     <li v-for="discography in discography" class="pad">
                        {{discography.type_year}}
                      </li>
                    </ul>

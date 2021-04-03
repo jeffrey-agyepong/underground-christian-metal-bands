@@ -145,9 +145,10 @@ figcaption {
   width: 36rem; /*500px*/
 }
 
-li {
-  padding: 10px 0px 10px 0;
+.pad {
+  padding: 22px 0px 10px 0;
 }
+
 .content {
   background: black;
   border-radius: 60px;
@@ -261,6 +262,9 @@ table {
   }
   td {
     width: 100px;
+  }
+  .pad {
+    padding: 40px 0px 10px 0;
   }
   .flex-page {
     width: 400px !important;
