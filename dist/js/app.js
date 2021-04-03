@@ -113,7 +113,7 @@ data: {
             title:  'Cruentis', 
             link:'./cruentis.html', 
             img:'dist/img/deathmetal/cruentis.jpg',
-            category:'DEATHMETAL'
+            category:'DEATH METAL'
         },
         {
             title:  'Diathekeke', 
@@ -156,6 +156,12 @@ data: {
           link:'./hashem.html', 
           img:'dist/img/deathmetal/hashemlogo.jpg',
           category:'DEATH METAL'
+        },
+        {
+          title:'HARD LOOK',
+          link:'./hard-look.html',
+          img:'',
+          category:'METALCORE'
         },
         {
           title:'Irgalom',
