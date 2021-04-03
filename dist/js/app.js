@@ -157,12 +157,12 @@ data: {
           img:'dist/img/deathmetal/hashemlogo.jpg',
           category:'DEATH METAL'
         },
-        /*{
+        {
           title:'HARD LOOK',
           link:'./hard-look.html',
-          img:'',
+          img:'dist/img/metalcore/hardlook.webp',
           category:'METALCORE'
-        },*/
+        },
         {
           title:'Irgalom',
           link:'./irgalom.html',
