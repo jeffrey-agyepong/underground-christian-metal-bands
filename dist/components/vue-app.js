@@ -48,7 +48,7 @@ this.innerHTML =  `
                  <td class="white-text">
                    <h5>Members:</h5>
                    <ul>
-                     <li v-for="member in members">
+                     <li v-for="member in members" class="pad">
                        {{member.name}}
                      </li>
                    </ul>
