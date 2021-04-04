@@ -244,7 +244,7 @@ data: {
           },
           {
             title:'Theoptia',
-            link:'.theoptia.html',
+            link:'./theoptia.html',
             img:'dist/img/deathmetal/theoptia1.webp',
             category:'DEATH METAL'
           },
