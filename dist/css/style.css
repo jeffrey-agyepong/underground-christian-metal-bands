@@ -153,6 +153,8 @@ figcaption {
   background: black;
   border-radius: 60px;
   min-width: 350px;
+  border: outset;
+  border-color: #ddd;
 }
 table {
   font-size: 0.78rem;
