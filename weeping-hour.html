@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Progresive Metalcore">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="Weeping Hour, They Will Fall, Christian Metal, Christian Metalcore, Metal, Metalcore, Progressive Metal, Progresive Metalcore,  Band, Christian, Music">
+  <meta property="og:image" content="dist/img/metalcore/weeping-hour.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZS6YGXB40V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZS6YGXB40V');
+  </script>
+
+  <title>Weeping Hour | Beyond The Grave</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <div class="bg">
+      <h3 class="white-text center">BIO:</h3>
+      <p class="white-text">
+        A culmination of They Will Fall and Courier, Weeping Hour brings to the table a dark, yet elegant take on
+        progressive metalcore, blending thick, grooving riffs with orchestral interludes that support the harsh and
+        poetic lyrical content.
+        Weeping Hour finds its roots in Monroe, Louisiana, where its members served as cornerstones to the vibrant
+        underground music scene. True DIY champions, Weeping Hour have spent vital years reviving, building, and
+        cultivating the music culture they wished to see in their hometown and beyond.
+        The band self-released their debut album, Hunger & Thirst, June 27, reaching No. 10 on the iTunes metal charts
+        within the first week, as well as 15,000 streams.
+        <br>
+        The themes and cinematic influences that drive the record from
+        song to song bring the listener through a journey of acknowledging suffering for the sake of healing; a journey
+        through death for the sake of life.
+        "We don’t say 'woe to those at ease' because we are living lives of selflessness and sacrifice and hope people
+        follow in our footsteps," said lead vocalist, Ethan Prudhomme. "No, we proclaim that line as those who are
+        slaves to comfort and ease ourselves, which keeps us from living the life Christ lived; one of suffering, cost,
+        and yet an ultimate joy.
+      </p>
+
+    </div>
+
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="http://www.weepinghour.com/" target="_blank"><i class="fas fa-globe fa-3x white-text"></i></a>
+          <a href="https://www.facebook.com/WeepingHour/" target="_blank"><i
+              class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="https://open.spotify.com/artist/5F3ahzwE2sQlaUMQDPvZsD?si=E8-q05N-ShCXzUnWZb78ng" target="_blank"><i
+              class="fab fa-spotify fa-3x white-text"></i></a>
+
+          <a href="https://youtube.com/channel/UC3xxBLgsXWpoXOt8KM49hIA" target="_blank"><i
+              class="fab fa-youtube fa-3x white-text"></i></a></li>
+          <a href="https://www.amazon.com/gp/search/?ie=UTF8&tag=spiofmetweb-20&keywords=Weeping%20Hour"
+            target="_blank"><i class="fab fa-amazon fa-3x white-text"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe src="https://open.spotify.com/embed/album/70KhF7RgqhbwAMuhYavUju" width="300" height="380" frameborder="0"
+    allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Weeping Hour',
+        formed: '2018',
+        status: 'Active',
+        genre: 'Progressive Metalcore',
+        label: 'Independent',
+        origin: 'USA',
+        img: 'dist/img/metalcore/weeping-hour1.jpg',
+        img2: 'dist/img/metalcore/weeping-hour.webp',
+        members: [{ name: 'Ethan Prudhomme', instrument: 'Vocals' },
+        { name: 'Corey McKnight', instrument: 'Guitar' },
+        { name: 'McCall Metz', instrument: 'Guitar' },
+        { name: 'Hunter McBride', instrument: 'Bass' },
+        { name: 'Chris Shifflett', instrument: 'Drums' },
+
+        ],
+
+        discography: [
+          { album: 'Outlier', type_year: 'Single - 2018' },
+          { album: 'Foreign Flame', type_year: 'Single - 2019' },
+          { album: 'Hunger & Thirst', type_year: 'Album - 2019', },
+          { album: 'Hunger & Thirst(Deluxe Edition)', type_year: 'Album - 2020', }],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

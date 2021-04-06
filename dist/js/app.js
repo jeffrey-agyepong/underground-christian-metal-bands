@@ -254,16 +254,22 @@ data: {
             category:'DEATH METAL'
           },
           {
+            title:'TIMŌRĀTUS',
+            link:'./timoratus.html',
+            img:'dist/img/metal/timoratus1.jpg',
+            category:'METAL',
+          },
+          {
             title: 'The Weeping Gate', 
             link:'./the-weeping-gate.html', 
             img:'dist/img/deathmetal/theweepinggatelogo.jpg',
             category:'DEATH METAL'
           },
           {
-            title:'TIMŌRĀTUS',
-            link:'./timoratus.html',
-            img:'dist/img/metal/timoratus1.jpg',
-            category:'METAL',
+            title:'Weeping Hour',
+            link:'./weeping-hour.html',
+            img:'dist/img/metalcore/weeping-hour.webp',
+            category:'METALCORE'
           },
           {
             title:'Windvent',
