@@ -25,23 +25,23 @@ this.innerHTML =  `
            <table class="info">
              <tbody>
                <tr>
-                 <td class="white-text center">Formed</td>
+                 <td class="white-text">Formed</td>
                  <td class="white-text">{{ formed }}</td>
                </tr>
                <tr>
-                 <td class="white-text center">Status</td>
+                 <td class="white-text">Status</td>
                  <td class="white-text">{{ status }}</td>
                </tr>
                <tr>
-                 <td class="white-text center">Genre</td>
+                 <td class="white-text">Genre</td>
                  <td class="white-text">{{ genre }}</td>
                </tr>
                <tr>
-                 <td class="white-text center">Record Label</td>
+                 <td class="white-text">Record Label</td>
                  <td class="white-text">{{ label }}</td>
                </tr>
                <tr>
-                 <td class="white-text center">Origin</td>
+                 <td class="white-text">Origin</td>
                  <td class="white-text">{{ origin }}</td>
                </tr>
                <tr>
