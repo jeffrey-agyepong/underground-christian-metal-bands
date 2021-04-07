@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Deathcore">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="Eyes of the Defiled, Christian Metal, Christian Deathcore, Deathcore, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/deathcore/eyes-of-the-defiled.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZS6YGXB40V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZS6YGXB40V');
+  </script>
+
+  <title>Eyes of the Defiled | Beyond The Grave</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+
+
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://www.facebook.com/EyesOfTheDefiled" target="_blank"><i
+              class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="https://open.spotify.com/artist/68MuTTYp3h2zriW0Upqk0W?si=g4XwkUcCQ6S4-GhIJgg8uQ" target="_blank"><i
+              class="fab fa-spotify fa-3x white-text"></i></a>
+
+          <a href="https://music.apple.com/ca/artist/eyes-of-the-defiled/1087152220" target="_blank"><i
+              class="fab fa-itunes fa-3x white-text"></i></a>
+          <a href="https://visionofgodrecords.bandcamp.com/album/distant-tellings" target="_blank"><i
+              class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe style="border: 0; width: 340px; height: 460px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=1773733529/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+    seamless><a href="https://puredeathcoretv.bandcamp.com/album/enslaved-in-exile-2">Enslaved In Exile by Eyes Of The
+      Defiled</a></iframe>
+
+  <iframe style="border: 0; width: 340px; height: 460px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=2647494129/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+    seamless><a href="https://visionofgodrecords.bandcamp.com/album/distant-tellings">Distant Tellings by Eyes Of The
+      Defiled</a></iframe>
+
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Eyes of the Defiled',
+        formed: '2011',
+        status: 'Hiatus',
+        genre: 'Deathcore',
+        label: 'Vision of God Records',
+        origin: 'USA',
+        img: 'dist/img/deathcore/eyes-of-the-defiled1.webp',
+        img2: 'dist/img/deathcore/eyes-of-the-defiled.webp',
+        members: [{ name: 'Brad Kraus', instrument: 'Vocals' },
+        { name: 'Chris Sully Rowe', instrument: 'Vocals, Guitar' },
+        { name: 'Daric Evans', instrument: 'Bass' },
+        { name: 'Cody Bradshaw', instrument: 'Drums' },
+
+        ],
+
+        discography: [{ album: 'Underneath The Flesh', type_year: 'EP', },
+        { album: 'Derived From Misery', type_year: 'EP - 2012', },
+        { album: 'Enslaved in Exile', type_year: 'Album - 2014', },
+        { album: 'Last Words', type_year: 'Single - 2015', },
+        { album: 'Distant Tellings', type_year: 'Album - 2016', }
+        ],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

@@ -146,6 +146,12 @@ data: {
             category:'DEATHCORE'
         },
         {
+          title:'Eyes of the Defiled',
+          link:'./eyes-of-defiled.html',
+          img:'dist/img/deathcore/eyes-of-the-defiled.webp',
+          category:'DEATHCORE'
+        },
+        {
           title:'Grave Decay',
           link:'./grave-decay.html',
           img:'dist/img/deathmetal/grave-decay.webp',
