@@ -225,6 +225,12 @@ table {
   bottom: 0;
 }
 
+@media (min-width: 35.5rem) {
+  .info {
+    margin-left: 25px !important;
+  }
+}
+
 /*Tablet*/
 @media (min-width: 36rem) {
   .grid-container {
