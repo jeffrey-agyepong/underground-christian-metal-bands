@@ -229,13 +229,13 @@ data: {
             link:'./afterimage.html', 
             img:'dist/img/deathmetal/hashem.webp',
             category:'DEATH METAL'
-          },*/
+          },
           {
             title: 'Silence The Assembly',
             link:'./silence-the-assembly.html',
             img:'dist/img/metalcore/silence-the-assembly.webp',
             category:'METALCORE'
-          },
+          },*/
           {
             title: 'Symphony of Heaven', 
             link:'./symphony-of-heaven.html', 
