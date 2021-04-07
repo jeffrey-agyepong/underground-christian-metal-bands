@@ -188,6 +188,12 @@ data: {
             category:'METAL'
         },
         {
+          title:'Krig',
+          link:'./krig.html',
+          img:'dist/img/deathmetal/krig1.webp',
+          category:'DEATH METAL'
+        },
+        {
             title: 'Oh, The Depth', 
             link:'./ohthedepth.html', 
             img:'dist/img/deathcore/oh-the-depth.webp',
@@ -263,7 +269,7 @@ data: {
             title:'TIMŌRĀTUS',
             link:'./timoratus.html',
             img:'dist/img/metal/timoratus1.jpg',
-            category:'METAL',
+            category:'EXTREME METAL',
           },
           {
             title: 'The Weeping Gate', 
