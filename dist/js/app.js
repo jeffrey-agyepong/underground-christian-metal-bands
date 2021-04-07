@@ -142,7 +142,7 @@ data: {
         {
             title: 'Every Knee Shall Bow', 
             link:'./eksb.html', 
-            img:'dist/img/deathmetal/eksb.webp',
+            img:'dist/img/deathcore/eksb.webp',
             category:'DEATHCORE'
         },
         {
@@ -208,7 +208,7 @@ data: {
           {
             title: 'Searching Serenity', 
             link:'./searching-serenity.html', 
-            img:'dist/img/deathcore/searchingserenity.jpg',
+            img:'dist/img/deathcore/searchingserenity1.webp',
             category:'DEATHCORE'
           },
           {
@@ -230,6 +230,12 @@ data: {
             img:'dist/img/deathmetal/hashem.webp',
             category:'DEATH METAL'
           },*/
+          {
+            title: 'Silence The Assembly',
+            link:'./silence-the-assembly.html',
+            img:'dist/img/metalcore/silence-the-assembly.webp',
+            category:'METALCORE'
+          },
           {
             title: 'Symphony of Heaven', 
             link:'./symphony-of-heaven.html', 
