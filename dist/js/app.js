@@ -115,6 +115,12 @@ data: {
             img:'dist/img/deathmetal/cruentis.jpg',
             category:'DEATH METAL'
         },
+        /*{
+          title:'Diamonds to Dust',
+          link:'./diamonds-to-dust.html',
+          img:'dist/img/deathcore/diamonds-to-dust.webp',
+          category:'DEATHCORE'
+        },*/
         {
             title:  'Diathekeke', 
             link:'./diatheke.html',  
@@ -204,6 +210,12 @@ data: {
             link:'./ohthedepth.html', 
             img:'dist/img/deathcore/oh-the-depth.webp',
             category:'DEATHCORE'
+        },
+        {
+          title:'Parallax Withering',
+          link:'./parallax-withering.html',
+          img:'dist/img/deathcore/parallax-withering.jpg',
+          category:'DEATHCORE'
         },
           {
             title: 'Roots of Tragedy', 
