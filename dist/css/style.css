@@ -161,7 +161,9 @@ table {
   font-family: 'Oswald';
   text-align: left;
 }
-
+.mg-t {
+  margin-top: 15px;
+}
 .vw {
   margin: 0 auto;
   width: 50%;
