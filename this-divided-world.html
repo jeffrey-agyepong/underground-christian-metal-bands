@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Deathcore">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="This Divided World, Christian Metal, Metal, Deathcore, Christian Deathcore, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/deathcore/this-divided-world-logo.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>This Divided World | Beyond The Grave</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+
+
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="http://www.facebook.com/ThisDividedWorld" target="_blank"><i
+              class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="https://open.spotify.com/artist/4Ns9W5DKBsJ8L8pE2iPofV?si=ioKuSS7FTU2ASv_A8pbz-A" target="_blank"><i
+              class="fab fa-spotify fa-3x white-text"></i></a>
+
+          <a href="http://www.youtube.com/ThisDividedWorld" target="_blank"><i
+              class="fab fa-youtube fa-3x white-text"></i></a></li>
+          <a href="https://music.apple.com/ca/artist/this-divided-world/1157437313" target="_blank"><i
+              class="fab fa-itunes fa-3x white-text"></i></a>
+          <a href="https://thisdividedworld.bandcamp.com" target="_blank"><i
+              class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <iframe style="border: 0; width: 340px; height: 460px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=3457024738/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+    seamless><a href="https://thisdividedworld.bandcamp.com/album/when-darkness-reigns">When Darkness Reigns by This
+      Divided World</a></iframe>
+
+
+
+  <iframe style="border: 0; width: 340px; height: 460px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=3721159932/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+    seamless><a href="https://thisdividedworld.bandcamp.com/album/the-missing-pages">The Missing Pages by This Divided
+      World</a></iframe>
+
+  <iframe style="border: 0; width: 350px; height: 442px;"
+    src="https://bandcamp.com/EmbeddedPlayer/track=1593137590/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+    seamless><a href="https://thisdividedworld.bandcamp.com/track/in-the-garden-of-gethsemane">In The Garden Of
+      Gethsemane by This Divided World</a></iframe>
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'This Divided World',
+        formed: '2010',
+        status: 'Active',
+        genre: 'Deathcore',
+        label: 'Vision of God Records',
+        origin: 'USA',
+        img: 'dist/img/deathcore/this-divided-world.webp',
+        img2: 'dist/img/deathcore/this-divided-world-logo.webp',
+        members: [
+          { name: 'Micah Brill', instrument: 'Guitar, Bass, Drums, Programming' },
+        ],
+
+        discography: [
+          { album: 'Demo', type_year: 'Demo - 2010', },
+          { album: 'When Darkness Reigns', type_year: 'Album - 2012', },
+          { album: 'Missing Pages', type_year: 'EP - 2013', },
+          { album: 'Curbstomp the Devil (8​-​bit Remix)', type_year: 'Single - 2014', },
+          { album: 'Truth Vs. Circumstance', type_year: 'Single - 2018', },
+          { album: 'In The Garden Of Gethsemane', type_year: 'Single - 2019', },
+
+        ],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

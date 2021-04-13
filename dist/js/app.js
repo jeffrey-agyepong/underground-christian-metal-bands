@@ -115,6 +115,12 @@ data: {
             img:'dist/img/deathmetal/cruentis.jpg',
             category:'DEATH METAL'
         },
+        {
+          title: 'The Death In Me',
+          link: './the-death-in-me.html',
+          img:'dist/img/hardcore/the-death-in-me-logo.webp',
+          category:'HARDCORE'
+        },
         /*{
           title:'Diamonds to Dust',
           link:'./diamonds-to-dust.html',
@@ -277,6 +283,12 @@ data: {
             link:'./theoptia.html',
             img:'dist/img/deathmetal/theoptia1.webp',
             category:'DEATH METAL'
+          },
+          {
+            title:'This Divided World',
+            link:'./this-divided-world.html',
+            img:'dist/img/deathcore/this-divided-world-logo.webp',
+            category:'DEATHCORE'
           },
          { title: 'Throne of Awful Splendor',
             link:'./throne-of-awful-splendor.html',
