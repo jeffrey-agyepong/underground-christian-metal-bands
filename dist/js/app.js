@@ -212,6 +212,12 @@ data: {
           category:'DEATH METAL'
         },
         {
+          title:'My Place Was Taken',
+          link:'./my-place-was-taken.html',
+          img:'dist/img/deathcore/my-place-was-taken-logo.webp',
+          category:'DEATHCORE'
+        },
+        {
             title: 'Oh, The Depth', 
             link:'./ohthedepth.html', 
             img:'dist/img/deathcore/oh-the-depth.webp',
