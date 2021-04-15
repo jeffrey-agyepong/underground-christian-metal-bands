@@ -284,12 +284,12 @@ data: {
             img:'dist/img/metalcore/silence-the-assembly.webp',
             category:'METALCORE'
           },
-          {
+          /*{
             title: 'Skald In Veum',
             link:'./skald-in-veum.html',
             img:'dist/img/blackmetal/skaldlogo.webp',
             category:'BLACK METAL'
-          },
+          },*/
           {
             title: 'Symphony of Heaven', 
             link:'./symphony-of-heaven.html', 
