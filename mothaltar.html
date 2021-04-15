@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Progressive Metalcore">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="mothaltar, Christian Progressive Metalcore, Christian Metal, Christian Metalcore, Metal, Metalcore, Progressive Metal, Progresive Metalcore, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/metalcore/mothaltar.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>mothaltar | Beyond The Grave</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <!-- <div class="bg">
+      <h3 class="white-text center">BIO:</h3>
+      <p class="white-text">
+
+      </p>
+
+    </div>-->
+
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://www.flowcode.com/page/mothaltar" target="_blank"><i
+              class="fas fa-globe fa-3x white-text"></i></a>
+          <a href="https://www.facebook.com/mothaltarband/" target="_blank"><i
+              class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="https://instagram.com/mothaltar" target="_blank"><i
+              class="fab fa-instagram fa-3x white-text"></i></a></li>
+
+          <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+
+          <a href="https://music.apple.com/us/artist/mothaltar/1560280518" target="_blank"><i
+              class="fab fa-itunes fa-3x white-text"></i></a>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <iframe src="https://open.spotify.com/embed/album/2OaWURPTY0CAKlz5LdFEdJ" width="300" height="380" frameborder="0"
+    allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'mothaltar',
+        formed: '2020',
+        status: 'Active',
+        genre: 'Progressive Metalcore',
+        label: 'Independent',
+        origin: 'USA',
+        img: 'dist/img/metalcore/mothaltar1.webp',
+        img2: 'dist/img/metalcore/mothaltar.webp',
+        members: [
+          { name: 'Jonathan Franco', instrument: 'Vocals' },
+          { name: 'Kelby Miller', instrument: 'Guitar' },
+          { name: 'Josh Byrams', instrument: 'Bass' },
+          { name: 'Aaron Ashcroft', instrument: 'Drums' },
+
+        ],
+
+        discography: [{ album: 'Prologue', type_year: 'EP - 2021', }],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>
