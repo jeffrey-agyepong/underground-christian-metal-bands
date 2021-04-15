@@ -92,6 +92,12 @@ data: {
             category:'METALCORE'
         },
         {
+          title:'Brotality',
+          link:'./brotality.html',
+          img:'dist/img/metal/brotality1.jpg',
+          category:'METAL'
+        },
+        {
             title: 'Collapse//Revive', 
             link:'./collapse-revive.html', 
             img:'dist/img/metalcore/collapse-revive.webp',
@@ -212,6 +218,12 @@ data: {
           category:'DEATH METAL'
         },
         {
+          title: 'mothaltar',
+          link:'./mothaltar.html',
+          img:'dist/img/metalcore/mothaltar.webp',
+          category:'METALCORE'
+        },
+        {
           title:'My Place Was Taken',
           link:'./my-place-was-taken.html',
           img:'dist/img/deathcore/my-place-was-taken-logo.webp',
@@ -271,6 +283,12 @@ data: {
             link:'./silence-the-assembly.html',
             img:'dist/img/metalcore/silence-the-assembly.webp',
             category:'METALCORE'
+          },
+          {
+            title: 'Skald In Veum',
+            link:'./skald-in-veum.html',
+            img:'dist/img/blackmetal/skaldlogo.webp',
+            category:'BLACK METAL'
           },
           {
             title: 'Symphony of Heaven', 
