@@ -121,6 +121,12 @@ data: {
             img:'dist/img/deathmetal/cruentis.jpg',
             category:'DEATH METAL'
         },
+        /*{
+          title:'daygraves',
+          link:'./daygraves.html',
+          img:'dist/img/blackmetal/dayrgaves.webp',
+          category:'BLACK METAL'
+        },*/
         {
           title: 'The Death In Me',
           link: './the-death-in-me.html',
@@ -168,6 +174,12 @@ data: {
           link:'./eyes-of-defiled.html',
           img:'dist/img/deathcore/eyes-of-the-defiled.webp',
           category:'DEATHCORE'
+        },
+        {
+          title:'Forfeit Thee Untrue',
+          link:'./forfeit-thee-untrue.html',
+          img:'dist/img/metal/ftu.webp',
+          category:'METAL'
         },
         {
           title:'Grave Decay',
@@ -284,12 +296,12 @@ data: {
             img:'dist/img/metalcore/silence-the-assembly.webp',
             category:'METALCORE'
           },
-          /*{
+          {
             title: 'Skald In Veum',
             link:'./skald-in-veum.html',
             img:'dist/img/blackmetal/skaldlogo.webp',
             category:'BLACK METAL'
-          },*/
+          },
           {
             title: 'Symphony of Heaven', 
             link:'./symphony-of-heaven.html', 
