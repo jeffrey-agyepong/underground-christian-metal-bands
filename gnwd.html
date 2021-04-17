@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Metalcore/Deathcore">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="Good News We're Dead, Christian Metal, Christian Metalcore, Metal, Metalcore, Deathcore, Black Metal, Death Metal, Reformed, Sola Gratia, Christian Deathcore, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/metalcore/gnwd.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>Good News We're Dead | Beyond The Grave</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <div class="bg">
+      <h3 class="white-text center">BIO:</h3>
+      <p class="white-text">
+        Good News We’re Dead are a metalcore band from Orlando Florida. Their music is heavily inspired by their faith
+        in God & they are unashamed of it. It’s their goal to glorify Christ in everything they do & share the Gospel
+        everywhere they go. Their band name is inspired by being dead to ourselves and alive in Christ.
+      </p>
+
+    </div>
+
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://web.facebook.com/goodnewsweredead" target="_blank"><i
+              class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+          <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a></li>
+          <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+          <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe src="https://open.spotify.com/embed/album/2p66Yv2Mb22msecyzlzOJg" width="300" height="380" frameborder="0"
+    allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Good News We\'re Dead',
+        formed: '2016',
+        status: 'Active',
+        genre: 'Metalcore/Deathcore',
+        label: 'Independent',
+        origin: 'USA',
+        img: 'dist/img/metalcore/gnwd1.webp',
+        img2: 'dist/img/metalcore/gnwd.webp',
+        members: [{ name: 'Travis', instrument: 'Vocals' },
+        { name: 'Eric', instrument: 'Guitar/ Vocals' },
+        { name: 'Austin', instrument: 'Bass' },
+        { name: 'David', instrument: 'Guitar' },
+        { name: 'Tim', instrument: 'Drums' },
+
+
+        ],
+
+        discography: [{ album: 'Sola Gratia', type_year: 'EP - 2016', }, { album: 'What\'s Left (Gentile Cover)', type_year: 'Single - 2020', }],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

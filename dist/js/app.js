@@ -121,12 +121,12 @@ data: {
             img:'dist/img/deathmetal/cruentis.jpg',
             category:'DEATH METAL'
         },
-        /*{
+        {
           title:'daygraves',
           link:'./daygraves.html',
-          img:'dist/img/blackmetal/dayrgaves.webp',
+          img:'dist/img/blackmetal/daygraves.webp',
           category:'BLACK METAL'
-        },*/
+        },
         {
           title: 'The Death In Me',
           link: './the-death-in-me.html',
@@ -186,6 +186,12 @@ data: {
           link:'./grave-decay.html',
           img:'dist/img/deathmetal/grave-decay.webp',
           category:'DEATH METAL'
+        },
+        {
+          title: 'Good News We\'re Dead',
+          link:'./gnwd.html',
+          img:'dist/img/metalcore/gnwd.webp',
+          category:'METALCORE'
         },
         {
           title: 'Hashem', 
