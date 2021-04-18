@@ -118,7 +118,7 @@ data: {
         {
             title:  'Cruentis', 
             link:'./cruentis.html', 
-            img:'dist/img/deathmetal/cruentis.jpg',
+            img:'dist/img/deathmetal/cruentis.webp',
             category:'DEATH METAL'
         },
         {
