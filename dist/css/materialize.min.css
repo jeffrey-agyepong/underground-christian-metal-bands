@@ -2187,7 +2187,7 @@ tr {
 }
 td,
 th {
-  padding: 15px 5px;
+  padding: 20px 5px;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
@@ -3584,7 +3584,7 @@ h4 {
   margin: 1.52rem 0 0.912rem 0;
 }
 h5 {
-  font-size: 1.64rem;
+  font-size: 1.44rem;
   line-height: 110%;
   margin: 1.0933333333rem 0 0.656rem 0;
 }

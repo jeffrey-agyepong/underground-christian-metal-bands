@@ -24,10 +24,20 @@ this.innerHTML =  `
            
            <table class="info">
              <tbody>
+             <tr>
+                 <td class="white-text">Origin</td>
+                 <td class="white-text">{{ origin }}</td>
+               </tr>
+               <tr>
+                 <td class="white-text">Location</td>
+                 <td class="white-text">{{ location }}</td>
+               </tr>
                <tr>
                  <td class="white-text">Formed</td>
                  <td class="white-text">{{ formed }}</td>
                </tr>
+               <tr>
+             </tr>
                <tr>
                  <td class="white-text">Status</td>
                  <td class="white-text">{{ status }}</td>
@@ -36,17 +46,18 @@ this.innerHTML =  `
                  <td class="white-text">Genre</td>
                  <td class="white-text">{{ genre }}</td>
                </tr>
+               
                <tr>
-                 <td class="white-text">Record Label</td>
+                 <td class="white-text">Lyrical themes</td>
+                 <td class="white-text">{{ themes }}</td>
+               </tr>
+               <tr>
+                 <td class="white-text">Current label</td>
                  <td class="white-text">{{ label }}</td>
                </tr>
                <tr>
-                 <td class="white-text">Origin</td>
-                 <td class="white-text">{{ origin }}</td>
-               </tr>
-               <tr>
                  <td class="white-text">
-                   <h5>Members:</h5>
+                   <h5>Current Members:</h5>
                    <ul>
                      <li v-for="member in members" class="pad">
                        {{member.name}}

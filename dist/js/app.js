@@ -15,7 +15,7 @@ data: {
           {
             title:'Afterimage', 
             link:'./afterimage.html', 
-            img: 'dist/img/deathmetal/afterimage-logo.webp',
+            img: 'dist/img/deathmetal/afterimage.webp',
             category: 'DEATH METAL'
          },
          {
