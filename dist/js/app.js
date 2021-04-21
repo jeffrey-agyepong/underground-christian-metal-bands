@@ -98,6 +98,12 @@ data: {
           category:'METAL'
         },
         {
+          title:'The Burial',
+          link:'./the-burial.html',
+          img:'dist/img/deathmetal/the-burial.webp',
+          category:'DEATH METAL'
+        },
+        {
             title: 'Collapse//Revive', 
             link:'./collapse-revive.html', 
             img:'dist/img/metalcore/collapse-revive.webp',
@@ -171,7 +177,7 @@ data: {
         },
         {
           title:'Eyes of the Defiled',
-          link:'./eyes-of-defiled.html',
+          link:'./eyes-of-the-defiled.html',
           img:'dist/img/deathcore/eyes-of-the-defiled.webp',
           category:'DEATHCORE'
         },
@@ -306,6 +312,12 @@ data: {
             title: 'Skald In Veum',
             link:'./skald-in-veum.html',
             img:'dist/img/blackmetal/skaldlogo.webp',
+            category:'BLACK METAL'
+          },
+          {
+            title:'Sorrowstorm',
+            link:'./sorrowstorm.html',
+            img:'dist/img/blackmetal/sorrowstormlogo.webp',
             category:'BLACK METAL'
           },
           {
