@@ -291,6 +291,12 @@ data: {
 
           },
           {
+            title:'Shadowmourne',
+            link:'./shadowmourne.html',
+            img:'dist/img/blackmetal/shadowmournelogo.webp',
+            category:'BLACK METAL'
+          },
+          {
             title: 'Shamash', 
             link:'./shamash.html', 
             img:'dist/img/deathmetal/shamash1.webp',

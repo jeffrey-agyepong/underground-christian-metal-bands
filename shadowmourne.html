@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Black Metal">
+  <!-- META KEYWORDS -->
+  <meta name="keywords" content="Shadowmourne, Hagah Recordings, South Africa, Christian Metal, Metal, Metalcore, Death Metal, Frostmourne Hungers, Black Metal, Band, Christian, Music, 
+    Zerachiel">
+  <meta property="og:image" content="dist/img/blackmetal/shadowmournelogo.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>Shadowmourne | Beyond The Grave</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <!--<div class="bg">
+      <h3 class="white-text center">BIO:</h3>
+      <p class="white-text">
+
+      </p>
+
+    </div>-->
+
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://web.facebook.com/Shadowmourne" target="_blank"><i
+              class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="https://open.spotify.com/artist/0rO8NuqQsnD5JFuzxqUmsO?si=7NPnD82bQCeGwxBre64YdA" target="_blank"><i
+              class="fab fa-spotify fa-3x white-text"></i></a>
+
+          <a href="https://www.youtube.com/channel/UCc2-Jnu_qfdsY-Qaf0afdiw" target="_blank"><i
+              class="fab fa-youtube fa-3x white-text"></i></a></li>
+          <a href="https://music.apple.com/ca/artist/shadowmourne/1507243405" target="_blank"><i
+              class="fab fa-itunes fa-3x white-text"></i></a>
+          <a href="https://shadowmournehr.bandcamp.com/album/frostmourne-hungers" target="_blank"><i
+              class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe style="border: 0; width: 340px; height: 460px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=475959980/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+    seamless><a href="https://shadowmournehr.bandcamp.com/album/frostmourne-hungers">Frostmourne Hungers by
+      Shadowmourne</a></iframe>
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Shadowmourne',
+        formed: '2021',
+        status: 'Active',
+        genre: 'Black Metal',
+        label: 'Hagah Recordings',
+        origin: 'South Africa',
+        location: 'Johannesburg, Gauteng',
+        themes: 'Christianity',
+        img: 'dist/img/blackmetal/shadowmourne.webp',
+        img2: 'dist/img/blackmetal/shadowmournelogo.webp',
+        members: [{ name: 'Zerachiel (Incarnate Deity, Surdus)', instrument: 'Vocals, All Instruments' },
+        ],
+
+        discography: [{ album: 'Frostmourne Hungers', type_year: 'EP - 2021', },],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>
