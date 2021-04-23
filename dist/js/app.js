@@ -265,6 +265,12 @@ data: {
           img:'dist/img/deathcore/parallax-withering.jpg',
           category:'DEATHCORE'
         },
+        {
+          title:'Recreate The Sun',
+          link:'./recreate-the-sun.html',
+          img:'dist/img/deathmetal/recreate-the-sun.webp',
+          category:'DEATH METAL'
+        },
           {
             title: 'Roots of Tragedy', 
             link:'./roots-of-tragedy.html', 
