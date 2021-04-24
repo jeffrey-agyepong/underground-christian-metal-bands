@@ -223,6 +223,12 @@ data: {
           img:'dist/img/deathcore/hks.webp',
           category:'DEATHCORE'
         },
+        {
+          title:'In Grief',
+          link:'./in-grief.html',
+          img:'dist/img/deathmetal/in-grief.webp',
+          category:'DEATH METAL'
+        },
           {
             title: 'Incarnate Deity', 
             link: './incarnatedeity.html', 
