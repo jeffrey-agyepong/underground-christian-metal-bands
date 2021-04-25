@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Progressive Death Metal">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="In Grief, Norway, Norwegian Metal, Christian Metal, Christian Metal, Progressive Death Metal, Death Metal, Progressive Metal, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/deathmetal/in-grief.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>In Grief | Beyond The Grave</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <div class="bg">
+      <h3 class="white-text center">BIO:</h3>
+      <p class="white-text">
+
+      </p>
+
+    </div>
+
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://web.facebook.com/In-Grief-179919808707758/?ref=page_internal
+          " target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+          <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a></li>
+          <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+          <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-10">
+    <div class="grid-container">
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/lH8Rqp40blU" width="560" height="315" frameborder="0"></iframe>
+      </div>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/pH3PZEXrgKk" width="560" height="315" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'In Grief',
+        formed: '2008',
+        status: 'Changed name',
+        genre: 'Progressive Death Metal',
+        label: 'Bombworks Records',
+        origin: 'Norway',
+        location: 'Sortland, Nordland',
+        themes: 'Christianity,  Social Issues',
+        img: 'dist/img/deathmetal/in-grief1.webp',
+        img2: 'dist/img/deathmetal/in-grief.webp',
+        members: [
+          { name: 'Benny Røste', instrument: 'Guitars' },
+          { name: 'Karl Erik Nordahl', instrument: 'Drums' },
+          { name: 'Øyvind Pedersen', instrument: 'Guitars' },
+          { name: 'David Sandvik (Roots of Tragedy)', instrument: 'Vocals' },
+
+        ],
+
+        discography: [{ album: 'Deserted Soul', type_year: 'Album - 2009' }],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>
