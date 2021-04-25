@@ -10,13 +10,13 @@ this.innerHTML =`
 <div class="container">
   <div class="row">
     <div class="col l6 s12">
-      <h5 class="white-text center">Support us</h5>
+      <h5 class="white-text center">Support</h5>
       <p class="grey-text text-lighten-4 center">
       <a href='https://ko-fi.com/I2I544E9M' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
       </p>    
     </div>
     <div class="col l4 offset-l2 s12">
-    <h5 class="white-text center-align">Connect With Us</h5>
+    <h5 class="white-text center-align">Connect</h5>
     <div class="flex icons center-align">
 
       <span class="span"><a href="https://web.facebook.com/Beyondthegrave777" class="icon brands fab fa-facebook fa-3x"><span
