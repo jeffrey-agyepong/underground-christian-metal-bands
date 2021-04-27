@@ -128,6 +128,12 @@ data: {
             category:'DEATH METAL'
         },
         {
+          title:'Dawnbreaker',
+          link:'./dawnbreaker.html',
+          img:'dist/img/blackmetal/dawnbreaker1.webp',
+          category:'BLACK METAL'
+        },
+        {
           title:'daygraves',
           link:'./daygraves.html',
           img:'dist/img/blackmetal/daygraves.webp',
@@ -162,6 +168,12 @@ data: {
             link:'./emptygrave.html', 
             img:'dist/img/deathmetal/emptygrave.webp',
             category:'DEATH METAL'
+        },
+        {
+          title:'Encryptor',
+          link:'./encryptor.html',
+          img:'dist/img/deathmetal/encryptor.webp',
+          category:'DEATH METAL'
         },
         {
             title: 'Eonia', 
@@ -234,6 +246,12 @@ data: {
             link: './incarnatedeity.html', 
             img:'dist/img/deathmetal/incarnatedeity.webp',
             category:'DEATH METAL'
+          },
+          {
+            title:'Irae',
+            link:'./irae.html',
+            img:'dist/img/metalcore/irae.webp',
+            category:'METALCORE'
           },
           {
             title: 'Jesus Wannabeez', 
