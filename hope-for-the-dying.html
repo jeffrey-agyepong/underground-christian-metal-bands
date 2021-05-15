@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Symphonic/Melodic Death Metal">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="Hope For The Dying, Christian Metal, Death Metal, Black Metal, Progressive Metal, Symphonic Death Metal, Symphonic Metal, Melodic Death Metal, Band, Christian, Music, Dissimulation, Aletheia, Legacy">
+  <meta property="og:image" content="dist/img/deathmetal/hopeforthedyingLogo.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>Hope For The Dying</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://www.facebook.com/#!/hopeforthedyingband" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="https://open.spotify.com/artist/1qo6KFq9ED3waQtxYK1IVR?si=jq17ZCsETJi5IlMjlX7diw" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+          <a href="https://www.youtube.com/user/hopeforthedying" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a></li>
+          <a href="https://music.apple.com/us/artist/hope-for-the-dying/258317728" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-10">
+    <div class="grid-container">
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/https://www.youtube.com/playlist?list=PLaf42reShFFvn-wY2lAyke6CYpaYa7lIw" width="560" height="315" frameborder="0" allow="fullscreen"></iframe>
+</div>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/https://www.youtube.com/playlist?list=PL1oLhQXXSyHc4mXJKm5fWfOBFL88FzMzK" width="560" height="315" frameborder="0"   allow="fullscreen"></iframe>
+      </div>
+    </div>
+  </div>
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Hope For The Dying',
+        formed: '2006',
+        status: 'Active',
+        genre: 'Symphonic/Melodic Death Metal',
+        label: 'Facedown Records',
+        origin: 'USA',
+        location: 'Jonesboro, Illinois',
+        themes: 'Christianity',
+        img: 'dist/img/deathmetal/hopeforthedying.webp',
+        img2: 'dist/img/deathmetal/hopeforthedyingLogo.webp',
+        members: [
+        { name: 'Jack Daniels', instrument: 'Lead Guitar, Backing Vocals' },
+        { name: 'James Houseman', instrument: 'Rhythm Guitar' },
+        { name: 'Josh Ditto', instrument: 'Lead Vocals, Keyboard' },
+        { name: 'Brendan Hengle', instrument: 'Drums' },
+
+        ],
+
+        discography: [
+          { album: 'Demo', type_year: 'Demo - 2007', },
+          { album: 'Hope for the Dying', type_year: 'EP - 2008', },
+          { album: 'Hope for the Dying', type_year: 'Album - 2008', },
+          { album: 'Dissimulation', type_year: 'Album - 2011', },
+          { album: 'Aletheia', type_year: 'Album - 2013', },
+          { album: 'Legacy', type_year: 'Album - 2016', }
+
+        ],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

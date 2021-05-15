@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Deathcore">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="Flesh of Kings, Deathcore, Christian Deathcore, Christian Metal, Metal, Metalcore, Death Metal, Band, Christian, Music, Incorruptible">
+  <meta property="og:image" content="dist/img/deathcore/the-flesh-of-kings.webp'">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>Flesh of Kings</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://web.facebook.com/thefleshofkings" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="https://thefleshofkings.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=639723453/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://thefleshofkings.bandcamp.com/album/the-judgement-to-come">The Judgement to Come by The Flesh Of Kings</a></iframe>
+
+<iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2843193809/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://thefleshofkings.bandcamp.com/album/incorruptible">Incorruptible by The Flesh Of Kings</a></iframe>
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'The Flesh of Kings',
+        formed: '2012',
+        status: 'Hiatus',
+        genre: 'Deathcore',
+        label: 'Independent',
+        origin: 'USA',
+        location: 'Whittier, California',
+        themes: 'Christianity',
+        img: 'dist/img/deathcore/the-flesh-of-kings1.webp',
+        img2: 'dist/img/deathcore/the-flesh-of-kings.webp',
+        members: [
+        { name: 'Shem Reyes', instrument: 'Vocals' },
+        { name: 'Aidan Linn', instrument: 'Guitar' },
+        { name: 'Paul Nieto', instrument: 'Guitar' },
+        { name: 'Cesar Roa', instrument: 'Drums' },
+
+        ],
+
+        discography: [{ album: 'Incorruptible', type_year: 'EP - 2012', }, { album: 'The Judgement to Come', type_year: 'EP - 2015', }],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

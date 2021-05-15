@@ -6,18 +6,36 @@ data: {
       currentFilter: 'ALL',
       category: '',
       projectList: [
+        {
+           title: 'Abated Mass of Flesh',
+           link: './abated-mass-of-flesh.html',
+           img: 'dist/img/deathmetal/amof.webp',
+           category: 'DEATH METAL'
+       },
          {
-            title: 'Ænon', 
-            link: './aenon.html', 
+            title: 'Ænon',
+            link: './aenon.html',
             img: 'dist/img/metalcore/aenon-logo.webp',
             category: 'METALCORE'
         },
           {
-            title:'Afterimage', 
-            link:'./afterimage.html', 
+            title:'Afterimage',
+            link:'./afterimage.html',
             img: 'dist/img/deathmetal/afterimage.webp',
             category: 'DEATH METAL'
          },
+         /*{
+           title:'Apollyon',
+           link:'./apollyon.html',
+           img:'dist/img/deathcore/apollyon.webp',
+           category:'DEATHCORE'
+         },*/
+         {
+          title:'Arthure',
+          link:'./arthure.html',
+          img:'dist/img/deathmetal/arthure.webp',
+          category:'DEATH METAL'
+        },
          {
             title:'Ascendant',
             link: './ascendant.html',
@@ -26,22 +44,23 @@ data: {
 
            },
           {
-            title:'Âstillian', 
-            link:'./astillian.html', 
+            title:'Âstillian',
+            link:'./astillian.html',
             img:'dist/img/deathmetal/astillian-logo.webp',
             category:'DEATH METAL'
           },
-          {
-            title:'Arthure', 
-            link:'./arthure.html',  
-            img:'dist/img/deathmetal/arthure.webp',
-            category:'DEATH METAL'
-          },
+
           /*{
-            title:'Ben Dixon', 
-            link:'./ben-dixon.html', 
+            title:'Ben Dixon',
+            link:'./ben-dixon.html',
             img:'dist/img/metalcore/ben-dixon.webp',
             category:'METALCORE'
+        },
+        {
+          title:'Battleship!',
+          link:'./battleship.html',
+          img:'dist/img/deathcore/',
+          category:'DEATHCORE'
         },*/
         {
           title:'The Beckoning',
@@ -50,8 +69,8 @@ data: {
           category:'EXTREME METAL'
         },
         {
-          title:'Be Not Betrayed', 
-          link:'./be-not-betrayed.html', 
+          title:'Be Not Betrayed',
+          link:'./be-not-betrayed.html',
           img:'dist/img/blackmetal/be-not-betrayed.jpg',
           category:'BLACK METAL'
         },
@@ -62,9 +81,15 @@ data: {
           category:'METAL'
         },
         {
-          title:'Bismoth', 
-          link:'./bismoth.html', 
+          title:'Bismoth',
+          link:'./bismoth.html',
           img:'dist/img/blackmetal/bismothlogo.jpg',
+          category:'BLACK METAL'
+         },
+         {
+           title:'Blood Covenant',
+           link:'./blood-covenant.html',
+          img:'dist/img/blackmetal/blood-covenant.webp',
           category:'BLACK METAL'
          },
          {
@@ -74,8 +99,8 @@ data: {
            category:'DEATH METAL'
          },
         {
-            title: 'Bloodlines', 
-            link:'./bloodlines.html', 
+            title: 'Bloodlines',
+            link:'./bloodlines.html',
             img:'dist/img/metalcore/bloodlines.webp',
             category:'METALCORE'
         },
@@ -86,10 +111,22 @@ data: {
           category:'DEATHCORE'
         },
         {
-            title: 'Blue Fire Horizon', 
-            link:'./blue-fire-horizon.html', 
+            title: 'Blue Fire Horizon',
+            link:'./blue-fire-horizon.html',
             img:'dist/img/metalcore/blue-fire-horizon2.webp',
             category:'METALCORE'
+        },
+        {
+          title:'A Body Divided',
+          link:'./a-body-divided.html',
+          img:'dist/img/deathcore/a-body-divided.webp',
+          category:'DEATHCORE'
+        },
+        {
+          title:'Broken Flesh',
+          link:'./broken-flesh.html',
+          img:'dist/img/deathmetal/broken-flesh.webp',
+          category:'DEATH METAL'
         },
         {
           title:'Brotality',
@@ -104,26 +141,26 @@ data: {
           category:'DEATH METAL'
         },
         {
-            title: 'Collapse//Revive', 
-            link:'./collapse-revive.html', 
+            title: 'Collapse//Revive',
+            link:'./collapse-revive.html',
             img:'dist/img/metalcore/collapse-revive.webp',
             category:'METALCORE'
         },
         {
-            title: 'Context', 
-            link:'./cntxt.html', 
+            title: 'Context',
+            link:'./cntxt.html',
             img:'dist/img/metalcore/cntxtlogo.webp',
             category:'METALCORE'
         },
         {
-            title: 'Crowned in Sorrow', 
-            link:'./crowned-in-sorrow.html', 
+            title: 'Crowned in Sorrow',
+            link:'./crowned-in-sorrow.html',
             img:'dist/img/deathmetal/crowned-in-sorrow.jpg',
             category:'DEATH METAL'
         },
         {
-            title:  'Cruentis', 
-            link:'./cruentis.html', 
+            title:  'Cruentis',
+            link:'./cruentis.html',
             img:'dist/img/deathmetal/cruentis.webp',
             category:'DEATH METAL'
         },
@@ -152,20 +189,20 @@ data: {
           category:'DEATHCORE'
         },*/
         {
-            title:  'Diathekeke', 
-            link:'./diatheke.html',  
+            title:  'Diathekeke',
+            link:'./diatheke.html',
             img:'dist/img/deathmetal/diatheke.webp',
             category:'DEATH METAL'
         },
         {
-            title:  'Elephant Watchtower', 
+            title:  'Elephant Watchtower',
             link:'./elephant-watchtower.html',
             img:'dist/img/deathmetal/elephant-watchtower.webp',
             category:'DEATH METAL'
         },
         {
-            title:  'Empty Grave', 
-            link:'./emptygrave.html', 
+            title:  'Empty Grave',
+            link:'./emptygrave.html',
             img:'dist/img/deathmetal/emptygrave.webp',
             category:'DEATH METAL'
         },
@@ -176,14 +213,14 @@ data: {
           category:'DEATH METAL'
         },
         {
-            title: 'Eonia', 
-            link:'./eonia.html', 
+            title: 'Eonia',
+            link:'./eonia.html',
             img:'dist/img/metalcore/eonia.webp',
             category:'METALCORE'
         },
         {
-            title: 'Every Knee Shall Bow', 
-            link:'./eksb.html', 
+            title: 'Every Knee Shall Bow',
+            link:'./eksb.html',
             img:'dist/img/deathcore/eksb.webp',
             category:'DEATHCORE'
         },
@@ -191,6 +228,24 @@ data: {
           title:'Eyes of the Defiled',
           link:'./eyes-of-the-defiled.html',
           img:'dist/img/deathcore/eyes-of-the-defiled.webp',
+          category:'DEATHCORE'
+        },
+        {
+          title:'Feast Eternal',
+          link:'./feast-eternal.html',
+          img:'dist/img/deathmetal/feast-eternal.webp',
+          category:'DEATH METAL'
+        },
+        {
+          title:'Fleshkiller',
+          link:'./fleshkiller.html',
+          img:'dist/img/deathmetal/fleshkiller1.jpg',
+          category:'DEATH METAL'
+        },
+        {
+          title:'The Flesh of Kings',
+          link:'./the-flesh-of-kings.html',
+          img:'dist/img/deathcore/the-flesh-of-kings.webp',
           category:'DEATHCORE'
         },
         {
@@ -212,8 +267,8 @@ data: {
           category:'METALCORE'
         },
         {
-          title: 'Hashem', 
-          link:'./hashem.html', 
+          title: 'Hashem',
+          link:'./hashem.html',
           img:'dist/img/deathmetal/hashemlogo.jpg',
           category:'DEATH METAL'
         },
@@ -224,15 +279,27 @@ data: {
           category:'METALCORE'
         },
         {
-          title:'Irgalom',
-          link:'./irgalom.html',
-          img:'dist/img/extreme-metal/irgalom.webp',
-          category:'EXTREME METAL'
+          title:'Hazeroth',
+          link:'./hazeroth.html',
+          img:'dist/img/blackmetal/hazeroth.webp',
+          category:'BLACK METAL'
         },
         {
-          title: 'His Kingdom Suffers', 
-          link:'./his-kingdom-suffers.html', 
+          title: 'His Kingdom Suffers',
+          link:'./his-kingdom-suffers.html',
           img:'dist/img/deathcore/hks.webp',
+          category:'DEATHCORE'
+        },
+        {
+          title: 'Hope For The Dying',
+          link:'./hope-for-the-dying.html',
+          img:'dist/img/deathmetal/hopeforthedyingLogo.webp',
+          category:'DEATH METAL'
+        },
+        {
+          title:'Impending Doom',
+          link:'./impending-doom.html',
+          img:'dist/img/deathcore/impending-doom.jpg',
           category:'DEATHCORE'
         },
         {
@@ -242,8 +309,8 @@ data: {
           category:'DEATH METAL'
         },
           {
-            title: 'Incarnate Deity', 
-            link: './incarnatedeity.html', 
+            title: 'Incarnate Deity',
+            link: './incarnatedeity.html',
             img:'dist/img/deathmetal/incarnatedeity.webp',
             category:'DEATH METAL'
           },
@@ -254,8 +321,14 @@ data: {
             category:'METALCORE'
           },
           {
-            title: 'Jesus Wannabeez', 
-            link:'./jesuswannabeez.html', 
+            title:'Irgalom',
+            link:'./irgalom.html',
+            img:'dist/img/extreme-metal/irgalom.webp',
+            category:'EXTREME METAL'
+          },
+          {
+            title: 'Jesus Wannabeez',
+            link:'./jesuswannabeez.html',
             img:'dist/img/metal/jw.webp',
             category:'METAL'
         },
@@ -264,6 +337,12 @@ data: {
           link:'./krig.html',
           img:'dist/img/deathmetal/krig1.webp',
           category:'DEATH METAL'
+        },
+        {
+          title:'A Moment In Pompeii',
+          link:'./a-moment-in-pompeii.html',
+          img:'dist/img/metalcore/a-moment-in-pompeii.webp',
+          category:'METALCORE'
         },
         {
           title: 'mothaltar',
@@ -278,8 +357,14 @@ data: {
           category:'DEATHCORE'
         },
         {
-            title: 'Oh, The Depth', 
-            link:'./ohthedepth.html', 
+          title:'Not Beneath',
+          link:'./not-beneath.html',
+          img:'dist/img/metalcore/not-beneath.webp',
+          category:'METALCORE'
+        },
+        {
+            title: 'Oh, The Depth',
+            link:'./ohthedepth.html',
             img:'dist/img/deathcore/oh-the-depth.webp',
             category:'DEATHCORE'
         },
@@ -296,8 +381,8 @@ data: {
           category:'DEATH METAL'
         },
           {
-            title: 'Roots of Tragedy', 
-            link:'./roots-of-tragedy.html', 
+            title: 'Roots of Tragedy',
+            link:'./roots-of-tragedy.html',
             img:'dist/img/extreme-metal/roots-of-tragedy.webp',
             category:'EXTREME METAL'
           },
@@ -308,14 +393,14 @@ data: {
             category:'EXTREME METAL'
           },
           {
-            title: 'Searching Serenity', 
-            link:'./searching-serenity.html', 
+            title: 'Searching Serenity',
+            link:'./searching-serenity.html',
             img:'dist/img/deathcore/searchingserenity1.webp',
             category:'DEATHCORE'
           },
           {
-            title: 'Separatist', 
-            link:'./separatist.html', 
+            title: 'Separatist',
+            link:'./separatist.html',
             img:'dist/img/deathmetal/separatist1.jpg',
             category:'DEATH METAL'
 
@@ -327,14 +412,14 @@ data: {
             category:'BLACK METAL'
           },
           {
-            title: 'Shamash', 
-            link:'./shamash.html', 
+            title: 'Shamash',
+            link:'./shamash.html',
             img:'dist/img/deathmetal/shamash1.webp',
             category:'DEATH METAL'
           },
           /*{
-            title: 'Spite The Beast', 
-            link:'./afterimage.html', 
+            title: 'Spite The Beast',
+            link:'./afterimage.html',
             img:'dist/img/deathmetal/hashem.webp',
             category:'DEATH METAL'
           },*/
@@ -351,20 +436,26 @@ data: {
             category:'BLACK METAL'
           },
           {
+            title:'Solamors',
+            link:'./solamors.html',
+            img:'dist/img/deathmetal/solamors.webp',
+            category:'DEATH METAL'
+          },
+          {
             title:'Sorrowstorm',
             link:'./sorrowstorm.html',
             img:'dist/img/blackmetal/sorrowstormlogo.webp',
             category:'BLACK METAL'
           },
           {
-            title: 'Symphony of Heaven', 
-            link:'./symphony-of-heaven.html', 
+            title: 'Symphony of Heaven',
+            link:'./symphony-of-heaven.html',
             img:'dist/img/deathmetal/symphonyofheavenlogo.webp',
             category:'DEATH METAL'
           },
           {
-            title: 'Tax Collector', 
-            link:'./tax-collector.html', 
+            title: 'Tax Collector',
+            link:'./tax-collector.html',
             img:'dist/img/metalcore/taxcollector.webp',
             category:'METALCORE'
           },
@@ -392,8 +483,8 @@ data: {
             category:'EXTREME METAL',
           },
           {
-            title: 'The Weeping Gate', 
-            link:'./the-weeping-gate.html', 
+            title: 'The Weeping Gate',
+            link:'./the-weeping-gate.html',
             img:'dist/img/deathmetal/theweepinggatelogo.jpg',
             category:'DEATH METAL'
           },
@@ -410,22 +501,22 @@ data: {
             category:'HARDCORE',
           },
           {
-            title: 'Your Hands Write History', 
-            link:'./yhwh.html', 
+            title: 'Your Hands Write History',
+            link:'./yhwh.html',
             img:'dist/img/metalcore/yhwh.webp',
             category:'METALCORE'
           },
-          
-          
-            
-         
-      ], 
+
+
+
+
+      ],
   },
 
 methods: {
   setFilter: function (filter) {
     this.currentFilter = filter;
-      } 
+      }
   },
-  
+
 });
