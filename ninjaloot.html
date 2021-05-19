@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Metalcore/Deathcore">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="Ninjaloot, Christian Metal, Christian Metalcore, Metal, Metalcore, Deathcore, Hardcore, Band, Christian, Music, Respect Issue, Never Alone, Furious, What Child Creator">
+  <meta property="og:image" content="dist/img/metalcore/ninjaloot1.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>Ninjaloot</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+          <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a></li>
+          <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+          <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe style="border: 0; width: 340px; height: 776px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=320554125/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/"
+    seamless></iframe>
+
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Ninjaloot',
+        formed: '2006',
+        status: 'Active',
+        genre: 'Metalcore / Deathcore / Hardcore',
+        label: 'Independent',
+        origin: 'USA',
+        location: 'Colombia, South Carolina',
+        themes: 'Christianity',
+        img: 'dist/img/metalcore/ninjaloot1.webp',
+        img2: 'dist/img/metalcore/ninjaloot2.webp',
+        members: [
+        { name: 'Trey Marsh', instrument: 'Vocals' },
+        { name: 'Darrell Ellisor', instrument: 'Guitar/Bass' },
+        { name: 'Luis Valverde', instrument: 'Drums' },
+        ],
+
+        discography: [
+          { album: 'Stronger Than This', type_year: 'EP - 2006', },
+          { album: 'Holypalooza', type_year: 'Demo - 2007', },
+          { album: 'Beards and Bellys', type_year: 'EP - 2009', },
+          { album: 'Be Still', type_year: 'EP - 2011', },
+          { album: '2013 - 2019(Hiatus)', type_year: '---', },
+          { album: 'What Child', type_year: ' Single - 2019', },
+          { album: 'Respect Issue', type_year: 'Single - 2020', },
+          { album: 'Time is Running Out (re-release)', type_year: 'Single - 2020', },
+          { album: 'Furious (re-release)', type_year: 'Single - 2020', },
+          { album: 'Never Alone (re-release)', type_year: 'Single - 2020', },
+          { album: 'Creator', type_year: 'Single - 2021', },
+         ],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

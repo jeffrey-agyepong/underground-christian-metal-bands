@@ -24,12 +24,12 @@ data: {
             img: 'dist/img/deathmetal/afterimage.webp',
             category: 'DEATH METAL'
          },
-         /*{
+         {
            title:'Apollyon',
            link:'./apollyon.html',
            img:'dist/img/deathcore/apollyon.webp',
            category:'DEATHCORE'
-         },*/
+         },
          {
           title:'Arthure',
           link:'./arthure.html',
@@ -55,13 +55,13 @@ data: {
             link:'./ben-dixon.html',
             img:'dist/img/metalcore/ben-dixon.webp',
             category:'METALCORE'
-        },
+        },*/
         {
           title:'Battleship!',
           link:'./battleship.html',
-          img:'dist/img/deathcore/',
+          img:'dist/img/deathcore/battleship3.jpg',
           category:'DEATHCORE'
-        },*/
+        },
         {
           title:'The Beckoning',
           link:'./the-beckoning.html',
@@ -182,12 +182,12 @@ data: {
           img:'dist/img/hardcore/the-death-in-me-logo.webp',
           category:'HARDCORE'
         },
-        /*{
+        {
           title:'Diamonds to Dust',
           link:'./diamonds-to-dust.html',
           img:'dist/img/deathcore/diamonds-to-dust.webp',
           category:'DEATHCORE'
-        },*/
+        },
         {
             title:  'Diathekeke',
             link:'./diatheke.html',
@@ -308,7 +308,13 @@ data: {
           img:'dist/img/deathmetal/in-grief.webp',
           category:'DEATH METAL'
         },
-          {
+        {
+          title:'Inborn Tendency',
+          link:'./inborn-tendency.html',
+          img:'dist/img/deathmetal/inborn-tendency.webp',
+          category:'DEATH METAL'
+        },
+        {
             title: 'Incarnate Deity',
             link: './incarnatedeity.html',
             img:'dist/img/deathmetal/incarnatedeity.webp',
@@ -355,6 +361,12 @@ data: {
           link:'./my-place-was-taken.html',
           img:'dist/img/deathcore/my-place-was-taken-logo.webp',
           category:'DEATHCORE'
+        },
+        {
+          title:'Ninjaloot',
+          link:'./ninjaloot.html',
+          img:'dist/img/metalcore/ninjaloot2.webp',
+          category:'METALCORE'
         },
         {
           title:'Not Beneath',
