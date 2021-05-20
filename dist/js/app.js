@@ -9,7 +9,7 @@ data: {
         {
            title: 'Abated Mass of Flesh',
            link: './abated-mass-of-flesh.html',
-           img: 'dist/img/deathmetal/amof.webp',
+           img: 'dist/img/deathmetal/abated-mass-of-flesh.jpg',
            category: 'DEATH METAL'
        },
          {
@@ -21,7 +21,7 @@ data: {
           {
             title:'Afterimage',
             link:'./afterimage.html',
-            img: 'dist/img/deathmetal/afterimage.webp',
+            img: 'dist/img/deathmetal/afterimage-logo.webp',
             category: 'DEATH METAL'
          },
          {
@@ -119,7 +119,7 @@ data: {
         {
           title:'A Body Divided',
           link:'./a-body-divided.html',
-          img:'dist/img/deathcore/a-body-divided.webp',
+          img:'dist/img/deathcore/a-body-divided2.jpg',
           category:'DEATHCORE'
         },
         {
@@ -145,6 +145,12 @@ data: {
             link:'./collapse-revive.html',
             img:'dist/img/metalcore/collapse-revive.webp',
             category:'METALCORE'
+        },
+        {
+          title:'Confide',
+          link:'./confide.html',
+          img:'dist/img/metalcore/confide.webp',
+          category:'METALCORE'
         },
         {
             title: 'Context',
@@ -217,6 +223,12 @@ data: {
             link:'./eonia.html',
             img:'dist/img/metalcore/eonia.webp',
             category:'METALCORE'
+        },
+        {
+          title:'Eternal After Death',
+          link:'./eternal-after-death.html',
+          img:'dist/img/deathcore/eternal-after-death.webp',
+          category:'DEATHCORE'
         },
         {
             title: 'Every Knee Shall Bow',
@@ -433,7 +445,7 @@ data: {
             title: 'Spite The Beast',
             link:'./afterimage.html',
             img:'dist/img/deathmetal/hashem.webp',
-            category:'DEATH METAL'
+            category:'HARDCORE'
           },*/
           {
             title: 'Silence The Assembly',
@@ -463,6 +475,12 @@ data: {
             title: 'Symphony of Heaven',
             link:'./symphony-of-heaven.html',
             img:'dist/img/deathmetal/symphonyofheavenlogo.webp',
+            category:'DEATH METAL'
+          },
+          {
+            title:'Syringe',
+            link:'./syringe.html',
+            img:'dist/img/deathmetal/syringe.webp',
             category:'DEATH METAL'
           },
           {

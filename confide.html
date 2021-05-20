@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Metalcore">
+  <!-- META KEYWORDS -->
+  <meta name="keywords"
+    content="Confide, Christian Metal, Christian Metalcore, Metal, Metalcore, Post Hardcore, Band, Christian, Music">
+  <meta property="og:image" content="dist/img//.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>Confide</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+          <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a></li>
+          <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+          <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2254703403/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://tragicherorecords.bandcamp.com/album/recover-deluxe">Recover (Deluxe) by Confide</a></iframe>
+
+
+<iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2235596572/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://tragicherorecords.bandcamp.com/album/shout-the-truth">Shout The Truth by Confide</a></iframe>
+
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Confide',
+        formed: '2004',
+        status: 'Disbanded',
+        genre: 'Metalcore / Post Hardcore',
+        label: 'Independent',
+        origin: 'USA',
+        location: 'Anaheim, California',
+        themes: 'Christianity',
+        img: 'dist/img/metalcore/confide.webp',
+        img2: 'dist/img/metalcore/confide1.webp',
+        members: [
+        { name: 'Jeffrey Helberg', instrument: 'Rhythm Guitar, Backing Vocals' },
+        { name: 'Ross Michael Kenyon', instrument: 'Lead Vocals' },
+        { name: 'Trevor Vickers', instrument: 'Bass' },
+        { name: 'Joel Piper', instrument: 'Drums, Clean Vocals' },
+        { name: 'Joshua Patrick Paul', instrument: 'Lead Guitar' },
+        ],
+
+        discography: [
+        { album: 'Innocence Surround', type_year: 'EP - 2005', },
+        { album: 'Introduction', type_year: 'EP - 2006', },
+        { album: 'Demo', type_year: 'Demo - 2008', },
+        { album: 'Shout the Truth', type_year: 'Album - 2008', },
+        { album: 'Recover ', type_year: 'Album - 2010', },
+        { album: 'All Is Calm ', type_year: 'Album - 2013', },
+
+        ],
+
+      },
+      methods: {
+
+      }
+    });
+
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

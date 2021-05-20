@@ -8,7 +8,7 @@ connectedCallback(){
 this.innerHTML =  `
  <div id="vue-app">
 
- 
+
    <div class="container">
      <div class="content inner">
        <h1 class="white-text center-align">{{band}}</h1>
@@ -21,7 +21,7 @@ this.innerHTML =  `
              <img :src="img" alt="" class="size responsive-img flex-page">
              <img :src="img2" alt="" class="size responsive-img flex-page">
            </div>
-           
+
            <table class="info">
              <tbody>
              <tr>
@@ -46,13 +46,13 @@ this.innerHTML =  `
                  <td class="white-text">Genre</td>
                  <td class="white-text">{{ genre }}</td>
                </tr>
-               
+
                <tr>
                  <td class="white-text">Lyrical themes</td>
                  <td class="white-text">{{ themes }}</td>
                </tr>
                <tr>
-                 <td class="white-text">Current label</td>
+                 <td class="white-text">Label</td>
                  <td class="white-text">{{ label }}</td>
                </tr>
                <tr>
