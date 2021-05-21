@@ -321,6 +321,12 @@ data: {
           category:'DEATH METAL'
         },
         {
+          title:'In The Midst of Lions',
+          link:'./in-the-midst-of-lions.html',
+          img:'dist/img/deathcore/in-the-midst-of-lions2.webp',
+          category:'DEATHCORE'
+        },
+        {
           title:'Inborn Tendency',
           link:'./inborn-tendency.html',
           img:'dist/img/deathmetal/inborn-tendency.webp',
@@ -500,6 +506,13 @@ data: {
             link:'./this-divided-world.html',
             img:'dist/img/deathcore/this-divided-world-logo.webp',
             category:'DEATHCORE'
+          },
+          {
+            title:'A Thousand Times Repent',
+            link:'./a-thousand-times-repent.html',
+            img:'dist/img/deathcore/atr.webp',
+            category:'DEATHCORE'
+
           },
          { title: 'Throne of Awful Splendor',
             link:'./throne-of-awful-splendor.html',
