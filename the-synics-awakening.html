@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Death Metal">
+  <!-- META KEYWORDS -->
+  <meta name="keywords" content="Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/deathmetal/the-synics-awakening.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>The Synics Awakening</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://www.facebook.com/The-Synics-Awakening-123352424412083/" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+          <a href="https://open.spotify.com/artist/10RodtSbMXymBYlLyhqgRQ" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+          <a href="https://itunes.apple.com/us/artist/the-synics-awakening/id418249124" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+          <a href="https://synicsawakening-sbbr.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=3993791553/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+      href="https://synicsawakening-sbbr.bandcamp.com/album/no-pity-for-a-coward">No Pity For A Coward by The Synics Awakening</a></iframe>
+
+  <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2020671081/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+      href="https://skyburnsblackd.bandcamp.com/album/the-dawn-of-vengeance">The Dawn Of Vengeance by The Synics Awakening</a></iframe>
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'The Synics Awakening',
+        formed: '2009',
+        status: 'Disbanded',
+        genre: 'Death Metal',
+        label: 'InChrist Records',
+        origin: 'USA',
+        location: 'Gettysburg, Pennsylvania',
+        themes: 'Christianity',
+        img: 'dist/img/deathmetal/the-synics-awakening.webp',
+        img2: 'dist/img/deathmetal/the-synics-awakening1.webp',
+        members: [{
+          name: 'Kristian',
+          instrument: 'All Instruments'
+        }, {
+          name: 'Goukr',
+          instrument: 'Vocals'
+        }, ],
+
+        discography: [{
+          album: 'The Dawn of Vengeance',
+          type_year: 'Album - 2010',
+        }, {
+          album: 'No Pity for a Coward',
+          type_year: 'Album - 2011',
+        }],
+
+      },
+      methods: {
+
+      }
+    });
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

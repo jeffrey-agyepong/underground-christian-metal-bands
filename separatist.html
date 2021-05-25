@@ -6,9 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Technical Death Metal">
   <!-- META KEYWORDS -->
-  <meta name="keywords"
-    content="Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
-  <meta property="og:image" content="dist/img//.webp">
+  <meta name="keywords" content="Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/deathmetal/separatist1.jpg">
 
   <link rel="stylesheet" href="dist/css/materialize.min.css">
   <link rel="stylesheet" href="dist/css/style.css">
@@ -25,7 +24,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-BRN74LHN9V');
@@ -39,12 +41,10 @@
 
   <vue-app-component></vue-app-component>
 
-  <iframe style="border: 0; width: 340px; height: 776px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=1341289897/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
-    seamless><a href="https://separatistdm.bandcamp.com/album/motionless">Motionless by Separatist</a></iframe>
-  <iframe style="border: 0; width: 340px; height: 743px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=4000436576/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
-    seamless><a href="https://separatistdm.bandcamp.com/album/closure">Closure by Separatist</a></iframe>
+  <iframe style="border: 0; width: 340px; height: 776px;" src="https://bandcamp.com/EmbeddedPlayer/album=1341289897/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a
+      href="https://separatistdm.bandcamp.com/album/motionless">Motionless by Separatist</a></iframe>
+  <iframe style="border: 0; width: 340px; height: 743px;" src="https://bandcamp.com/EmbeddedPlayer/album=4000436576/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://separatistdm.bandcamp.com/album/closure">Closure
+      by Separatist</a></iframe>
 
   <script>
     new Vue({
@@ -60,11 +60,22 @@
         themes: 'Christianity',
         img: 'dist/img/deathmetal/separatist.jpg',
         img2: 'dist/img/deathmetal/separatist1.jpg',
-        members: [{ name: 'Sam Dishington ', instrument: 'Vocals, All Instruments' }
-        ],
+        members: [{
+          name: 'Sam Dishington ',
+          instrument: 'Vocals, All Instruments'
+        }],
 
-        discography: [{ album: 'The Motionless Apocalypse', type_year: 'Album - 2008', }, { album: 'Motionless', type_year: 'Album - 2014', },
-        { album: 'Closure', type_year: 'Album - 2014', }
+        discography: [{
+            album: 'The Motionless Apocalypse',
+            type_year: 'Album - 2008',
+          }, {
+            album: 'Motionless',
+            type_year: 'Album - 2014',
+          },
+          {
+            album: 'Closure',
+            type_year: 'Album - 2014',
+          }
         ],
 
       },
@@ -72,7 +83,6 @@
 
       }
     });
-
   </script>
 
   <footer-component></footer-component>
