@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   src: url(Oswald-Light.ttf);
 }
 @font-face {
-  font-family: 'Fjalla';
+  font-family: "Fjalla";
   src: url(FjallaOne-Regular.ttf);
 }
 @font-face {
-  font-family: 'Metal Mania';
+  font-family: "Metal Mania";
   src: url(MetalMania-Regular.ttf);
 }
 * {
@@ -29,7 +29,7 @@ body {
   overflow-x: visible;
   background: #383838;
   text-align: center;
-  font-family: 'Metal Mania';
+  font-family: "Metal Mania";
 }
 h1 {
   font-size: 45px;
@@ -42,7 +42,7 @@ h5 {
 }
 p {
   font-size: 22px;
-  font-family: 'Oswald';
+  font-family: "Oswald";
 }
 .container {
   width: 100%;
@@ -54,7 +54,7 @@ p {
 }
 nav {
   background: #383838;
-  font-family: 'Metal Mania', 'Fjalla';
+  font-family: "Metal Mania", "Fjalla";
   font-size: 1.55rem;
 }
 
@@ -95,7 +95,7 @@ nav .sidenav-trigger {
 .video-container::after {
   padding-top: 56.25%;
   display: block;
-  content: '';
+  content: "";
 }
 .video-container iframe {
   position: absolute;
@@ -165,7 +165,7 @@ figcaption {
 }
 table {
   font-size: 0.78rem;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   text-align: left;
 }
 .mg-t {

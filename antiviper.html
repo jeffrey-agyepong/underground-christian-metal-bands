@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Death Metal">
+  <!-- META KEYWORDS -->
+  <meta name="keywords" content="Antiviper, Slain Deceiver, Exterminator of Serpents, Christian Metal, Metal, Death Metal, Black Metal, Band, Christian, Music">
+  <meta property="og:image" content="dist/img/deathmetal/antiviper.webp">
+
+  <link rel="stylesheet" href="dist/css/materialize.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/all.min.css">
+
+  <!-- Font Awesome -->
+  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+  <script src="dist/js/vue.min.js"></script>
+  <script src="dist/components/bands-header.js"></script>
+  <script src="dist/components/vue-app.js"></script>
+  <script src="dist/components/footer.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BRN74LHN9V');
+  </script>
+
+  <title>Antiviper</title>
+</head>
+
+<body>
+  <header-component></header-component>
+
+  <vue-app-component></vue-app-component>
+  <div class="container">
+    <div class="bg">
+      <div class="container">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://www.facebook.com/AntiviperMetal/" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+          <a href="https://www.instagram.com/antiviper/" target="_blank"><i class="fab fa-instagram fa-3x white-text"></i></a>
+
+          <a href="https://www.youtube.com/channel/UCvqAUppfMNcWMmKHg1Q7CCA" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a>
+
+          <a href="https://antiviper.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=380783748/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+      href="https://antiviper.bandcamp.com/album/-">𝕾𝖑𝖆𝖎𝖓 𝕯𝖊𝖈𝖊𝖎𝖛𝖊𝖗 𝕰𝕻 by Antiviper</a></iframe>
+
+
+  <script>
+    new Vue({
+      el: '#vue-app',
+      data: {
+        band: 'Antiviper',
+        formed: '2020',
+        status: 'Active',
+        genre: 'Death Metal',
+        label: 'Independent',
+        origin: 'United States',
+        location: 'N/A',
+        themes: 'Christianity',
+        img: 'dist/img/deathmetal/antiviper2.webp',
+        img2: 'dist/img/deathmetal/antiviper.webp',
+        members: [{
+          name: 'Exterminator of Serpents',
+          instrument: 'All Instruments, Vocals'
+        }],
+
+        discography: [{
+          album: 'Slain Deceiver',
+          type_year: 'EP - 2020',
+        }, {
+          album: '',
+          type_year: '',
+        }],
+
+      },
+      methods: {
+
+      }
+    });
+  </script>
+
+  <footer-component></footer-component>
+  <script src="dist/js/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="dist/js/materialize.min.js"></script>
+  <script src="dist/js/init.js"></script>
+</body>
+
+
+
+</html>

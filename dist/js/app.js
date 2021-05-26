@@ -29,6 +29,12 @@ new Vue({
         category: "DEATH METAL",
       },
       {
+        title: "Antiviper",
+        link: "./antiviper.html",
+        img: "dist/img/deathmetal/antiviper.webp",
+        category: "DEATH METAL",
+      },
+      {
         title: "Apollyon",
         link: "./apollyon.html",
         img: "dist/img/deathcore/apollyon.webp",
@@ -142,6 +148,12 @@ new Vue({
         link: "./the-burial.html",
         img: "dist/img/deathmetal/the-burial.webp",
         category: "DEATH METAL",
+      },
+      {
+        title: "Christageddon",
+        link: "./christageddon.html",
+        img: "dist/img/blackmetal/christageddon1.webp",
+        category: "BLACK METAL",
       },
       {
         title: "Collapse//Revive",
@@ -370,6 +382,12 @@ new Vue({
         link: "./krig.html",
         img: "dist/img/deathmetal/krig1.webp",
         category: "DEATH METAL",
+      },
+      {
+        title: "Marble Tomb",
+        link: "./marble-tomb.html",
+        img: "dist/img/blackmetal/marble-tomb.webp",
+        category: "BLACK METAL",
       },
       {
         title: "A Moment In Pompeii",
