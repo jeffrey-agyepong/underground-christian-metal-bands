@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Metalcore">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="The Saving, Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
+    <meta property="og:image" content="dist/img/metalcore/thesaving1.webp">
+
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
+
+    <title>The Saving</title>
+  </head>
+
+  <body>
+    <header-component></header-component>
+
+    <vue-app-component></vue-app-component>
+    <div class="container">
+      <div class="bg">
+        <div class="container">
+          <h4>Links</h4>
+          <div class="social-container">
+            <a href="https://open.spotify.com/artist/1njoAewskzoOKi8t4wuZ3z?si=7Wd-4mXBQoK88BI9XiYJRA" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+            <a href="https://www.youtube.com/user/thesavingFL/videos" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a>
+            <a href="https://music.apple.com/us/artist/the-saving/280716359" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+            <a href="https://thesaving.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2182065963/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://thesaving.bandcamp.com/album/sinners-in-the-hands-of-an-angry-god">Sinners In The Hands Of An Angry God by The Saving</a></iframe>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=317458428/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://thesaving.bandcamp.com/album/david-star">David Star by The Saving</a></iframe>
+
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=1507307532/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://thesaving.bandcamp.com/album/reign-of-terror-ep">Reign Of Terror [EP] by The Saving</a></iframe>
+
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'The Saving',
+          formed: '2012',
+          status: 'Hiatus',
+          genre: 'Metalcore',
+          label: 'Independent',
+          origin: 'USA',
+          location: 'Florida',
+          themes: 'Christianity',
+          img: 'dist/img/metalcore/thesaving.webp',
+          img2: 'dist/img/metalcore/thesaving1.webp',
+          members: [{
+            name: 'Andres Ortiz ',
+            instrument: 'Vocals, All Instruments'
+          }],
+
+          discography: [{
+            album: 'Reign of Terror',
+            type_year: ' [EP] - 2012',
+          }, {
+            album: 'David Star',
+            type_year: 'Album - 2014',
+          }, {
+            album: 'Sinners In The Hand Of An Angry God',
+            type_year: 'Album - 2015',
+          }],
+
+        },
+        methods: {
+
+        }
+      });
+    </script>
+
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
+
+
+
+</html>

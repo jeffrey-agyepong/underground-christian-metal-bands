@@ -81,7 +81,7 @@ new Vue({
         title: "Be Not Betrayed",
         link: "./be-not-betrayed.html",
         img: "dist/img/blackmetal/be-not-betrayed.jpg",
-        category: "BLACK METAL",
+        category: "EXTREME METAL",
       },
       {
         title: "Ben Baruk",
@@ -246,6 +246,12 @@ new Vue({
         category: "DEATHCORE",
       },
       {
+        title: "Eunagelion",
+        link: "./eunagelion.html",
+        img: "dist/img/blackmetal/eunagelion.webp",
+        category: "BLACK METAL",
+      },
+      {
         title: "Every Knee Shall Bow",
         link: "./eksb.html",
         img: "dist/img/deathcore/eksb.webp",
@@ -378,6 +384,12 @@ new Vue({
         category: "METAL",
       },
       {
+        title: "Jonava",
+        link: "./jonava.html",
+        img: "dist/img/blackmetal/jonava.webp",
+        category: "BLACK METAL",
+      },
+      {
         title: "Krig",
         link: "./krig.html",
         img: "dist/img/deathmetal/krig1.webp",
@@ -442,6 +454,12 @@ new Vue({
         link: "./roots-of-tragedy.html",
         img: "dist/img/extreme-metal/roots-of-tragedy.webp",
         category: "EXTREME METAL",
+      },
+      {
+        title: "The Saving",
+        link: "./the-saving.html",
+        img: "dist/img/metalcore/thesaving1.webp",
+        category: "METALCORE",
       },
       {
         title: "Scarlet Oath",
