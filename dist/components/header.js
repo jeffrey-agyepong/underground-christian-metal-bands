@@ -9,7 +9,7 @@ class Header extends HTMLElement {
 <div class="navbar-fixed">
     <nav class="nav-center" role="navigation" id="header">
       <div class="nav-wrapper container">
-        <a href="https://beyondthegravemusic.com">BEYOND THE GRAVE</a>
+        <a href="https://beyondthegravemusic.com" class="logo">BEYOND THE GRAVE</a>
 
         <ul class="right hide-on-med-and-down">
           <li> <a href="index.html">Bands</a></li>

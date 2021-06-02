@@ -269,6 +269,9 @@ table {
   nav {
     font-size: ‭1.5625‬rem;
   }
+  .logo {
+    float: left;
+  }
   .member-container {
     margin-left: 1px;
     margin-right: 1px;
