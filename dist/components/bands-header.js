@@ -18,7 +18,7 @@ class Header extends HTMLElement {
         <li><a href="https://www.beyondthegravemusic.com/tag/News/">News</a></li>
           <!--<li><a href="https://store.beyondthegravemusic.com">Store</a></li>-->
         <li><a href="https://www.beyondthegravemusic.com/submit/">Submit</a></li>
-        <li><a href="hhttps://bands.beyondthegravemusic.com/support.html">Support</a></li>
+        <li><a href="https://bands.beyondthegravemusic.com/support.html">Support</a></li>
         <li><a href="https://www.hire.beyondthegravemusic.com">Hire</a></li>
         </ul>
 
