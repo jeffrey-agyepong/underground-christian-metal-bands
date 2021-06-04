@@ -29,6 +29,12 @@ new Vue({
         category: "DEATH METAL",
       },
       {
+        title: "Anima Mortuum",
+        link: "./anima-mortuum.html",
+        img: "dist/img/blackmetal/anima-mortuum1.webp",
+        category: "BLACK METAL",
+      },
+      {
         title: "Antiviper",
         link: "./antiviper.html",
         img: "dist/img/deathmetal/antiviper.webp",
@@ -454,6 +460,12 @@ new Vue({
         link: "./roots-of-tragedy.html",
         img: "dist/img/extreme-metal/roots-of-tragedy.webp",
         category: "EXTREME METAL",
+      },
+      {
+        title: "Sabbatariam",
+        link: "./sabbatariam.html",
+        img: "dist/img/deathmetal/sabbatariam.webp",
+        category: "DEATH METAL",
       },
       {
         title: "The Saving",

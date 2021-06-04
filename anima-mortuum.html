@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Black Metal">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="Anima Mortuum, Christian Metal, Metal, Metalcore, Black Metal, The Throne, Goat Destruction, Morbid Temple, Pandemic Session, The Return, Band, Christian, Music">
+    <meta property="og:image" content="dist/img/blackmetal/anima-mortuum1.webp">
+
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
+
+    <title>Anima Mortuum</title>
+  </head>
+
+  <body>
+    <header-component></header-component>
+
+    <vue-app-component></vue-app-component>
+    <div class="container">
+      <div class="bg">
+        <div class="container">
+          <h4>Links</h4>
+          <div class="social-container">
+            <a href="https://web.facebook.com/AnimaMortuum" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+            <a href="https://open.spotify.com/artist/2XKHXQwmtF4zMC2ssQo5JP?si=QyH16mtjQVy7GExp-Wo84g" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+            <a href="https://www.youtube.com/user/diamothofficial/videos" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a>
+            <a href="https://music.apple.com/us/artist/anima-mortuum/1450298908" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+            <a href="https://animamortuum.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2553715999/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://animamortuum.bandcamp.com/album/the-throne">The Throne by Anima Mortuum</a></iframe>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2754098511/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://animamortuum.bandcamp.com/album/morbid-temple-demo">Morbid Temple (Demo) by Anima Mortuum</a></iframe>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2770912719/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://animamortuum.bandcamp.com/album/goat-destruction">Goat Destruction by Anima Mortuum</a></iframe>
+
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'Anima Mortuum',
+          formed: '2002',
+          status: 'Active',
+          genre: 'Black Metal',
+          label: 'Headlight Productions',
+          origin: 'Chile',
+          location: 'Arica, Arica y Parinacota',
+          themes: 'Christianity, Social issues, Philosophy',
+          img: 'dist/img/blackmetal/anima-mortuum1.webp',
+          img2: 'dist/img/blackmetal/anima-mortuum2.webp',
+          members: [{
+            name: 'Zvi Tacussis',
+            instrument: 'Vocals, All Instruments'
+          }, {
+            name: 'Sergio Rivera',
+            instrument: 'Guitar'
+          }, ],
+          discography: [{
+              album: '2003 Demo',
+              type_year: 'Demo - 2003',
+            }, {
+              album: 'Demo #1',
+              type_year: 'Demo	2003',
+            },
+            {
+              album: 'The Return',
+              type_year: 'Album - 2013',
+            },
+            {
+              album: 'Goat Destruction',
+              type_year: 'Album - 2019',
+            },
+            {
+              album: 'Morbid Temple',
+              type_year: 'Demo - 2019',
+            },
+            {
+              album: 'Demo N°2',
+              type_year: 'Demo - 2019',
+            },
+            {
+              album: 'Pandemic Session',
+              type_year: 'Split - 2020',
+            },
+            {
+              album: 'The Throne',
+              type_year: 'Album - 2021',
+            },
+          ],
+
+        },
+        methods: {
+
+        }
+      });
+    </script>
+
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
+
+
+
+</html>
