@@ -456,6 +456,12 @@ new Vue({
         category: "DEATH METAL",
       },
       {
+        title: "Renascent",
+        link: "./renascent.html",
+        img: "dist/img/deathmetal/renascent.webp",
+        category: "DEATH METAL",
+      },
+      {
         title: "Roots of Tragedy",
         link: "./roots-of-tragedy.html",
         img: "dist/img/extreme-metal/roots-of-tragedy.webp",
