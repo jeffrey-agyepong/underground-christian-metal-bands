@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Renascent is a symphonic/melodic death metal band from Finland.">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="Renascent, Christian Metal, Metal, Death Metal, Black Metal, Melodic Death Metal, Band, Christian, Music">
+    <meta property="og:image" content="dist/img/deathmetal/renascent.webp">
+
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
+
+    <title>Renascent</title>
+  </head>
+
+  <body>
+    <header-component></header-component>
+
+    <vue-app-component></vue-app-component>
+    <div class="container">
+      <div class="bg">
+        <div class="container">
+          <h4>Links</h4>
+          <div class="social-container">
+            <a href="http://www.renascent.net/" target="_blank"><i class="fa fa-globe fa-3x white-text"></i></a>
+            <a href="https://www.facebook.com/pages/Renascent-Official/403045206426045" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+            <a href="https://open.spotify.com/artist/0a4Olq2nvnFSHcmBGhURog?si=A9sk0J30SD-R9tsrYwSvFQ" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+            <a href="https://itunes.apple.com/us/artist/renascent/id506676344" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+            <a href="https://renascent.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2422510558/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://renascent.bandcamp.com/album/praise-of-the-lord-god-almighty">Praise of the Lord God Almighty by Renascent</a></iframe>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2933621679/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://renascent.bandcamp.com/album/through-darkness">Through Darkness by Renascent</a></iframe>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=3703162577/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://renascent.bandcamp.com/album/demons-quest">Demons´ Quest by Renascent</a></iframe>
+
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'Renascent',
+          formed: '2003',
+          status: 'Active',
+          genre: 'Symphonic / Melodic Death Metal',
+          label: 'Independent',
+          origin: 'Finland',
+          location: 'Indiana, United States',
+          themes: 'Christianity',
+          img: 'dist/img/deathmetal/renascent1.webp',
+          img2: 'dist/img/deathmetal/renascent.webp',
+          members: [{
+              name: 'Eero Tertsunen',
+              instrument: 'Guitars, Vocals'
+            }, {
+              name: 'Voitto Rintala',
+              instrument: 'Bass'
+            }, {
+              name: 'Mikaela Akrenius',
+              instrument: 'Keyboards'
+            },
+            {
+              name: 'Joonas Heikkinen',
+              instrument: 'Drums'
+            },
+
+          ],
+
+          discography: [{
+              album: "Demons' Quest",
+              type_year: 'EP - 2004',
+            }, {
+              album: 'Through Darkness',
+              type_year: 'Album - 2005',
+            },
+            {
+              album: 'Praise of the Lord God Almighty',
+              type_year: 'Album - 2016',
+            }
+          ],
+
+        },
+        methods: {
+
+        }
+      });
+    </script>
+
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
+
+
+
+</html>
