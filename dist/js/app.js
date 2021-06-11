@@ -438,6 +438,12 @@ new Vue({
         category: "METALCORE",
       },
       {
+        title: "Nyctalopia",
+        link: "./nyctalopia.html",
+        img: "dist/img/deathmetal/nyctalopia.webp",
+        category: "DEATH METAL",
+      },
+      {
         title: "Oh, The Depth",
         link: "./ohthedepth.html",
         img: "dist/img/deathcore/oh-the-depth.webp",
@@ -460,6 +466,12 @@ new Vue({
         link: "./renascent.html",
         img: "dist/img/deathmetal/renascent.webp",
         category: "DEATH METAL",
+      },
+      {
+        title: "Revivalist",
+        link: "./revivalist.html",
+        img: "dist/img/hardcore/revivalist.webp",
+        category: "HARDCORE",
       },
       {
         title: "Roots of Tragedy",
