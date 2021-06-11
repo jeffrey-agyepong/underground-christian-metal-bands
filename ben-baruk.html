@@ -1,142 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Symphonic/Progresive Metal">
-  <!-- META KEYWORDS -->
-  <meta name="keywords"
-    content="Ben Baruk, Christian Metal, Symphonic Metal, Metalcore, Death Metal, Progressive Metal, Metal, Band, Christian, Music">
-  <meta property="og:image" content="dist/img/metal/ben-baruk-logo.webp">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ben Baruk is a symphonic/progresive metal band from Rio de Janeiro, Brazil.">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="Ben Baruk, Christian Metal, Symphonic Metal, Metalcore, Death Metal, Progressive Metal, Metal, Band, Christian, Music">
+    <meta property="og:image" content="dist/img/metal/ben-baruk-logo.webp">
 
-  <link rel="stylesheet" href="dist/css/materialize.min.css">
-  <link rel="stylesheet" href="dist/css/style.css">
-  <link rel="stylesheet" href="dist/css/all.min.css">
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
 
-  <!-- Font Awesome -->
-  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
-  <script src="dist/js/vue.min.js"></script>
-  <script src="dist/components/bands-header.js"></script>
-  <script src="dist/components/vue-app.js"></script>
-  <script src="dist/components/footer.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-BRN74LHN9V');
-  </script>
-
-  <title>Ben Baruk</title>
-</head>
-
-<body>
-  <header-component></header-component>
-
-  <vue-app-component></vue-app-component>
-  <div class="container">
-    <div class="bg">
-      <div class="container">
-        <h3 class="white-text">Bio</h3>
-        <p class="white-text">
-          "We are a metal band formed by people who share the same faith and worldview, with the aim of creating heavy
-          and
-          extreme music reflecting our daily lives, our convictions and our influences. We believe that Jesus is the
-          savior of humanity and this is reflected in our songs."
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="grid-container">
-
-      <div class="bg">
-        <div class="container">
-          <h4>Links</h4>
-          <div class="social-container">
-            <a href="https://www.facebook.com/benbaruk" target="_blank"><i
-                class="fab fa-facebook fa-3x white-text"></i></a>
-            <a href="https://www.instagram.com/benbarukofficial" target="_blank"><i
-                class="fab fa-instagram fa-3x white-text"></i></a>
-
-            <a href=" https://music.apple.com/gb/album/what-love-is-that/1542448685?uo=4" target="_blank"><i
-                class="fab fa-itunes fa-3x white-text"></i></a>
-
-            <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg">
-        <div class="container">
-          <h4>Coverage</h4>
-          <div class="social-container">
-            <p> <a href="https://beyondthegravemusic.com/2021/03/16/review-ben-baruk-what-love-is-that/" target="_blank"
-                rel="noopener noreferrer">What Love is
-                That? - Review</a>
-            </p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <iframe style="border: 0; width: 350px; height: 470px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=1653399629/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
-    seamless><a href="https://benbaruk.bandcamp.com/album/vidas-que-choram">Vidas Que Choram by Ben Baruk</a></iframe>
-
-  <iframe style="border: 0; width: 340px; height: 460px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=2991050590/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
-    seamless><a href="https://visionofgodrecords.bandcamp.com/album/what-love-is-that-symphonic-metal-djent">What Love
-      Is That? (Symphonic Metal/Djent) by Ben Baruk</a></iframe>
-
-  <script>
-    new Vue({
-      el: '#vue-app',
-      data: {
-        band: 'Ben Baruk',
-        formed: '2015',
-        status: 'Active',
-        genre: 'Progressive Metal',
-        label: 'Vision of God Records',
-        origin: 'Brazil',
-        location: 'Rio de Janeiro',
-        themes: 'Christianity',
-        img: 'dist/img/metal/ben-baruk.webp',
-        img2: 'dist/img/metal/ben-baruk-logo.webp',
-        members: [
-          { name: 'Maria José (Mazé)', instrument: ' Vocals' },
-          { name: 'Rafael Rodrigues', instrument: 'Guitar, Vocals' },
-          { name: 'André Fernandes', instrument: 'Guitar, Vocals' },
-          { name: 'Carlos Eduardo (Cadu)', instrument: 'Bass' },
-          { name: 'Lais Cunha', instrument: 'Drums' },
-        ],
-
-        discography: [
-          { album: 'Vidas Que Choram', type_year: 'EP - 2018' },
-          { album: 'What Love is That?', type_year: 'Album - 2020', }],
-
-      },
-      methods: {
-
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    });
+      gtag('js', new Date());
 
-  </script>
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
 
-  <footer-component></footer-component>
-  <script src="dist/js/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="dist/js/materialize.min.js"></script>
-  <script src="dist/js/init.js"></script>
-</body>
+    <title>Ben Baruk</title>
+  </head>
+
+  <body>
+    <header-component></header-component>
+
+    <vue-app-component></vue-app-component>
+    <div class="container">
+      <div class="bg">
+        <div class="container">
+          <h3 class="white-text">Bio</h3>
+          <p class="white-text">
+            "We are a metal band formed by people who share the same faith and worldview, with the aim of creating heavy
+            and
+            extreme music reflecting our daily lives, our convictions and our influences. We believe that Jesus is the
+            savior of humanity and this is reflected in our songs."
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="grid-container">
+
+        <div class="bg">
+          <div class="container">
+            <h4>Links</h4>
+            <div class="social-container">
+              <a href="https://www.facebook.com/benbaruk" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+              <a href="https://www.instagram.com/benbarukofficial" target="_blank"><i class="fab fa-instagram fa-3x white-text"></i></a>
+
+              <a href=" https://music.apple.com/gb/album/what-love-is-that/1542448685?uo=4" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+
+              <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg">
+          <div class="container">
+            <h4>Coverage</h4>
+            <div class="social-container">
+              <p> <a href="https://beyondthegravemusic.com/2021/03/16/review-ben-baruk-what-love-is-that/" target="_blank" rel="noopener noreferrer">What Love is
+                  That? - Review</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1653399629/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://benbaruk.bandcamp.com/album/vidas-que-choram">Vidas Que Choram by Ben Baruk</a></iframe>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2991050590/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://visionofgodrecords.bandcamp.com/album/what-love-is-that-symphonic-metal-djent">What Love
+        Is That? (Symphonic Metal/Djent) by Ben Baruk</a></iframe>
+
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'Ben Baruk',
+          formed: '2015',
+          status: 'Active',
+          genre: 'Progressive Metal',
+          label: 'Vision of God Records',
+          origin: 'Brazil',
+          location: 'Rio de Janeiro',
+          themes: 'Christianity',
+          img: 'dist/img/metal/ben-baruk.webp',
+          img2: 'dist/img/metal/ben-baruk-logo.webp',
+          members: [{
+              name: 'Maria José (Mazé)',
+              instrument: ' Vocals'
+            },
+            {
+              name: 'Rafael Rodrigues',
+              instrument: 'Guitar, Vocals'
+            },
+            {
+              name: 'André Fernandes',
+              instrument: 'Guitar, Vocals'
+            },
+            {
+              name: 'Carlos Eduardo (Cadu)',
+              instrument: 'Bass'
+            },
+            {
+              name: 'Lais Cunha',
+              instrument: 'Drums'
+            },
+          ],
+
+          discography: [{
+              album: 'Vidas Que Choram',
+              type_year: 'EP - 2018'
+            },
+            {
+              album: 'What Love is That?',
+              type_year: 'Album - 2020',
+            }
+          ],
+
+        },
+        methods: {
+
+        }
+      });
+    </script>
+
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
 
 
 
