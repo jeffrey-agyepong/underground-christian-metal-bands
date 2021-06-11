@@ -1,104 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Atmostpheric Black Metal">
-  <!-- META KEYWORDS -->
-  <meta name="keywords"
-    content="Bismoth, Atmostpheric Black Metal, Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
-  <meta property="og:image" content="dist/img/blackmetal/bismothlogo.jpg">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bismoth is an atmostpheric black metal band originally from South Africa.">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="Bismoth, Atmostpheric Black Metal, Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
+    <meta property="og:image" content="dist/img/blackmetal/bismothlogo.jpg">
 
-  <link rel="stylesheet" href="dist/css/materialize.min.css">
-  <link rel="stylesheet" href="dist/css/style.css">
-  <link rel="stylesheet" href="dist/css/all.min.css">
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
 
-  <!-- Font Awesome -->
-  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
-  <script src="dist/js/vue.min.js"></script>
-  <script src="dist/components/bands-header.js"></script>
-  <script src="dist/components/vue-app.js"></script>
-  <script src="dist/components/footer.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-BRN74LHN9V');
-  </script>
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-  <title>Bismoth</title>
-</head>
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
 
-<body>
-  <header-component></header-component>
+    <title>Bismoth</title>
+  </head>
 
-  <vue-app-component></vue-app-component>
+  <body>
+    <header-component></header-component>
 
-  <div class="container">
-    <div class="bg">
-      <h4>Links</h4>
-      <div class="social-container">
-        <a href="facebook.com/bismothmetal/" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
-        <a href="https://bismoth.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+    <vue-app-component></vue-app-component>
+
+    <div class="container">
+      <div class="bg">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://facebook.com/bismothmetal/" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+          <a href="https://bismoth.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <iframe style="border: 0; width: 340px; height: 460px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=2945987898/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/"
-    seamless><a href="https://bismoth.bandcamp.com/album/the-road">The Road by Bismoth</a></iframe>
-  <iframe style="border: 0; width: 340px; height: 460px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=3076257554/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/"
-    seamless><a href="https://bismoth.bandcamp.com/album/psalmic-peace">Psalmic Peace by Bismoth</a></iframe>
-  <iframe style="border: 0; width: 340px; height: 460px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=1891890736/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/"
-    seamless><a href="https://bismoth.bandcamp.com/album/body-of-christ">Body of Christ by Bismoth / Symphony of Heaven
-      / TIMŌRĀTUS</a></iframe>
-  <script>
-    new Vue({
-      el: '#vue-app',
-      data: {
-        band: 'Bismoth',
-        formed: '2012',
-        status: 'Active',
-        genre: 'Atmostpheric Black Metal',
-        label: 'Independent',
-        origin: 'South Africa(now based in the USA)',
-        location: 'Raleigh, North Carolina',
-        themes: 'Christianity',
-        img: 'dist/img/blackmetal/bismoth.webp',
-        img2: 'dist/img/blackmetal/bismothlogo.jpg',
-        members: [{ name: 'Jethro de Beer', instrument: 'Vocals, All instruments' },
-        ],
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2945987898/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a
+        href="https://bismoth.bandcamp.com/album/the-road">The Road by Bismoth</a></iframe>
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=3076257554/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a
+        href="https://bismoth.bandcamp.com/album/psalmic-peace">Psalmic Peace by Bismoth</a></iframe>
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=1891890736/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a
+        href="https://bismoth.bandcamp.com/album/body-of-christ">Body of Christ by Bismoth / Symphony of Heaven
+        / TIMŌRĀTUS</a></iframe>
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'Bismoth',
+          formed: '2012',
+          status: 'Active',
+          genre: 'Atmostpheric Black Metal',
+          label: 'Independent',
+          origin: 'South Africa(now based in the USA)',
+          location: 'Raleigh, North Carolina',
+          themes: 'Christianity',
+          img: 'dist/img/blackmetal/bismoth.webp',
+          img2: 'dist/img/blackmetal/bismothlogo.jpg',
+          members: [{
+            name: 'Jethro de Beer',
+            instrument: 'Vocals, All instruments'
+          }, ],
 
-        discography: [{ album: 'Demo', type_year: 'Demo - 2012' }, { album: 'The Road', type_year: 'EP - 2018' }, { album: 'Water to Dust', type_year: 'Single - 2018' },
-        {
-          album: 'Psalmic Peace', type_year: 'Album - 2018'
+          discography: [{
+              album: 'Demo',
+              type_year: 'Demo - 2012'
+            }, {
+              album: 'The Road',
+              type_year: 'EP - 2018'
+            }, {
+              album: 'Water to Dust',
+              type_year: 'Single - 2018'
+            },
+            {
+              album: 'Psalmic Peace',
+              type_year: 'Album - 2018'
+            },
+            {
+              album: 'Body of Christ',
+              type_year: 'Split - 2019'
+            }
+          ],
+
         },
-        {
-          album: 'Body of Christ', type_year: 'Split - 2019'
+        methods: {
+
         }
-        ],
+      });
+    </script>
 
-      },
-      methods: {
-
-      }
-    });
-
-  </script>
-
-  <footer-component></footer-component>
-  <script src="dist/js/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="dist/js/materialize.min.js"></script>
-  <script src="dist/js/init.js"></script>
-</body>
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
 
 
 
