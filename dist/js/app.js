@@ -363,7 +363,7 @@ new Vue({
         title: "Inborn Tendency",
         link: "./inborn-tendency.html",
         img: "dist/img/deathmetal/inborn-tendency.webp",
-        category: "DEATH METAL",
+        category: "DEATHCORE",
       },
       {
         title: "Incarnate Deity",
