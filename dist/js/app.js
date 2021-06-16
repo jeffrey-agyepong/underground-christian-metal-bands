@@ -294,6 +294,12 @@ new Vue({
         category: "METAL",
       },
       {
+        title: "Frost Like Ashes",
+        link: "./frost-like-ashes.html",
+        img: "dist/img/blackmetal/frost-like-ashes.webp",
+        category: "BLACK METAL",
+      },
+      {
         title: "Good News We're Dead",
         link: "./gnwd.html",
         img: "dist/img/metalcore/gnwd.webp",
@@ -501,6 +507,12 @@ new Vue({
         title: "Searching Serenity",
         link: "./searching-serenity.html",
         img: "dist/img/deathcore/searchingserenity1.webp",
+        category: "DEATHCORE",
+      },
+      {
+        title: "A Secret Ending",
+        link: "./a-secret-ending.html",
+        img: "dist/img/deathcore/a-secret-ending.webp",
         category: "DEATHCORE",
       },
       {
