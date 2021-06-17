@@ -150,6 +150,12 @@ new Vue({
         category: "METAL",
       },
       {
+        title: "Brutal Cross",
+        link: "./brutal-cross.html",
+        img: "dist/img/extreme-metal/brutal-cross.webp",
+        category: "EXTREME METAL",
+      },
+      {
         title: "The Burial",
         link: "./the-burial.html",
         img: "dist/img/deathmetal/the-burial.webp",
