@@ -1,110 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Extreme Gothic Metal">
-  <!-- META KEYWORDS -->
-  <meta name="keywords"
-    content="The Beckoning, Extreme Metal, Gothic Metal, Christian Metal, Metal, Death Metal, Progressive Metal, Melodic Death Metal, Band, Christian, Music">
-  <meta property="og:image" content="dist/img/extreme-metal/thebeckoning-logo.jpg">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Extreme Gothic Metal">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="The Beckoning, Extreme Metal, Gothic Metal, Christian Metal, Metal, Death Metal, Progressive Metal, Melodic Death Metal, Band, Christian, Music">
+    <meta property="og:image" content="dist/img/extreme-metal/thebeckoning-logo.jpg">
 
-  <link rel="stylesheet" href="dist/css/materialize.min.css">
-  <link rel="stylesheet" href="dist/css/style.css">
-  <link rel="stylesheet" href="dist/css/all.min.css">
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
 
-  <!-- Font Awesome -->
-  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
-  <script src="dist/js/vue.min.js"></script>
-  <script src="dist/components/bands-header.js"></script>
-  <script src="dist/components/vue-app.js"></script>
-  <script src="dist/components/footer.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-BRN74LHN9V');
-  </script>
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-  <title>The Beckoning</title>
-</head>
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
 
-<body>
-  <header-component></header-component>
+    <title>The Beckoning</title>
+  </head>
 
-  <vue-app-component></vue-app-component>
+  <body>
+    <header-component></header-component>
 
-  <div class="container">
-    <div class="bg">
-      <h4>Links</h4>
-      <div class="social-container">
-        <a href="https://www.facebook.com/thebeckoningband" target="_blank"><i
-            class="fab fa-facebook fa-3x white-text"></i></a>
-        <a href="https://thebeckoning.bandcamp.com/music" target="_blank"><i
-            class="fab fa-bandcamp fa-3x white-text"></i></a>
+    <vue-app-component></vue-app-component>
+
+    <div class="container">
+      <div class="bg">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://www.facebook.com/thebeckoningband" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+          <a href="https://thebeckoning.bandcamp.com/music" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <iframe style="border: 0; width: 340px; height: 460px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=186801877/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-    seamless><a href="https://thebeckoning.bandcamp.com/album/the-desolation-of-war">The Desolation Of War by The
-      Beckoning</a></iframe>
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=186801877/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a
+        href="https://thebeckoning.bandcamp.com/album/the-desolation-of-war">The Desolation Of War by The
+        Beckoning</a></iframe>
 
-  <iframe style="border: 0; width: 340px; height: 432px;"
-    src="https://bandcamp.com/EmbeddedPlayer/track=330528067/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-    seamless><a href="https://thebeckoning.bandcamp.com/track/symphony-of-the-apocalypse">Symphony Of The Apocalypse by
-      The Beckoning</a></iframe>
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/track=330528067/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a
+        href="https://thebeckoning.bandcamp.com/track/symphony-of-the-apocalypse">Symphony Of The Apocalypse by
+        The Beckoning</a></iframe>
 
 
-  <script>
-    new Vue({
-      el: '#vue-app',
-      data: {
-        band: 'The Beckoning',
-        formed: '2010',
-        status: 'Active',
-        genre: 'Melodic Death/Gothic Metal',
-        label: 'Independent',
-        origin: 'Canada',
-        location: 'Edmonton, Alberta',
-        themes: 'Christianity',
-        img: 'dist/img/extreme-metal/thebeckoning.webp',
-        img2: 'dist/img/extreme-metal/thebeckoning-logo.jpg',
-        members: [
-          { name: 'Roy Turple', instrument: 'Vocals (lead), Drums' },
-          { name: 'Meghann Turple', instrument: 'Keyboards, Piano, Vocals' },
-          { name: 'Eldon Loewen', instrument: '	Guitars, Bass' },
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'The Beckoning',
+          formed: '2010',
+          status: 'Active',
+          genre: 'Melodic Death/Gothic Metal',
+          label: 'Independent',
+          origin: 'Canada',
+          location: 'Edmonton, Alberta',
+          themes: 'Christianity',
+          img: 'dist/img/extreme-metal/thebeckoning.webp',
+          img2: 'dist/img/extreme-metal/thebeckoning-logo.jpg',
+          members: [{
+              name: 'Roy Turple',
+              instrument: 'Vocals (lead), Drums'
+            },
+            {
+              name: 'Meghann Turple',
+              instrument: 'Keyboards, Piano, Vocals'
+            },
+            {
+              name: 'Eldon Loewen',
+              instrument: '	Guitars, Bass'
+            },
 
-        ],
+          ],
 
-        discography: [
-          { album: 'Bloodlet', type_year: 'Demo - 2010', },
-          { album: 'Demystifying the Oracle', type_year: 'Album - 2011', },
-          { album: 'War', type_year: 'EP - 2012', },
-          { album: 'Desolate', type_year: 'EP - 2014', },
-          { album: 'The Desolation of War', type_year: 'EP - 2017', },
-          { album: 'Symphony of the Apocalypse', type_year: 'Single - 2018', }],
+          discography: [{
+              album: 'Bloodlet',
+              type_year: 'Demo - 2010',
+            },
+            {
+              album: 'Demystifying the Oracle',
+              type_year: 'Album - 2011',
+            },
+            {
+              album: 'War',
+              type_year: 'EP - 2012',
+            },
+            {
+              album: 'Desolate',
+              type_year: 'EP - 2014',
+            },
+            {
+              album: 'The Desolation of War',
+              type_year: 'EP - 2017',
+            },
+            {
+              album: 'Symphony of the Apocalypse',
+              type_year: 'Single - 2018',
+            }
+          ],
 
-      },
-      methods: {
+        },
+        methods: {
 
-      }
-    });
+        }
+      });
+    </script>
 
-  </script>
-
-  <footer-component></footer-component>
-  <script src="dist/js/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="dist/js/materialize.min.js"></script>
-  <script src="dist/js/init.js"></script>
-</body>
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
 
 
 
