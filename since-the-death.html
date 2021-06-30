@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Black Metal">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="Since The Death, Christian Metal, Christian Metalcore, Metal, Metalcore, Death Metal, Black Metal, Band, Christian, Music, The Black Must Come Out, A Gift To My God, Sweden">
+    <meta property="og:image" content="dist/img/extreme-metal/since-the-death1.webp">
+
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
+
+    <title>Since The Death</title>
+  </head>
+
+  <body>
+    <header-component></header-component>
+
+    <vue-app-component></vue-app-component>
+    <div class="container">
+      <div class="bg">
+        <div class="container">
+          <h4>Links</h4>
+          <div class="social-container">
+            <a href="" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+            <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+            <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a>
+            <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+            <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2957512328/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://sincethedeath.bandcamp.com/album/a-gift-to-my-god">A Gift To My God by Since The Death</a></iframe>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=1216973171/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://visionofgodrecords.bandcamp.com/album/the-black-must-come-out-black-unblack-metal">The Black Must Come Out (Black/Unblack Metal) by Since the Death</a></iframe>
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'Since The Death',
+          formed: '2016',
+          status: 'Active',
+          genre: 'Death/Black Metal',
+          label: 'Vision of God Records',
+          origin: 'Sweden',
+          location: 'Linköping, Östergötland',
+          themes: 'Christianity',
+          img: 'dist/img/extreme-metal/since-the-death2.webp',
+          img2: 'dist/img/extreme-metal/since-the-death1.webp',
+          members: [{
+            name: '',
+            instrument: ''
+          }, {
+            name: 'Oscar Rask',
+            instrument: 'All Instruments'
+          }, ],
+
+          discography: [{
+              album: 'Thy Presence',
+              type_year: 'EP - 2017',
+            }, {
+              album: 'A Gift to My God',
+              type_year: 'Album - 2018',
+            },
+            {
+              album: 'The Black Must Come Out',
+              type_year: 'Single - 2020',
+            },
+            {
+              album: 'The Black Must Come Out',
+              type_year: 'Album - 2020',
+            }
+          ],
+
+        },
+        methods: {
+
+        }
+      });
+    </script>
+
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
+
+
+
+</html>

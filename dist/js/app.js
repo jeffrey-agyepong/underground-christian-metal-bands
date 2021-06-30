@@ -22,6 +22,12 @@ new Vue({
         img: "dist/img/deathmetal/afterimage-logo.webp",
         category: "DEATH METAL",
       },
+      /*{
+        title: "Among Millenials",
+        link: "./among-millenials.html",
+        img: "dist/img/metalcore/among-millenials.webp",
+        category: "METALCORE",
+      },*/
       {
         title: "Amplified",
         link: "./amplified.html",
@@ -550,6 +556,12 @@ new Vue({
         link: "./silence-the-assembly.html",
         img: "dist/img/metalcore/silence-the-assembly.webp",
         category: "METALCORE",
+      },
+      {
+        title: "Since The Death",
+        link: "./since-the-death.html",
+        img: "dist/img/extreme-metal/since-the-death1.webp",
+        category: "EXTREME METAL",
       },
       {
         title: "Skald In Veum",
