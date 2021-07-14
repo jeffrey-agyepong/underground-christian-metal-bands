@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Atrocity is a brutal death metal/deathcore band from California, USA.">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="Atrocity, Christian Metal, Metal, Metalcore, Death Metal,  Band, Christian, Music">
+    <meta property="og:image" content="dist/img/deathcore/atrocity.webp">
+
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
+
+    <title>Atrocity</title>
+  </head>
+
+  <body>
+    <header-component></header-component>
+
+    <vue-app-component></vue-app-component>
+    <div class="container">
+
+      <div class="bg">
+        <div class="container">
+          <h4>Links</h4>
+          <div class="social-container">
+            <a href="https://www.facebook.com/atrocity.california/" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+            <a href="https://open.spotify.com/artist/7JBYWXKDx8Aly7bgGHXqsR?si=y7i-am-eQa2ZZoYRUlYgZQ&dl_branch=1" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+            <a href="https://music.apple.com/us/album/the-disease-of-humanity-feat-vulvodynia/1211920262" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+            <a href="https://atrocityca.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=3183972009/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://atrocityca.bandcamp.com/album/abhorrent-defacement-of-purity">Abhorrent Defacement of Purity by Atrocity</a></iframe>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=176879894/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://atrocityca.bandcamp.com/album/the-disease-of-humanity">The Disease of Humanity by Atrocity</a></iframe>
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'Atrocity',
+          formed: '2015',
+          status: 'Active',
+          genre: 'Brutal Death Metal, Deathcore',
+          label: 'Independent',
+          origin: 'USA',
+          location: 'Salinas, California',
+          themes: 'Christianity',
+          img: 'dist/img/deathcore/atrocity1.webp',
+          img2: 'dist/img/deathcore/atrocity.webp',
+          members: [{
+              name: 'Nathan Baird',
+              instrument: 'Guitar, Drum programming'
+            }, {
+              name: 'Brandon Cooper',
+              instrument: 'Vocals'
+            }, {
+              name: 'Will Manigault',
+              instrument: 'Bass'
+            },
+            {
+              name: 'Sean Levey',
+              instrument: 'Drums'
+            },
+            {
+              name: 'Eli Blalock',
+              instrument: 'Guitar'
+            },
+
+          ],
+
+          discography: [{
+              album: 'Promo',
+              type_year: 'Demo - 2016',
+            }, {
+              album: 'Unholy',
+              type_year: 'Single - 2016',
+            }, {
+              album: 'The Disease of Humanity',
+              type_year: 'Album - 2016',
+            },
+            {
+              album: 'Mass of Bloated Entrails',
+              type_year: 'Single - 2017',
+            },
+            {
+              album: 'Abhorrent Defacement of Purity',
+              type_year: 'Album - 2020',
+            }
+          ],
+
+        },
+        methods: {
+
+        }
+      });
+    </script>
+
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
+
+
+
+</html>
