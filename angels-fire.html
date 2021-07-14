@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Angel's Fire is a symphonic metal band from Brazil.">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="Angel's Fire, Symphonic Metal, Christian Symphonic Metal, Christian Metal, Metal, Band, Christian, Music">
+    <meta property="og:image" content="dist/img/metal/angels-fire.webp">
+
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
+
+    <title>Angel's Fire</title>
+  </head>
+
+  <body>
+    <header-component></header-component>
+
+    <vue-app-component></vue-app-component>
+    <div class="container">
+
+
+      <div class="bg">
+        <div class="container">
+          <h4>Links</h4>
+          <div class="social-container">
+            <a href="" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+            <a href="" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+            <a href="" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a>
+            <a href="" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+            <a href="" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container p-10">
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/https://www.youtube.com/playlist?list=PLiotQ-kAsVcbQ2WDOot_ZYbS7_M6PT1_B" width="560" height="315" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: "Angel's Fire",
+          formed: '2004',
+          status: 'Active',
+          genre: 'Symphonic Metal',
+          label: 'Lex Metalis Records',
+          origin: 'Brazil',
+          location: 'Recife, Pernambuco',
+          themes: 'Christianity',
+          img: 'dist/img/metal/angels-fire1.webp',
+          img2: 'dist/img/metal/angels-fire.webp',
+          members: [{
+              name: 'Priscila Lira',
+              instrument: 'Vocals'
+            }, {
+              name: 'Israel Lira "Netinho"',
+              instrument: 'Guitars, Vocals (backing)'
+            }, {
+              name: 'Saymo Roberto',
+              instrument: 'Bass, Vocals (back)'
+            },
+            {
+              name: 'Ítalo Liano',
+              instrument: 'Keyboards'
+            },
+            {
+              name: 'André Lima',
+              instrument: 'Drums '
+            },
+
+          ],
+
+          discography: [{
+              album: 'Underblood Fest II Split',
+              type_year: 'Video - 2007',
+            }, {
+              album: 'Guardião demo',
+              type_year: 'Demo - 2008',
+            }, {
+              album: 'Underblood Fest V Split',
+              type_year: 'Video - 2010',
+            }, {
+              album: 'Guardião',
+              type_year: 'EP - 2011',
+            }, {
+              album: 'Underblood Fest VI Split',
+              type_year: 'Video - 2011',
+            }, {
+              album: 'Meu Desejo',
+              type_year: 'Single - 2013',
+            }, {
+              album: 'O Conto',
+              type_year: 'Album - 2018',
+            },
+
+          ],
+
+        },
+        methods: {
+
+        }
+      });
+    </script>
+
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
+
+
+
+</html>
