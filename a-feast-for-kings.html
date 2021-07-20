@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Feast For Kings was a metalcore band from USA.">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="A Feast For Kings, Christian Metal, Christian Metalcore, Metal, Metalcore, Hell On Earth EP, Band, Christian, Music">
+    <meta property="og:image" content="dist/img/metalcore/a-feast-for-kings.webp">
+
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
+
+    <title>A Feast For Kings</title>
+  </head>
+
+  <body>
+    <header-component></header-component>
+
+    <vue-app-component></vue-app-component>
+    <div class="container">
+      <div class="bg">
+        <div class="container">
+          <h4>Links</h4>
+          <div class="social-container">
+
+
+            <a href="https://open.spotify.com/artist/5pI1lO52EraVBmUu9kOhRd?si=-RnLvFhXQ7O4smB6uhXCMg&dl_branch=1" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+            <a href="https://www.youtube.com/user/aFeastforKings" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a>
+            <a href="https://music.apple.com/us/artist/a-feast-for-kings/506974864" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+            <a href="https://afeastforkings.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2960471958/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a
+        href="https://afeastforkings.bandcamp.com/album/hell-on-earth">Hell On Earth by A Feast For Kings</a></iframe>
+
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'A Feast For Kings',
+          formed: '2011',
+          status: 'Changed Name',
+          genre: 'Metalcore',
+          label: 'Independent',
+          origin: 'USA',
+          location: 'Carrollton',
+          themes: 'Christianity',
+          img: 'dist/img/metalcore/a-feast-for-kings.webp',
+          img2: 'dist/img/metalcore/a-feast-for-kings1.webp',
+          members: [{
+              name: 'Eric Gentry (R.I.P)',
+              instrument: 'Vocals'
+            }, {
+              name: 'Kyle Phillips',
+              instrument: 'Guitar'
+            }, {
+              name: 'Seth Weigand',
+              instrument: 'Vocals, Guitar'
+            },
+            {
+              name: 'Carson Butcher',
+              instrument: 'Drums'
+            },
+            {
+              name: 'Jamie King',
+              instrument: 'Bass'
+            },
+
+          ],
+
+          discography: [{
+            album: 'Judges',
+            type_year: 'Single - 2011',
+          }, {
+            album: 'Dominion',
+            type_year: 'Single - 2012',
+          }, {
+            album: 'The Exposed',
+            type_year: 'Single - 2012',
+          }, {
+            album: 'Hell on Earth',
+            type_year: 'EP – 2014',
+          }],
+
+        },
+        methods: {
+
+        }
+      });
+    </script>
+
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
+
+
+
+</html>

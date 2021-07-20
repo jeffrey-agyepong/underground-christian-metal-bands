@@ -251,6 +251,12 @@ new Vue({
         img: "dist/img/deathmetal/diatheke.webp",
         category: "DEATH METAL"
       },
+      /*{
+        title:'Dividing The Masses',
+        link:'./dividing-the-masses.html',
+        img:'dist/img/deathcore/dividing-the-masses1.webp',
+        category:'DEATHCORE'
+      },*/
       {
         title: "Elephant Watchtower",
         link: "./elephant-watchtower.html",
@@ -310,6 +316,12 @@ new Vue({
         link: "./feast-eternal.html",
         img: "dist/img/deathmetal/feast-eternal.webp",
         category: "DEATH METAL"
+      },
+      {
+        title: "A Feast For Kings",
+        link: "./a-feast-for-kings.html",
+        img: "dist/img/metalcore/a-feast-for-kings.webp",
+        category: "METALCORE"
       },
       {
         title: "Fleshkiller",
@@ -420,6 +432,18 @@ new Vue({
         category: "DEATH METAL"
       },
       {
+        title:"Incinerating The Infidels",
+        link:'./incinerating-the-infidels.html',
+        img:'dist/img/deathmetal/incinerating-the-infidels2.webp',
+        category:'DEATH METAL'
+      },
+      {
+        title:'Intercessor',
+        link:'./intercessor.html',
+        img:'dist/img/metalcore/intercessor.webp',
+        category:'METALCORE'
+      },
+      {
         title: "Irae",
         link: "./irae.html",
         img: "dist/img/metalcore/irae.webp",
@@ -498,6 +522,12 @@ new Vue({
         category: "DEATHCORE"
       },
       {
+        title: "Oh, Redeemer",
+        link: "./oh-redeemer.html",
+        img: "dist/img/metalcore/oh-redeemer.webp",
+        category: "METALCORE"
+      },
+      {
         title: "Parallax Withering",
         link: "./parallax-withering.html",
         img: "dist/img/deathcore/parallax-withering.jpg",
@@ -528,6 +558,12 @@ new Vue({
         category: "EXTREME METAL"
       },
       {
+        title: "Roselyn",
+        link: "./roselyn.html",
+        img: "dist/img/hardcore/roselyn.webp",
+        category: "HARDCORE"
+      },
+      {
         title: "Sabbatariam",
         link: "./sabbatariam.html",
         img: "dist/img/deathmetal/sabbatariam.webp",
@@ -544,6 +580,12 @@ new Vue({
         link: "./scarlet-oath.html",
         img: "dist/img/extreme-metal/scarlet-oat1.jpg",
         category: "EXTREME METAL"
+      },
+      {
+        title:'Screaming Into The Void',
+        link:'./screaming-into-the-void.html',
+        img:'dist/img/deathmetal/screaming-into-the-void.webp',
+        category:'DEATH METAL'
       },
       {
         title: "Searching Serenity",
