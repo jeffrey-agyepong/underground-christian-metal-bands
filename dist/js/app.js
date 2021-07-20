@@ -440,7 +440,7 @@ new Vue({
       {
         title:'Intercessor',
         link:'./intercessor.html',
-        img:'dist/img/metalcore/intercessor.webp',
+        img:'dist/img/metalcore/intercessor1.webp',
         category:'METALCORE'
       },
       {
