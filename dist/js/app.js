@@ -521,12 +521,12 @@ new Vue({
         img: "dist/img/deathcore/oh-the-depth.webp",
         category: "DEATHCORE"
       },
-      {
+      /*{
         title: "Oh, Redeemer",
         link: "./oh-redeemer.html",
         img: "dist/img/metalcore/oh-redeemer.webp",
         category: "METALCORE"
-      },
+      },*/
       {
         title: "Parallax Withering",
         link: "./parallax-withering.html",
