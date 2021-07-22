@@ -251,12 +251,12 @@ new Vue({
         img: "dist/img/deathmetal/diatheke.webp",
         category: "DEATH METAL"
       },
-      /*{
+      {
         title:'Dividing The Masses',
         link:'./dividing-the-masses.html',
         img:'dist/img/deathcore/dividing-the-masses1.webp',
         category:'DEATHCORE'
-      },*/
+      },
       {
         title: "Elephant Watchtower",
         link: "./elephant-watchtower.html",
@@ -521,12 +521,12 @@ new Vue({
         img: "dist/img/deathcore/oh-the-depth.webp",
         category: "DEATHCORE"
       },
-      /*{
+      {
         title: "Oh, Redeemer",
         link: "./oh-redeemer.html",
         img: "dist/img/metalcore/oh-redeemer.webp",
         category: "METALCORE"
-      },*/
+      },
       {
         title: "Parallax Withering",
         link: "./parallax-withering.html",
