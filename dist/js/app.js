@@ -246,7 +246,7 @@ new Vue({
         category: "DEATHCORE"
       },
       {
-        title: "Diathekeke",
+        title: "Diatheke",
         link: "./diatheke.html",
         img: "dist/img/deathmetal/diatheke.webp",
         category: "DEATH METAL"
