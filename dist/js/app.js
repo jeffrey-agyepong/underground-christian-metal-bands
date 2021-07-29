@@ -390,6 +390,12 @@ new Vue({
         category: "DEATHCORE"
       },
       {
+        title:'Hope Deferred',
+        link:'./hope-deferred.html',
+        img:'dist/img/deathmetal/hope-deferred2.webp',
+        category:'DEATH METAL'
+      },
+      {
         title: "Hope For The Dying",
         link: "./hope-for-the-dying.html",
         img: "dist/img/deathmetal/hopeforthedyingLogo.webp",
