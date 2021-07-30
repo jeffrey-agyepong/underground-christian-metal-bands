@@ -383,6 +383,12 @@ new Vue({
         img: "dist/img/blackmetal/hazeroth.webp",
         category: "BLACK METAL"
       },
+      /*{
+        title:'Hilastherion',
+        link:'./hilastherion.html',
+        img:'dist/img/deathmetal/hilastherion1.webp',
+        category:'DEATH METAL'
+      },*/
       {
         title: "His Kingdom Suffers",
         link: "./his-kingdom-suffers.html",
@@ -478,6 +484,12 @@ new Vue({
         link: "./krig.html",
         img: "dist/img/deathmetal/krig1.webp",
         category: "DEATH METAL"
+      },
+      {
+        title:'Mangled Carpenter',
+        link:'./mangled-carpenter.html',
+        img:'dist/img/deathmetal/mangled-carpenter1.webp',
+        category:'DEATH METAL'
       },
       {
         title: "Marble Tomb",
