@@ -1,104 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Melodic Death Metal" />
+    <!-- META KEYWORDS -->
+    <meta
+      name="keywords"
+      content="The Weeping Gate, Christian Metal, Metal, Death Metal, Melodic Death Metal, Band, Christian, Music"
+    />
+    <meta
+      property="og:image"
+      content="dist/img/deathmetal/theweepinggatelogo.jpg"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Melodic Death Metal">
-  <!-- META KEYWORDS -->
-  <meta name="keywords"
-    content="The Weeping Gate, Christian Metal, Metal, Death Metal, Melodic Death Metal, Band, Christian, Music">
-  <meta property="og:image" content="dist/img/deathmetal/theweepinggatelogo.jpg">
+    <link rel="stylesheet" href="dist/css/materialize.min.css" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/all.min.css" />
 
-  <link rel="stylesheet" href="dist/css/materialize.min.css">
-  <link rel="stylesheet" href="dist/css/style.css">
-  <link rel="stylesheet" href="dist/css/all.min.css">
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico" />
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Font Awesome -->
-  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
-  <script src="dist/js/vue.min.js"></script>
-  <script src="dist/components/bands-header.js"></script>
-  <script src="dist/components/vue-app.js"></script>
-  <script src="dist/components/footer.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "G-BRN74LHN9V");
+    </script>
 
-    gtag('config', 'G-BRN74LHN9V');
-  </script>
+    <title>The Weeping Gate</title>
+  </head>
 
-  <title>The Weeping Gate</title>
-</head>
+  <body>
+    <header-component></header-component>
 
-<body>
-  <header-component></header-component>
+    <vue-app-component></vue-app-component>
 
-  <vue-app-component></vue-app-component>
+    <div class="container">
+      <div class="bg">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="s://web.facebook.com/theweepinggate" target="_blank"
+            ><i class="fab fa-facebook fa-3x white-text"></i
+          ></a>
 
-  <div class="container">
-    <div class="bg">
-      <h4>Links</h4>
-      <div class="social-container">
-        <a href="s://web.facebook.com/theweepinggate" target="_blank"><i
-            class="fab fa-facebook fa-3x white-text"></i></a>
-
-        <a href="https://music.apple.com/ca/artist/the-weeping-gate/1222148371" target="_blank"><i
-            class="fab fa-itunes fa-3x white-text"></i></a>
-        <a href="https://theweepinggate.bandcamp.com" target="_blank"><i
-            class="fab fa-bandcamp fa-3x white-text"></i></a>
+          <a
+            href="https://music.apple.com/ca/artist/the-weeping-gate/1222148371"
+            target="_blank"
+            ><i class="fab fa-itunes fa-3x white-text"></i
+          ></a>
+          <a href="https://theweepinggate.bandcamp.com" target="_blank"
+            ><i class="fab fa-bandcamp fa-3x white-text"></i
+          ></a>
+        </div>
       </div>
     </div>
-  </div>
 
+    <iframe
+      style="border: 0; width: 340px; height: 460px"
+      src="https://bandcamp.com/EmbeddedPlayer/album=691458861/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+      seamless
+      ><a href="https://theweepinggate.bandcamp.com/album/the-woods-demo"
+        >The Woods (Demo) by The Weeping Gate</a
+      ></iframe
+    >
+    <iframe
+      style="border: 0; width: 340px; height: 460px"
+      src="https://bandcamp.com/EmbeddedPlayer/album=859799881/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+      seamless
+      ><a href="https://theweepinggate.bandcamp.com/album/malice-deceit"
+        >Malice &amp; Deceit by The Weeping Gate</a
+      ></iframe
+    >
+    <script>
+      new Vue({
+        el: "#vue-app",
+        data: {
+          band: "The Weeping Gate",
+          formed: "2007",
+          status: "Active",
+          genre: "Melodic Death Metal",
+          label: "Independent",
+          origin: "USA",
+          location: "Little Rock, Arkansas",
+          themes: "Christianity",
+          img: "dist/img/deathmetal/theweepinggate.jpg",
+          img2: "dist/img/deathmetal/theweepinggatelogo.jpg",
+          members: [
+            { name: "Robert Halcumb ", instrument: "Vocals, Guitar" },
+            { name: "Sydney Halcumb ", instrument: "Vocals, Keyboard" },
+            { name: "Jason Grunwald ", instrument: "Guitar,Vocals" },
+            { name: "Jamie Garza", instrument: "Bass, Vocals" },
+            { name: "Christian Whitehead", instrument: "Drums" },
+          ],
 
-  <iframe style="border: 0; width: 340px; height: 460px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=691458861/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
-    seamless><a href="https://theweepinggate.bandcamp.com/album/the-woods-demo">The Woods (Demo) by The Weeping
-      Gate</a></iframe>
-  <iframe style="border: 0; width: 340px; height: 460px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=859799881/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
-    seamless><a href="https://theweepinggate.bandcamp.com/album/malice-deceit">Malice &amp; Deceit by The Weeping
-      Gate</a></iframe>
-  <script>
-    new Vue({
-      el: '#vue-app',
-      data: {
-        band: 'The Weeping Gate',
-        formed: '2007',
-        status: 'Active',
-        genre: 'Melodic Death Metal',
-        label: 'Independent',
-        origin: 'USA',
-        location: 'Little Rock, Arkansas',
-        themes: 'Christianity',
-        img: 'dist/img/deathmetal/theweepinggate.jpg',
-        img2: 'dist/img/deathmetal/theweepinggatelogo.jpg',
-        members: [{ name: 'Robert Halcumb ', instrument: 'Vocals, Guitar' }, { name: 'Sydney Halcumb ', instrument: 'Vocals, Keyboard' }, { name: 'Jason Grunwald ', instrument: 'Guitar,Vocals' },
-        { name: 'Jamie Garza', instrument: 'Bass, Vocals' },
-        { name: 'Christian Whitehead', instrument: 'Drums' }
-        ],
+          discography: [
+            { album: "Malice & Deceit", type_year: "EP - 2017" },
+            { album: "The Woods", type_year: "Demo - 2020" },
+            { album: "Lycanthropy", type_year: "Single - 2021" },
+          ],
+        },
+        methods: {},
+      });
+    </script>
 
-        discography: [{ album: 'Malice & Deceit', type_year: 'EP - 2017', }, { album: 'The Woods', type_year: 'Demo - 2020', }],
-
-      },
-      methods: {
-
-      }
-    });
-
-  </script>
-
-  <footer-component></footer-component>
-  <script src="dist/js/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="dist/js/materialize.min.js"></script>
-  <script src="dist/js/init.js"></script>
-</body>
-
-
-
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
 </html>
