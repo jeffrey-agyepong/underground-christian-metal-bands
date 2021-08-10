@@ -1,98 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <!-- META KEYWORDS -->
+    <meta
+      name="keywords"
+      content="Scarlet Oath, Doom Metal, Gothic MEtal, Christian Gothic Metal,Christian Metal, Metal, Death Metal, Band, Christian, Music"
+    />
+    <meta
+      property="og:image"
+      content="dist/img/extreme-metal/scarlet-oat1.jpg"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <!-- META KEYWORDS -->
-  <meta name="keywords"
-    content="Scarlet Oath, Doom Metal, Gothic MEtal, Christian Gothic Metal,Christian Metal, Metal, Death Metal, Band, Christian, Music">
-  <meta property="og:image" content="dist/img/extreme-metal/scarlet-oat1.jpg">
+    <link rel="stylesheet" href="dist/css/materialize.min.css" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/all.min.css" />
 
-  <link rel="stylesheet" href="dist/css/materialize.min.css">
-  <link rel="stylesheet" href="dist/css/style.css">
-  <link rel="stylesheet" href="dist/css/all.min.css">
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico" />
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Font Awesome -->
-  <link href="dist/css/fontawesome.min.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
-  <script src="dist/js/vue.min.js"></script>
-  <script src="dist/components/bands-header.js"></script>
-  <script src="dist/components/vue-app.js"></script>
-  <script src="dist/components/footer.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "G-BRN74LHN9V");
+    </script>
 
-    gtag('config', 'G-BRN74LHN9V');
-  </script>
+    <title>Scarlet Oath</title>
+  </head>
 
-  <title>Scarlet Oath</title>
-</head>
+  <body>
+    <header-component></header-component>
 
-<body>
-  <header-component></header-component>
+    <vue-app-component></vue-app-component>
+    <div class="container">
+      <div class="bg">
+        <h4>Links</h4>
+        <div class="social-container">
+          <a href="https://www.facebook.com/scarletoathmetal/" target="_blank"
+            ><i class="fab fa-facebook fa-3x white-text"></i
+          ></a>
+          <a href="https://scarletoath.bandcamp.com/releases" target="_blank"
+            ><i class="fab fa-bandcamp fa-3x white-text"></i
+          ></a>
+        </div>
+      </div>
 
-  <vue-app-component></vue-app-component>
-  <div class="container">
-    <div class="bg">
-      <h4>Links</h4>
-      <div class="social-container">
-        <a href="https://www.facebook.com/scarletoathmetal/" target="_blank"><i
-            class="fab fa-facebook fa-3x white-text"></i></a>
-        <a href="https://scarletoath.bandcamp.com/releases" target="_blank"><i
-            class="fab fa-bandcamp fa-3x white-text"></i></a>
+      <div class="bg">
+        <div class="container">
+          <h4>Coverage</h4>
+          <div class="social-container">
+            <p>
+              <a
+                href="https://www.beyondthegravemusic.com/2021/06/17/review-scarlet-oath-blood-and-fire/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Review - Blood and Fire</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <iframe style="border: 0; width: 340px; height: 677px;"
-    src="https://bandcamp.com/EmbeddedPlayer/album=3670496249/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/"
-    seamless><a href="https://scarletoath.bandcamp.com/album/blood-and-fire">Blood And Fire by Scarlet Oath</a></iframe>
+    <iframe
+      style="border: 0; width: 340px; height: 460px"
+      src="https://bandcamp.com/EmbeddedPlayer/album=3670496249/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+      seamless
+      ><a href="https://scarletoath.bandcamp.com/album/blood-and-fire"
+        >Blood And Fire by Scarlet Oath</a
+      ></iframe
+    >
 
+    <script>
+      new Vue({
+        el: "#vue-app",
+        data: {
+          band: "Scarlet Oath",
+          formed: "2019",
+          status: "Active",
+          genre: "Doom/Gothic Metal",
+          label: "Independent",
+          origin: "Canada",
+          location: "Saint John, New Brunswick",
+          themes: "Christianity",
+          img: "dist/img/extreme-metal/scarlet-oat.jpg",
+          img2: "dist/img/extreme-metal/scarlet-oat1.jpg",
+          members: [
+            { name: "Mordecai", instrument: "Vocals(lead), Drums" },
+            { name: "Atara", instrument: "Vocals(female), Keyboards" },
+            { name: "Matar", instrument: "	Guitars, Bass" },
+          ],
 
-  <script>
-    new Vue({
-      el: '#vue-app',
-      data: {
-        band: 'Scarlet Oath',
-        formed: '2019',
-        status: 'Active',
-        genre: 'Doom/Gothic Metal',
-        label: 'Independent',
-        origin: 'Canada',
-        location: 'Saint John, New Brunswick',
-        themes: 'Christianity',
-        img: 'dist/img/extreme-metal/scarlet-oat.jpg',
-        img2: 'dist/img/extreme-metal/scarlet-oat1.jpg',
-        members: [
-          { name: 'Mordecai', instrument: 'Vocals(lead), Drums' },
-          { name: 'Atara', instrument: 'Vocals(female), Keyboards' },
-          { name: 'Matar', instrument: '	Guitars, Bass' },
+          discography: [{ album: "Blood and Fire", type_year: "Album - 2019" }],
+        },
+        methods: {},
+      });
+    </script>
 
-        ],
-
-        discography: [{ album: 'Blood and Fire', type_year: 'Album - 2019', },],
-
-      },
-      methods: {
-
-      }
-    });
-
-  </script>
-
-  <footer-component></footer-component>
-  <script src="dist/js/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="dist/js/materialize.min.js"></script>
-  <script src="dist/js/init.js"></script>
-</body>
-
-
-
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
 </html>
