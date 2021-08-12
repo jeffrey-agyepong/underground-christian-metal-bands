@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aletheian is a progressive/technical death metal band..">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="Aletheian, Dying Vine, Christian Metal, Christian Death Metal, Metal, Metalcore, Death Metal, Black Metal, Progressive Metal, Progresive Metalcore, Melodic Death Metal, Band, Christian, Music">
+    <meta property="og:image" content="dist/img/deathmetal/aletheian.webp">
+
+    <link rel="stylesheet" href="dist/css/materialize.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <link href="dist/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="dist/img/favicon.ico">
+    <script src="dist/js/vue.min.js"></script>
+    <script src="dist/components/bands-header.js"></script>
+    <script src="dist/components/vue-app.js"></script>
+    <script src="dist/components/footer.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRN74LHN9V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BRN74LHN9V');
+    </script>
+
+    <title>Aletheian</title>
+  </head>
+
+  <body>
+    <header-component></header-component>
+
+    <vue-app-component></vue-app-component>
+    <div class="container">
+      <div class="bg">
+        <div class="container">
+          <h4>Links</h4>
+          <div class="social-container">
+            <a href="http://www.aletheian.com/" target="_blank"><i class="fa fa-globe fa-3x white-text"></i></a>
+
+            <a href="https://www.facebook.com/pages/Aletheian/472983222714101" target="_blank"><i class="fab fa-facebook fa-3x white-text"></i></a>
+
+            <a href="https://open.spotify.com/artist/09LW8lG2Nl6YFJDZ6NKemH?si=FoxThPwLS7my-f1t09mptA&dl_branch=1" target="_blank"><i class="fab fa-spotify fa-3x white-text"></i></a>
+
+            <a href="https://www.youtube.com/user/OfficialAletheian" target="_blank"><i class="fab fa-youtube fa-3x white-text"></i></a>
+            <a href="https://music.apple.com/us/artist/aletheian/129660330" target="_blank"><i class="fab fa-itunes fa-3x white-text"></i></a>
+            <a href="https://aletheian.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-3x white-text"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=2393955676/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://aletheian.bandcamp.com/album/apolutrosis-10th-anniversary-24-bit">Apolutrosis (10th anniversary 24-bit) by Aletheian</a></iframe>
+
+<iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=1711273210/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://aletheian.bandcamp.com/album/dying-vine-10th-anniversary-24-bit">Dying Vine (10th anniversary 24​-​bit) by Aletheian</a></iframe>
+
+<iframe style="border: 0; width: 340px; height: 460px;" src="https://bandcamp.com/EmbeddedPlayer/album=3122479974/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://aletheian.bandcamp.com/album/hope-prevails-10th-anniversary-24-bit">Hope Prevails (10th anniversary 24-bit) by Aletheian</a></iframe>
+
+    <script>
+      new Vue({
+        el: '#vue-app',
+        data: {
+          band: 'Aletheian',
+          formed: '2003',
+          status: 'Hiatus',
+          genre: 'Progressive / Technical Death Metal',
+          label: 'Independent',
+          origin: 'USA',
+          location: 'Lebanon, Pennsylvania',
+          themes: 'Christianity',
+          img: 'dist/img/deathmetal/aletheian1.webp',
+          img2: 'dist/img/deathmetal/aletheian.webp',
+          members: [{
+              name: 'Joel Thorpe',
+              instrument: 'Vocals'
+            }, {
+              name: 'Alex Kenis',
+              instrument: 'Guitar'
+            }, {
+              name: 'Joe Walmer',
+              instrument: 'Drums'
+            },
+          ],
+
+          discography: [{
+            album: '..Hope Prevails ',
+            type_year: 'Album - 2003',
+          }, {
+            album: 'Apolutrosis',
+            type_year: 'Album - 2003',
+          },
+          {
+            album: 'Dying Vine',
+            type_year: 'Album - 2005',
+          },
+          {
+            album: 'Live',
+            type_year: 'Video - 2005',
+          }
+        ],
+
+        },
+        methods: {
+
+        }
+      });
+    </script>
+
+    <footer-component></footer-component>
+    <script src="dist/js/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="dist/js/materialize.min.js"></script>
+    <script src="dist/js/init.js"></script>
+  </body>
+
+
+
+</html>

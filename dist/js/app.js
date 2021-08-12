@@ -29,6 +29,12 @@ new Vue({
         category: "DEATH METAL"
       },
       {
+        title:'Aletheian',
+        link:'./aletheian.html',
+        img:'dist/img/deathmetal/aletheian.webp',
+        category:'DEATH METAL'
+      },
+      {
         title: "Among Millenials",
         link: "./among-millenials.html",
         img: "dist/img/metalcore/among-millenials.webp",
@@ -544,6 +550,12 @@ new Vue({
         link: "./oh-redeemer.html",
         img: "dist/img/metalcore/oh-redeemer.webp",
         category: "METALCORE"
+      },
+      {
+        title:'Pantokrator',
+        link:'./pantokrator.html',
+        img:'dist/img/deathmetal/pantokrator.webp',
+        category:'DEATH METAL'
       },
       {
         title: "Parallax Withering",
