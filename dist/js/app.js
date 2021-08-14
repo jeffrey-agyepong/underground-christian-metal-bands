@@ -282,6 +282,12 @@ new Vue({
         category: "DEATH METAL"
       },
       {
+        title:'Endless Sacrifice',
+        link:'./endless-sacrifice.html',
+        img:'dist/img/deathmetal/endless-sacrifice.webp',
+        category:'DEATH METAL'
+      },
+      {
         title: "Eonia",
         link: "./eonia.html",
         img: "dist/img/metalcore/eonia.webp",
@@ -541,7 +547,7 @@ new Vue({
       },
       {
         title: "Oh, The Depth",
-        link: "./ohthedepth.html",
+        link: "./oh-the-depth.html",
         img: "dist/img/deathcore/oh-the-depth.webp",
         category: "DEATHCORE"
       },
